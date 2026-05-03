@@ -6,7 +6,7 @@
 * **Asignatura:** INF-8235-C2 - Base de Datos I
 * **Autor:** Lic. Manuel Mañana Santana
 * **LinkedIn:** [www.linkedin.com/in/manuelmañana](https://www.linkedin.com/in/manuelmañana)
-* **Tutor:** (Como indicado en el programa)
+* **Tutor:** Licda. Romery Alberto Monegro
 * **Fecha de Entrega:** 2 de mayo del 2026
 * **Fecha de Presentación:** 3 de mayo del 2026
 
