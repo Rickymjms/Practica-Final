@@ -1,6 +1,5 @@
-# Large generated files
-sql/02_dml_presupuesto_nacional.sql
-powerbi/PresupuestoNacionalRD_PowerBI_Unificado.csv
+# Large files are now allowed if below 100MB
+# (Excluding only what is strictly necessary)
 
 # Environment files
 .env
