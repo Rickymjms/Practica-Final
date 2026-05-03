@@ -1,0 +1,301 @@
+/* Estilos Premium para el Dashboard - Presupuesto Nacional RD */
+/* Autor: Lic. Manuel Mañana Santana */
+
+:root {
+    --primary: #003876;
+    --secondary: #ce1126;
+    --bg: #f8fafc;
+    --card-bg: #ffffff;
+    --text: #1e293b;
+    --text-light: #64748b;
+    --accent: #0ea5e9;
+    --success: #10b981;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Inter', system-ui, -apple-system, sans-serif;
+    background-color: var(--bg);
+    color: var(--text);
+    margin: 0;
+    line-height: 1.5;
+}
+
+.container {
+    width: 95%;
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+/* Header & Controls */
+header {
+    background: linear-gradient(135deg, var(--primary) 0%, #00224d 100%);
+    color: white;
+    padding: 30px 0;
+    margin-bottom: 40px;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+}
+
+.header-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.title-area h1 {
+    margin: 0;
+    font-size: 1.8rem;
+    font-weight: 700;
+}
+
+.author {
+    margin: 5px 0 0;
+    opacity: 0.9;
+    font-size: 1rem;
+}
+
+.controls-area {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+/* Toggle Switch (ES/EN) */
+.lang-switch {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-weight: 600;
+    font-size: 0.9rem;
+}
+
+.switch {
+    position: relative;
+    display: inline-block;
+    width: 50px;
+    height: 24px;
+}
+
+.switch input { opacity: 0; width: 0; height: 0; }
+
+.slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0; left: 0; right: 0; bottom: 0;
+    background-color: rgba(255,255,255,0.3);
+    transition: .4s;
+}
+
+.slider:before {
+    position: absolute;
+    content: "";
+    height: 18px; width: 18px;
+    left: 3px; bottom: 3px;
+    background-color: white;
+    transition: .4s;
+}
+
+.slider.round { border-radius: 34px; }
+.slider.round:before { border-radius: 50%; }
+
+input:checked + .slider { background-color: var(--secondary); }
+input:checked + .slider:before { transform: translateX(26px); }
+
+/* Budget Type Switch (Gasto vs Aplicación) */
+.budget-type-switch {
+    background: rgba(255,255,255,0.1);
+    padding: 5px;
+    border-radius: 12px;
+    display: flex;
+    gap: 5px;
+}
+
+.type-btn {
+    background: transparent;
+    border: none;
+    color: white;
+    padding: 8px 15px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: 600;
+    font-size: 0.9rem;
+    transition: all 0.3s;
+}
+
+.type-btn.active {
+    background: var(--secondary);
+    box-shadow: 0 2px 10px rgba(0,0,0,0.2);
+}
+
+/* Cards & Layout */
+.card {
+    background: var(--card-bg);
+    border-radius: 16px;
+    padding: 24px;
+    box-shadow: 0 4px 6px -1px rgba(0,0,0,0.1), 0 2px 4px -1px rgba(0,0,0,0.06);
+    border: 1px solid rgba(226, 232, 240, 0.8);
+}
+
+.kpis {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+    gap: 24px;
+    margin-top: -60px;
+    margin-bottom: 40px;
+}
+
+.kpi {
+    text-align: left;
+    border-left: 6px solid var(--primary);
+}
+
+.kpi h3 {
+    font-size: 0.8rem;
+    text-transform: uppercase;
+    color: var(--text-light);
+    margin: 0;
+    letter-spacing: 0.05em;
+}
+
+.kpi p {
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin: 10px 0 0;
+    color: var(--primary);
+}
+
+#kpi-pct { border-left-color: var(--success); }
+#kpi-variation { border-left-color: var(--accent); }
+
+.text-success { color: var(--success) !important; font-weight: 600; }
+.text-danger { color: var(--secondary) !important; font-weight: 600; }
+
+/* Filters */
+.filters {
+    margin-bottom: 40px;
+}
+
+.filter-group {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 30px;
+    margin-top: 20px;
+}
+
+.filter-item {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.filter-item label {
+    font-weight: 600;
+    color: var(--text-light);
+    font-size: 0.9rem;
+}
+
+select {
+    padding: 12px;
+    border-radius: 10px;
+    border: 1px solid #e2e8f0;
+    background-color: white;
+    font-family: inherit;
+    font-size: 1rem;
+    cursor: pointer;
+    outline: none;
+    transition: border-color 0.2s;
+}
+
+select:focus { border-color: var(--primary); }
+
+/* Charts Grid */
+.charts-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 24px;
+    margin-bottom: 40px;
+}
+
+.chart-container.wide {
+    grid-column: span 2;
+    min-height: 500px;
+}
+
+.canvas-wrapper-large {
+    flex-grow: 1;
+    position: relative;
+    height: 400px;
+}
+
+.chart-container {
+    min-height: 400px;
+    display: flex;
+    flex-direction: column;
+}
+
+.chart-container h2 {
+    font-size: 1.1rem;
+    margin: 0 0 20px;
+    color: var(--text);
+}
+
+.canvas-wrapper {
+    flex-grow: 1;
+    position: relative;
+    height: 300px;
+}
+
+/* Data Table */
+.table-wrapper {
+    overflow-x: auto;
+    margin-top: 20px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th {
+    background: #f8fafc;
+    text-align: left;
+    padding: 15px;
+    font-size: 0.9rem;
+    color: var(--text-light);
+    border-bottom: 2px solid #e2e8f0;
+}
+
+td {
+    padding: 15px;
+    border-bottom: 1px solid #e2e8f0;
+    font-size: 0.95rem;
+}
+
+tr:hover { background: #f1f5f9; }
+
+.pct-badge {
+    padding: 4px 10px;
+    border-radius: 20px;
+    font-size: 0.85rem;
+    font-weight: 600;
+}
+
+.pct-badge.high { background: #dcfce7; color: #166534; }
+.pct-badge.low { background: #fee2e2; color: #991b1b; }
+
+footer {
+    padding: 40px 0;
+    text-align: center;
+    color: var(--text-light);
+    font-size: 0.9rem;
+}
+
+@media (max-width: 1024px) {
+    .charts-grid { grid-template-columns: 1fr; }
+}

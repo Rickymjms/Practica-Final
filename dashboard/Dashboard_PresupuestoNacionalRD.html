@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard Presupuesto Nacional RD - Manuel Mañana Santana</title>
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <!-- Chart.js -->
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+    <header>
+        <div class="container header-content">
+            <div class="title-area">
+                <h1>Análisis del Presupuesto Nacional RD</h1>
+                <p class="author">Autor: Lic. Manuel Mañana Santana</p>
+            </div>
+            <div class="controls-area">
+                <!-- Selector de Idioma -->
+                <div class="lang-switch">
+                    <span>ES</span>
+                    <label class="switch">
+                        <input type="checkbox" id="lang-toggle">
+                        <span class="slider round"></span>
+                    </label>
+                    <span>EN</span>
+                </div>
+                <!-- Selector Gasto vs Aplicaciones -->
+                <div class="budget-type-switch" id="budget-type-group">
+                    <button class="type-btn active" data-type="gasto" id="btn-gasto">Gasto</button>
+                    <button class="type-btn" data-type="aplicacion" id="btn-aplicacion">Aplicaciones Financieras</button>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main class="container">
+        <!-- KPIs Principales -->
+        <section class="kpis">
+            <div class="card kpi" id="kpi-initial">
+                <h3>Presupuesto Inicial</h3>
+                <p>---</p>
+            </div>
+            <div class="card kpi" id="kpi-budget">
+                <h3>Presupuesto Vigente</h3>
+                <p>---</p>
+            </div>
+            <div class="card kpi" id="kpi-spent">
+                <h3>Total Devengado</h3>
+                <p>---</p>
+            </div>
+            <div class="card kpi" id="kpi-pct">
+                <h3>% Ejecución</h3>
+                <p>---</p>
+            </div>
+            <div class="card kpi" id="kpi-variation">
+                <h3>Variación Neta</h3>
+                <p>---</p>
+            </div>
+        </section>
+
+        <!-- Filtros de Control -->
+        <section class="filters card">
+            <h2 id="filters-h2">Filtros de Control</h2>
+            <div class="filter-group">
+                <div class="filter-item">
+                    <label for="filter-year" id="label-year">Año Fiscal:</label>
+                    <select id="filter-year">
+                        <option value="all">Todos los años</option>
+                    </select>
+                </div>
+                <div class="filter-item">
+                    <label for="filter-seccion" id="label-seccion">Sección Institucional:</label>
+                    <select id="filter-seccion">
+                        <option value="all">Todas las secciones</option>
+                    </select>
+                </div>
+                <div class="filter-item">
+                    <label for="filter-finalidad" id="label-finalidad">Finalidad:</label>
+                    <select id="filter-finalidad">
+                        <option value="all">Todas las finalidades</option>
+                    </select>
+                </div>
+                <!-- Nuevos Filtros -->
+                <div class="filter-item">
+                    <label for="filter-funcion" id="label-funcion">Función:</label>
+                    <select id="filter-funcion">
+                        <option value="all">Todas las funciones</option>
+                    </select>
+                </div>
+                <div class="filter-item">
+                    <label for="filter-subfuncion" id="label-subfuncion">Sub-Función:</label>
+                    <select id="filter-subfuncion">
+                        <option value="all">Todas las subfunciones</option>
+                    </select>
+                </div>
+                <div class="filter-item">
+                    <label for="filter-capitulo" id="label-capitulo">Capítulo:</label>
+                    <select id="filter-capitulo">
+                        <option value="all">Todos los capítulos</option>
+                    </select>
+                </div>
+                <div class="filter-item">
+                    <label for="filter-subcapitulo" id="label-subcapitulo">Sub-Capítulo:</label>
+                    <select id="filter-subcapitulo">
+                        <option value="all">Todos los subcapítulos</option>
+                    </select>
+                </div>
+            </div>
+        </section>
+
+        <!-- Gráficos Principales -->
+        <section class="charts-grid">
+            <div class="card chart-container">
+                <h2 id="chart-inst-h2">Ejecución por Sección (RD$ MM)</h2>
+                <div class="canvas-wrapper">
+                    <canvas id="chart-seccion"></canvas>
+                </div>
+            </div>
+            <div class="card chart-container">
+                <h2 id="chart-finality-h2">Presupuesto por Finalidad</h2>
+                <div class="canvas-wrapper">
+                    <canvas id="chart-finalidad"></canvas>
+                </div>
+            </div>
+            <div class="card chart-container">
+                <h2 id="chart-source-h2">Fuente de Financiamiento</h2>
+                <div class="canvas-wrapper">
+                    <canvas id="chart-fuente"></canvas>
+                </div>
+            </div>
+            <!-- Nuevos Gráficos de Variación -->
+            <div class="card chart-container">
+                <h2 id="chart-top-up-h2">Top 5 Aumentos (Vigente vs Inicial)</h2>
+                <div class="canvas-wrapper">
+                    <canvas id="chart-top-up"></canvas>
+                </div>
+            </div>
+            <div class="card chart-container">
+                <h2 id="chart-top-down-h2">Top 5 Disminuciones (Vigente vs Inicial)</h2>
+                <div class="canvas-wrapper">
+                    <canvas id="chart-top-down"></canvas>
+                </div>
+            </div>
+
+            <!-- Análisis de Prioridad (Tablas) -->
+            <div class="card data-table wide">
+                <h2 id="table-priority-high-h2">Prioridad de Gasto: Top 10 Funciones y Sub-Funciones (Más Alta)</h2>
+                <div class="table-wrapper">
+                    <table>
+                        <thead>
+                            <tr>
+                                <th id="th-priority-fun-h">Función</th>
+                                <th id="th-priority-sub-h">Sub-Función</th>
+                                <th id="th-priority-budget-h">Presupuesto (RD$ MM)</th>
+                                <th id="th-priority-pct-h">% del Total</th>
+                            </tr>
+                        </thead>
+                        <tbody id="table-priority-high-body"></tbody>
+                    </table>
+                </div>
+            </div>
+
+            <div class="card data-table wide">
+                <h2 id="table-priority-low-h2">Prioridad de Gasto: Top 10 Funciones y Sub-Funciones (Más Baja)</h2>
+                <div class="table-wrapper">
+                    <table>
+                        <thead>
+                            <tr>
+                                <th id="th-priority-fun-l">Función</th>
+                                <th id="th-priority-sub-l">Sub-Función</th>
+                                <th id="th-priority-budget-l">Presupuesto (RD$ MM)</th>
+                                <th id="th-priority-pct-l">% del Total</th>
+                            </tr>
+                        </thead>
+                        <tbody id="table-priority-low-body"></tbody>
+                    </table>
+                </div>
+            </div>
+
+            <!-- Gráficos de Columnas Apiladas (Funcionales) -->
+            <div class="card chart-container wide">
+                <h2 id="chart-fun-stacked-high-h2">Distribución de Funciones con Mayor Presupuesto</h2>
+                <div class="canvas-wrapper-large">
+                    <canvas id="chart-fun-stacked-high"></canvas>
+                </div>
+            </div>
+            <div class="card chart-container wide">
+                <h2 id="chart-fun-stacked-low-h2">Distribución de Funciones con Menor Presupuesto</h2>
+                <div class="canvas-wrapper-large">
+                    <canvas id="chart-fun-stacked-low"></canvas>
+                </div>
+            </div>
+        </section>
+
+        <!-- Tabla Detallada -->
+        <section class="data-table card">
+            <h2 id="table-h2">Detalle de Ejecución por Finalidad</h2>
+            <div class="table-wrapper">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Finalidad</th>
+                            <th>Inicial (RD$ MM)</th>
+                            <th>Vigente (RD$ MM)</th>
+                            <th>Devengado (RD$ MM)</th>
+                            <th>Variación (RD$ MM)</th>
+                            <th>% Ejecución</th>
+                        </tr>
+                    </thead>
+                    <tbody id="table-body">
+                        <!-- Se llena vía JS -->
+                    </tbody>
+                </table>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>© 2026 - Maestría en Ciencias de Datos e Inteligencia Artificial (UASD)</p>
+        </div>
+    </footer>
+
+    <script src="main.js"></script>
+</body>
+</html>

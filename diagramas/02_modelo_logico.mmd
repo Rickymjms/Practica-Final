@@ -1,0 +1,74 @@
+erDiagram
+    %% Modelo Lógico - Presupuesto Nacional RD (Star Schema)
+    %% Autor: Lic. Manuel Mañana Santana
+
+    DIM_INSTITUCION ||--o{ FACT_EJECUCION : "ejecuta"
+    DIM_GEOGRAFIA ||--o{ FACT_EJECUCION : "se ubica en"
+    DIM_PROGRAMA ||--o{ FACT_EJECUCION : "corresponde a"
+    DIM_OBJETO_GASTO ||--o{ FACT_EJECUCION : "se clasifica por"
+    DIM_TIEMPO ||--o{ FACT_EJECUCION : "ocurre en"
+
+    DIM_INSTITUCION {
+        int id_institucion PK
+        string cod_capitulo
+        string capitulo
+        string cod_subcapitulo
+        string subcapitulo
+        string cod_unidad_ejecutora
+        string unidad_ejecutora
+    }
+
+    DIM_GEOGRAFIA {
+        int id_geografia PK
+        string cod_region
+        string region
+        string cod_provincia
+        string provincia
+        string cod_municipio
+        string municipio
+    }
+
+    DIM_PROGRAMA {
+        int id_programa PK
+        string cod_programa
+        string programa
+        string cod_producto
+        string producto
+        string cod_proyecto
+        string proyecto
+        string cod_actividad
+        string actividad
+    }
+
+    DIM_OBJETO_GASTO {
+        int id_objeto_gasto PK
+        string cod_tipo
+        string tipo
+        string cod_concepto
+        string concepto
+        string cod_cuenta
+        string cuenta
+        string cod_subcuenta
+        string subcuenta
+        string cod_auxiliar
+        string auxiliar
+    }
+
+    DIM_TIEMPO {
+        int id_tiempo PK
+        int periodo_anio
+        int mes_imputacion
+        string nombre_mes
+    }
+
+    FACT_EJECUCION {
+        int id_ejecucion PK
+        int id_institucion FK
+        int id_geografia FK
+        int id_programa FK
+        int id_objeto_gasto FK
+        int id_tiempo FK
+        decimal presupuesto_inicial
+        decimal presupuesto_vigente
+        decimal devengado_aprobado
+    }

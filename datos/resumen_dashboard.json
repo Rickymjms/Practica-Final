@@ -1,0 +1,185 @@
+{
+    "metadata": {
+        "proyecto": "Análisis del Presupuesto Nacional RD",
+        "autor": "Lic. Manuel Mañana Santana",
+        "ultima_actualizacion": "Mayo 2026",
+        "fuente": "DIGEPRES"
+    },
+    "indicadores_globales": {
+        "presupuesto_inicial": 12125543330344.0,
+        "presupuesto_vigente": 13081635562495.031,
+        "total_devengado": 11622125658025.781,
+        "variacion_neta": 956092232151.0312,
+        "porcentaje_ejecucion": 88.84306249400758
+    },
+    "evolucion_anual": [
+        {
+            "Periodo_Anio": 2017,
+            "Presupuesto_Inicial": 815817431455.0,
+            "Presupuesto_Vigente": 864235011532.68,
+            "Devengado_Aprobado": 766772067299.45,
+            "variacion": 48417580077.68005,
+            "pct_ejecucion": 88.7226341292996
+        },
+        {
+            "Periodo_Anio": 2018,
+            "Presupuesto_Inicial": 957585299896.0,
+            "Presupuesto_Vigente": 975349306920.09,
+            "Devengado_Aprobado": 876574351325.43,
+            "variacion": 17764007024.089966,
+            "pct_ejecucion": 89.87286350706839
+        },
+        {
+            "Periodo_Anio": 2019,
+            "Presupuesto_Inicial": 1077106684254.0,
+            "Presupuesto_Vigente": 1099825642258.38,
+            "Devengado_Aprobado": 967245890481.79,
+            "variacion": 22718958004.379883,
+            "pct_ejecucion": 87.9453845516503
+        },
+        {
+            "Periodo_Anio": 2020,
+            "Presupuesto_Inicial": 1169787868813.0,
+            "Presupuesto_Vigente": 1404730558566.94,
+            "Devengado_Aprobado": 1223325963194.65,
+            "variacion": 234942689753.93994,
+            "pct_ejecucion": 87.08616437038623
+        },
+        {
+            "Periodo_Anio": 2021,
+            "Presupuesto_Inicial": 1220367215327.0,
+            "Presupuesto_Vigente": 1363781647086.55,
+            "Devengado_Aprobado": 1202113762022.96,
+            "variacion": 143414431759.55005,
+            "pct_ejecucion": 88.14561807537434
+        },
+        {
+            "Periodo_Anio": 2022,
+            "Presupuesto_Inicial": 1359819623097.0,
+            "Presupuesto_Vigente": 1504474836585.74,
+            "Devengado_Aprobado": 1375835174228.75,
+            "variacion": 144655213488.74,
+            "pct_ejecucion": 91.44953047875994
+        },
+        {
+            "Periodo_Anio": 2023,
+            "Presupuesto_Inicial": 1636151244351.0,
+            "Presupuesto_Vigente": 1704219288579.84,
+            "Devengado_Aprobado": 1529044868687.31,
+            "variacion": 68068044228.84009,
+            "pct_ejecucion": 89.72113383140345
+        },
+        {
+            "Periodo_Anio": 2024,
+            "Presupuesto_Inicial": 1912914690675.0,
+            "Presupuesto_Vigente": 1985965610363.95,
+            "Devengado_Aprobado": 1795799500513.17,
+            "variacion": 73050919688.94995,
+            "pct_ejecucion": 90.4245013680811
+        },
+        {
+            "Periodo_Anio": 2025,
+            "Presupuesto_Inicial": 1975993272476.0,
+            "Presupuesto_Vigente": 2179053660600.86,
+            "Devengado_Aprobado": 1885414080272.27,
+            "variacion": 203060388124.8601,
+            "pct_ejecucion": 86.52444473314985
+        }
+    ],
+    "distribucion_finalidad": [
+        {
+            "Finalidad": "Servicios Generales",
+            "Presupuesto_Vigente": 8304875870060.1,
+            "Devengado_Aprobado": 7430562437493.27
+        },
+        {
+            "Finalidad": "Intereses de la Deuda Pública",
+            "Presupuesto_Vigente": 2843706335391.0,
+            "Devengado_Aprobado": 2659038102944.07
+        },
+        {
+            "Finalidad": "Servicios Sociales",
+            "Presupuesto_Vigente": 1640203808805.56,
+            "Devengado_Aprobado": 1262373196218.13
+        },
+        {
+            "Finalidad": "Servicios Económicos",
+            "Presupuesto_Vigente": 281970619478.55,
+            "Devengado_Aprobado": 260327461447.56
+        },
+        {
+            "Finalidad": "Protección del Medio Ambiente",
+            "Presupuesto_Vigente": 10878928759.82,
+            "Devengado_Aprobado": 9824459922.75
+        }
+    ],
+    "distribucion_seccion": [
+        {
+            "Seccion_Institucional": "Administración central",
+            "Presupuesto_Vigente": 11175216973423.03,
+            "Devengado_Aprobado": 10626130748188.0
+        },
+        {
+            "Seccion_Institucional": "Instituciones de la seguridad social",
+            "Presupuesto_Vigente": 535547484939.4,
+            "Devengado_Aprobado": 154055491768.11
+        },
+        {
+            "Seccion_Institucional": "Instituciones públicas descentralizadas y autónomas no financieras",
+            "Presupuesto_Vigente": 1370871104132.6,
+            "Devengado_Aprobado": 841939418069.67
+        }
+    ],
+    "prioridades_gasto": [
+        {
+            "Finalidad": "Servicios Generales",
+            "Funcion": "Administración general",
+            "Presupuesto_Vigente": 7747740414314.24
+        },
+        {
+            "Finalidad": "Intereses de la Deuda Pública",
+            "Funcion": "Intereses y comisiones de deuda pública",
+            "Presupuesto_Vigente": 2843706335391.0
+        },
+        {
+            "Finalidad": "Servicios Sociales",
+            "Funcion": "Salud",
+            "Presupuesto_Vigente": 881626804672.82
+        },
+        {
+            "Finalidad": "Servicios Sociales",
+            "Funcion": "Protección social",
+            "Presupuesto_Vigente": 576955166610.73
+        },
+        {
+            "Finalidad": "Servicios Generales",
+            "Funcion": "Justicia, orden público y seguridad",
+            "Presupuesto_Vigente": 282015592995.69
+        },
+        {
+            "Finalidad": "Servicios Generales",
+            "Funcion": "Defensa nacional",
+            "Presupuesto_Vigente": 275119862750.17
+        },
+        {
+            "Finalidad": "Servicios Económicos",
+            "Funcion": "Asuntos económicos, comerciales y laborales",
+            "Presupuesto_Vigente": 188540135455.02
+        },
+        {
+            "Finalidad": "Servicios Sociales",
+            "Funcion": "Educación",
+            "Presupuesto_Vigente": 181621837522.00998
+        },
+        {
+            "Finalidad": "Servicios Económicos",
+            "Funcion": "Transporte",
+            "Presupuesto_Vigente": 90125533225.56
+        },
+        {
+            "Finalidad": "Protección del Medio Ambiente",
+            "Funcion": "Protección de la biodiversidad y ordenación de desechos",
+            "Presupuesto_Vigente": 10878928759.82
+        }
+    ]
+}

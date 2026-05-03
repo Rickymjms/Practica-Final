@@ -1,0 +1,25 @@
+graph TD
+    %% Modelo Conceptual - Presupuesto Nacional RD
+    %% Autor: Lic. Manuel Mañana Santana
+
+    subgraph Entidades_Principales
+        Institucion[Institución]
+        Geografia[Geografía]
+        Programa[Programa Presupuestario]
+        ObjetoGasto[Objeto del Gasto]
+        Tiempo[Tiempo/Periodo]
+        Ejecucion{Ejecución Presupuestaria}
+    end
+
+    Institucion --- Ejecucion
+    Geografia --- Ejecucion
+    Programa --- Ejecucion
+    ObjetoGasto --- Ejecucion
+    Tiempo --- Ejecucion
+
+    style Ejecucion fill:#f9f,stroke:#333,stroke-width:4px
+    style Institucion fill:#bbf,stroke:#333
+    style Geografia fill:#bfb,stroke:#333
+    style Programa fill:#fbb,stroke:#333
+    style ObjetoGasto fill:#ffd,stroke:#333
+    style Tiempo fill:#dff,stroke:#333

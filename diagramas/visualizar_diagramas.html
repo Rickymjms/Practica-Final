@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <script src="https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js"></script>
+    <script>mermaid.initialize({startOnLoad:true});</script>
+</head>
+<body>
+    <div class="mermaid">
+        graph TD
+    %% Modelo Conceptual - Presupuesto Nacional RD
+    %% Autor: Lic. Manuel Mañana Santana
+
+    subgraph Entidades_Principales
+        Institucion[Institución]
+        Geografia[Geografía]
+        Programa[Programa Presupuestario]
+        ObjetoGasto[Objeto del Gasto]
+        Tiempo[Tiempo/Periodo]
+        Ejecucion{Ejecución Presupuestaria}
+    end
+
+    Institucion --- Ejecucion
+    Geografia --- Ejecucion
+    Programa --- Ejecucion
+    ObjetoGasto --- Ejecucion
+    Tiempo --- Ejecucion
+
+    style Ejecucion fill:#f9f,stroke:#333,stroke-width:4px
+    style Institucion fill:#bbf,stroke:#333
+    style Geografia fill:#bfb,stroke:#333
+    style Programa fill:#fbb,stroke:#333
+    style ObjetoGasto fill:#ffd,stroke:#333
+    style Tiempo fill:#dff,stroke:#333
+
+    </div>
+    <hr>
+    <div class="mermaid">
+        erDiagram
+    %% Modelo Lógico - Presupuesto Nacional RD (Star Schema)
+    %% Autor: Lic. Manuel Mañana Santana
+
+    DIM_INSTITUCION ||--o{ FACT_EJECUCION : "ejecuta"
+    DIM_GEOGRAFIA ||--o{ FACT_EJECUCION : "se ubica en"
+    DIM_PROGRAMA ||--o{ FACT_EJECUCION : "corresponde a"
+    DIM_OBJETO_GASTO ||--o{ FACT_EJECUCION : "se clasifica por"
+    DIM_TIEMPO ||--o{ FACT_EJECUCION : "ocurre en"
+
+    DIM_INSTITUCION {
+        int id_institucion PK
+        string cod_capitulo
+        string capitulo
+        string cod_subcapitulo
+        string subcapitulo
+        string cod_unidad_ejecutora
+        string unidad_ejecutora
+    }
+
+    DIM_GEOGRAFIA {
+        int id_geografia PK
+        string cod_region
+        string region
+        string cod_provincia
+        string provincia
+        string cod_municipio
+        string municipio
+    }
+
+    DIM_PROGRAMA {
+        int id_programa PK
+        string cod_programa
+        string programa
+        string cod_producto
+        string producto
+        string cod_proyecto
+        string proyecto
+        string cod_actividad
+        string actividad
+    }
+
+    DIM_OBJETO_GASTO {
+        int id_objeto_gasto PK
+        string cod_tipo
+        string tipo
+        string cod_concepto
+        string concepto
+        string cod_cuenta
+        string cuenta
+        string cod_subcuenta
+        string subcuenta
+        string cod_auxiliar
+        string auxiliar
+    }
+
+    DIM_TIEMPO {
+        int id_tiempo PK
+        int periodo_anio
+        int mes_imputacion
+        string nombre_mes
+    }
+
+    FACT_EJECUCION {
+        int id_ejecucion PK
+        int id_institucion FK
+        int id_geografia FK
+        int id_programa FK
+        int id_objeto_gasto FK
+        int id_tiempo FK
+        decimal presupuesto_inicial
+        decimal presupuesto_vigente
+        decimal devengado_aprobado
+    }
+
+    </div>
+    <hr>
+    <div class="mermaid">
+        erDiagram
+    %% Modelo Físico - Presupuesto Nacional RD (SQL Server)
+    %% Autor: Lic. Manuel Mañana Santana
+
+    Dim_Institucion ||--o{ Fact_Ejecucion : "id_institucion"
+    Dim_Geografia ||--o{ Fact_Ejecucion : "id_geografia"
+    Dim_Programa ||--o{ Fact_Ejecucion : "id_programa"
+    Dim_Objeto_Gasto ||--o{ Fact_Ejecucion : "id_objeto_gasto"
+    Dim_Tiempo ||--o{ Fact_Ejecucion : "id_tiempo"
+
+    Dim_Institucion {
+        INT id_institucion PK "IDENTITY"
+        NVARCHAR_20 cod_capitulo "NOT NULL"
+        NVARCHAR_255 capitulo "NOT NULL"
+        NVARCHAR_20 cod_subcapitulo
+        NVARCHAR_255 subcapitulo
+        NVARCHAR_20 cod_unidad_ejecutora
+        NVARCHAR_255 unidad_ejecutora
+    }
+
+    Dim_Geografia {
+        INT id_geografia PK "IDENTITY"
+        NVARCHAR_10 cod_region
+        NVARCHAR_100 region
+        NVARCHAR_10 cod_provincia
+        NVARCHAR_100 provincia
+        NVARCHAR_10 cod_municipio
+        NVARCHAR_100 municipio
+    }
+
+    Dim_Programa {
+        INT id_programa PK "IDENTITY"
+        NVARCHAR_20 cod_programa
+        NVARCHAR_255 programa
+        NVARCHAR_20 cod_producto
+        NVARCHAR_255 producto
+        NVARCHAR_20 cod_proyecto
+        NVARCHAR_255 proyecto
+        NVARCHAR_20 cod_actividad
+        NVARCHAR_255 actividad
+    }
+
+    Dim_Objeto_Gasto {
+        INT id_objeto_gasto PK "IDENTITY"
+        NVARCHAR_10 cod_tipo
+        NVARCHAR_100 tipo
+        NVARCHAR_10 cod_concepto
+        NVARCHAR_100 concepto
+        NVARCHAR_10 cod_cuenta
+        NVARCHAR_100 cuenta
+        NVARCHAR_10 cod_subcuenta
+        NVARCHAR_100 subcuenta
+        NVARCHAR_10 cod_auxiliar
+        NVARCHAR_100 auxiliar
+    }
+
+    Dim_Tiempo {
+        INT id_tiempo PK "IDENTITY"
+        INT periodo_anio "NOT NULL"
+        INT mes_imputacion "NOT NULL"
+        NVARCHAR_20 nombre_mes "NOT NULL"
+    }
+
+    Fact_Ejecucion {
+        BIGINT id_ejecucion PK "IDENTITY"
+        INT id_institucion FK
+        INT id_geografia FK
+        INT id_programa FK
+        INT id_objeto_gasto FK
+        INT id_tiempo FK
+        DECIMAL_18_2 presupuesto_inicial "DEFAULT 0"
+        DECIMAL_18_2 presupuesto_vigente "DEFAULT 0"
+        DECIMAL_18_2 devengado_aprobado "DEFAULT 0"
+    }
+
+    </div>
+</body>
+</html>
