@@ -22,41 +22,41 @@ def generate_json_summary():
     
     # 1. Totales Generales
     totales_generales = {
-        "presupuesto_inicial": float(df['Presupuesto_Inicial'].sum()),
-        "presupuesto_vigente": float(df['Presupuesto_Vigente'].sum()),
-        "total_devengado": float(df['Devengado_Aprobado'].sum()),
-        "variacion_neta": float(df['Presupuesto_Vigente'].sum() - df['Presupuesto_Inicial'].sum()),
-        "porcentaje_ejecucion": float((df['Devengado_Aprobado'].sum() / df['Presupuesto_Vigente'].sum() * 100) if df['Presupuesto_Vigente'].sum() > 0 else 0)
+        "presupuesto_inicial": float(df['EjecucionPresupuestaria_PresupuestoInicial'].sum()),
+        "presupuesto_vigente": float(df['EjecucionPresupuestaria_PresupuestoVigente'].sum()),
+        "total_devengado": float(df['EjecucionPresupuestaria_DevengadoAprobado'].sum()),
+        "variacion_neta": float(df['EjecucionPresupuestaria_PresupuestoVigente'].sum() - df['EjecucionPresupuestaria_PresupuestoInicial'].sum()),
+        "porcentaje_ejecucion": float((df['EjecucionPresupuestaria_DevengadoAprobado'].sum() / df['EjecucionPresupuestaria_PresupuestoVigente'].sum() * 100) if df['EjecucionPresupuestaria_PresupuestoVigente'].sum() > 0 else 0)
     }
 
     # 2. Resumen por Año
-    resumen_anual = df.groupby('Periodo_Anio').agg({
-        'Presupuesto_Inicial': 'sum',
-        'Presupuesto_Vigente': 'sum',
-        'Devengado_Aprobado': 'sum'
+    resumen_anual = df.groupby('Tiempo_Anio').agg({
+        'EjecucionPresupuestaria_PresupuestoInicial': 'sum',
+        'EjecucionPresupuestaria_PresupuestoVigente': 'sum',
+        'EjecucionPresupuestaria_DevengadoAprobado': 'sum'
     }).reset_index()
     
-    resumen_anual['variacion'] = resumen_anual['Presupuesto_Vigente'] - resumen_anual['Presupuesto_Inicial']
-    resumen_anual['pct_ejecucion'] = (resumen_anual['Devengado_Aprobado'] / resumen_anual['Presupuesto_Vigente'] * 100).fillna(0)
+    resumen_anual['variacion'] = resumen_anual['EjecucionPresupuestaria_PresupuestoVigente'] - resumen_anual['EjecucionPresupuestaria_PresupuestoInicial']
+    resumen_anual['pct_ejecucion'] = (resumen_anual['EjecucionPresupuestaria_DevengadoAprobado'] / resumen_anual['EjecucionPresupuestaria_PresupuestoVigente'] * 100).fillna(0)
     
     lista_anual = resumen_anual.to_dict('records')
 
     # 3. Resumen por Finalidad (Top)
     resumen_finalidad = df.groupby('Finalidad').agg({
-        'Presupuesto_Vigente': 'sum',
-        'Devengado_Aprobado': 'sum'
-    }).sort_values('Presupuesto_Vigente', ascending=False).reset_index().to_dict('records')
+        'EjecucionPresupuestaria_PresupuestoVigente': 'sum',
+        'EjecucionPresupuestaria_DevengadoAprobado': 'sum'
+    }).sort_values('EjecucionPresupuestaria_PresupuestoVigente', ascending=False).reset_index().to_dict('records')
 
     # 4. Resumen por Sección
     resumen_seccion = df.groupby('Seccion_Institucional').agg({
-        'Presupuesto_Vigente': 'sum',
-        'Devengado_Aprobado': 'sum'
+        'EjecucionPresupuestaria_PresupuestoVigente': 'sum',
+        'EjecucionPresupuestaria_DevengadoAprobado': 'sum'
     }).reset_index().to_dict('records')
 
     # 5. Top 10 Funciones Prioritarias
     resumen_funcion = df.groupby(['Finalidad', 'Funcion']).agg({
-        'Presupuesto_Vigente': 'sum'
-    }).sort_values('Presupuesto_Vigente', ascending=False).head(10).reset_index().to_dict('records')
+        'EjecucionPresupuestaria_PresupuestoVigente': 'sum'
+    }).sort_values('EjecucionPresupuestaria_PresupuestoVigente', ascending=False).head(10).reset_index().to_dict('records')
 
     # Compilar Resumen Final
     resumen_final = {

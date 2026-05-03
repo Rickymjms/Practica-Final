@@ -4,6 +4,7 @@
  *
  * Descripción: Gestión de Seguridad, Usuarios y Roles para SQL Server.
  * Implementa el principio de mínimo privilegio.
+ * Aplicando nuevas normas de nomenclatura.
  */
 
 USE master;
@@ -24,7 +25,7 @@ USE PresupuestoNacionalRD;
 GO
 
 -- ==========================================================
--- 2. CREACIÓNDE USUARIO Y ROL (Nivel Base de Datos)
+-- 2. CREACIÓN DE USUARIO Y ROL (Nivel Base de Datos)
 -- ==========================================================
 
 -- Crear el rol de consulta si no existe

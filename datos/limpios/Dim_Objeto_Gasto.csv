@@ -1,0 +1,408 @@
+﻿Cod_Tipo,Tipo,Cod_Concepto,Concepto,Cod_Cuenta,Cuenta,Cod_SubCuenta,SubCuenta,Cod_Auxiliar,Auxiliar
+2,GASTOS,2.1,REMUNERACIONES Y CONTRIBUCIONES,2.1.1,REMUNERACIONES,2.1.1.1,Remuneraciones al personal fijo,2.1.1.1.01,Sueldos empleados fijos
+2,GASTOS,2.1,REMUNERACIONES Y CONTRIBUCIONES,2.1.1,REMUNERACIONES,2.1.1.2,Remuneraciones al personal de carácter temporal,2.1.1.2.06,Jornales
+2,GASTOS,2.1,REMUNERACIONES Y CONTRIBUCIONES,2.1.1,REMUNERACIONES,2.1.1.2,Remuneraciones al personal de carácter temporal,2.1.1.2.09,Personal de carácter eventual
+2,GASTOS,2.1,REMUNERACIONES Y CONTRIBUCIONES,2.1.1,REMUNERACIONES,2.1.1.3,Sueldos al personal fijo en trámite de pensiones,2.1.1.3.01,Sueldos al personal fijo en trámite de pensiones
+2,GASTOS,2.1,REMUNERACIONES Y CONTRIBUCIONES,2.1.1,REMUNERACIONES,2.1.1.4,Sueldo anual no.13,2.1.1.4.01,Sueldo Anual No. 13
+2,GASTOS,2.1,REMUNERACIONES Y CONTRIBUCIONES,2.1.1,REMUNERACIONES,2.1.1.5,Prestaciones económicas,2.1.1.5.03,Prestación laboral por desvinculación
+2,GASTOS,2.1,REMUNERACIONES Y CONTRIBUCIONES,2.1.1,REMUNERACIONES,2.1.1.5,Prestaciones económicas,2.1.1.5.04,Proporción de vacaciones no disfrutadas
+2,GASTOS,2.1,REMUNERACIONES Y CONTRIBUCIONES,2.1.2,SOBRESUELDOS,2.1.2.2,Compensación,2.1.2.2.05,Compensación servicios de seguridad
+2,GASTOS,2.1,REMUNERACIONES Y CONTRIBUCIONES,2.1.2,SOBRESUELDOS,2.1.2.2,Compensación,2.1.2.2.08,Compensaciones especiales
+2,GASTOS,2.1,REMUNERACIONES Y CONTRIBUCIONES,2.1.2,SOBRESUELDOS,2.1.2.2,Compensación,2.1.2.2.15,Compensación extraordinaria anual
+2,GASTOS,2.1,REMUNERACIONES Y CONTRIBUCIONES,2.1.3,DIETAS Y GASTOS DE REPRESENTACIÓN,2.1.3.1,Dietas,2.1.3.1.01,Dietas en el país
+2,GASTOS,2.1,REMUNERACIONES Y CONTRIBUCIONES,2.1.3,DIETAS Y GASTOS DE REPRESENTACIÓN,2.1.3.2,Gastos de representación,2.1.3.2.01,Gastos de representación en el país
+2,GASTOS,2.1,REMUNERACIONES Y CONTRIBUCIONES,2.1.3,DIETAS Y GASTOS DE REPRESENTACIÓN,2.1.3.2,Gastos de representación,2.1.3.2.02,Gastos de representación en el exterior
+2,GASTOS,2.1,REMUNERACIONES Y CONTRIBUCIONES,2.1.4,GRATIFICACIONES Y BONIFICACIONES,2.1.4.2,Otras Gratificaciones y Bonificaciones,2.1.4.2.01,Bono escolar
+2,GASTOS,2.1,REMUNERACIONES Y CONTRIBUCIONES,2.1.5,CONTRIBUCIONES A LA SEGURIDAD SOCIAL,2.1.5.1,Contribuciones al seguro de salud,2.1.5.1.01,Contribuciones al seguro de salud
+2,GASTOS,2.1,REMUNERACIONES Y CONTRIBUCIONES,2.1.5,CONTRIBUCIONES A LA SEGURIDAD SOCIAL,2.1.5.2,Contribuciones al seguro de pensiones,2.1.5.2.01,Contribuciones al seguro de pensiones
+2,GASTOS,2.1,REMUNERACIONES Y CONTRIBUCIONES,2.1.5,CONTRIBUCIONES A LA SEGURIDAD SOCIAL,2.1.5.3,Contribuciones al seguro de riesgo laboral,2.1.5.3.01,Contribuciones al seguro de riesgo laboral
+2,GASTOS,2.2,CONTRATACIÓN DE SERVICIOS,2.2.1,SERVICIOS BÁSICOS,2.2.1.2,Servicios telefónico de larga distancia,2.2.1.2.01,Servicios telefónico de larga distancia
+2,GASTOS,2.2,CONTRATACIÓN DE SERVICIOS,2.2.1,SERVICIOS BÁSICOS,2.2.1.3,Teléfono local,2.2.1.3.01,Teléfono local
+2,GASTOS,2.2,CONTRATACIÓN DE SERVICIOS,2.2.1,SERVICIOS BÁSICOS,2.2.1.4,Telefax y correos,2.2.1.4.01,Telefax y correos
+2,GASTOS,2.2,CONTRATACIÓN DE SERVICIOS,2.2.1,SERVICIOS BÁSICOS,2.2.1.5,Servicio de internet y televisión por cable,2.2.1.5.01,Servicio de internet y televisión por cable
+2,GASTOS,2.2,CONTRATACIÓN DE SERVICIOS,2.2.1,SERVICIOS BÁSICOS,2.2.1.6,Electricidad,2.2.1.6.01,Energía eléctrica
+2,GASTOS,2.2,CONTRATACIÓN DE SERVICIOS,2.2.1,SERVICIOS BÁSICOS,2.2.1.7,Agua,2.2.1.7.01,Agua
+2,GASTOS,2.2,CONTRATACIÓN DE SERVICIOS,2.2.1,SERVICIOS BÁSICOS,2.2.1.8,Recolección de residuos,2.2.1.8.01,Recolección de residuos
+2,GASTOS,2.2,CONTRATACIÓN DE SERVICIOS,2.2.2,"PUBLICIDAD, IMPRESIÓN Y ENCUADERNACIÓN",2.2.2.1,Publicidad y propaganda,2.2.2.1.01,Publicidad y propaganda
+2,GASTOS,2.2,CONTRATACIÓN DE SERVICIOS,2.2.2,"PUBLICIDAD, IMPRESIÓN Y ENCUADERNACIÓN",2.2.2.2,"Impresión, encuadernación y rotulación",2.2.2.2.01,"Impresión, encuadernación y rotulación"
+2,GASTOS,2.2,CONTRATACIÓN DE SERVICIOS,2.2.3,VIÁTICOS,2.2.3.1,Viáticos dentro del país,2.2.3.1.01,Viáticos dentro del país
+2,GASTOS,2.2,CONTRATACIÓN DE SERVICIOS,2.2.3,VIÁTICOS,2.2.3.2,Viáticos fuera del país,2.2.3.2.01,Viaticos fuera del país
+2,GASTOS,2.2,CONTRATACIÓN DE SERVICIOS,2.2.4,TRANSPORTE Y ALMACENAJE,2.2.4.1,Pasajes y gastos de transporte,2.2.4.1.01,Pasajes y gastos de transporte
+2,GASTOS,2.2,CONTRATACIÓN DE SERVICIOS,2.2.4,TRANSPORTE Y ALMACENAJE,2.2.4.2,Fletes,2.2.4.2.01,Fletes
+2,GASTOS,2.2,CONTRATACIÓN DE SERVICIOS,2.2.4,TRANSPORTE Y ALMACENAJE,2.2.4.4,Peaje,2.2.4.4.01,Peaje
+2,GASTOS,2.2,CONTRATACIÓN DE SERVICIOS,2.2.5,ALQUILERES Y RENTAS,2.2.5.1,Alquileres y rentas de edificaciones y locales,2.2.5.1.01,Alquileres y rentas de edificaciones y locales
+2,GASTOS,2.2,CONTRATACIÓN DE SERVICIOS,2.2.5,ALQUILERES Y RENTAS,2.2.5.3,Alquileres de  equipos,2.2.5.3.02,Alquiler de equipo de tecnología y almacenamiento de datos
+2,GASTOS,2.2,CONTRATACIÓN DE SERVICIOS,2.2.5,ALQUILERES Y RENTAS,2.2.5.3,Alquileres de  equipos,2.2.5.3.03,Alquiler de equipo de comunicación
+2,GASTOS,2.2,CONTRATACIÓN DE SERVICIOS,2.2.5,ALQUILERES Y RENTAS,2.2.5.4,"Alquileres de equipos de transporte, tracción y elevación",2.2.5.4.01,"Alquileres de equipos de transporte, tracción y elevación"
+2,GASTOS,2.2,CONTRATACIÓN DE SERVICIOS,2.2.5,ALQUILERES Y RENTAS,2.2.5.8,Otros alquileres,2.2.5.8.01,Otros alquileres y arrendamientos por derechos de usos
+2,GASTOS,2.2,CONTRATACIÓN DE SERVICIOS,2.2.5,ALQUILERES Y RENTAS,2.2.5.9,Derecho de uso,2.2.5.9.01,Licencias Informáticas
+2,GASTOS,2.2,CONTRATACIÓN DE SERVICIOS,2.2.6,SEGUROS,2.2.6.1,Seguro de bienes inmuebles,2.2.6.1.01,Seguro de bienes inmuebles e infraestructura
+2,GASTOS,2.2,CONTRATACIÓN DE SERVICIOS,2.2.6,SEGUROS,2.2.6.2,Seguro de bienes muebles,2.2.6.2.01,Seguro de bienes muebles
+2,GASTOS,2.2,CONTRATACIÓN DE SERVICIOS,2.2.6,SEGUROS,2.2.6.3,Seguros de personas,2.2.6.3.01,Seguros de personas
+2,GASTOS,2.2,CONTRATACIÓN DE SERVICIOS,2.2.7,"SERVICIOS DE CONSERVACIÓN, REPARACIONES MENORES E INSTALACIONES TEMPORALES",2.2.7.1,Contratación de mantenimiento y reparaciones menores,2.2.7.1.01,Reparaciones y mantenimientos menores en edificaciones
+2,GASTOS,2.2,CONTRATACIÓN DE SERVICIOS,2.2.7,"SERVICIOS DE CONSERVACIÓN, REPARACIONES MENORES E INSTALACIONES TEMPORALES",2.2.7.1,Contratación de mantenimiento y reparaciones menores,2.2.7.1.02,Mantenimientos y reparaciones especiales
+2,GASTOS,2.2,CONTRATACIÓN DE SERVICIOS,2.2.7,"SERVICIOS DE CONSERVACIÓN, REPARACIONES MENORES E INSTALACIONES TEMPORALES",2.2.7.1,Contratación de mantenimiento y reparaciones menores,2.2.7.1.06,Mantenimiento y reparación de instalaciones eléctricas
+2,GASTOS,2.2,CONTRATACIÓN DE SERVICIOS,2.2.7,"SERVICIOS DE CONSERVACIÓN, REPARACIONES MENORES E INSTALACIONES TEMPORALES",2.2.7.1,Contratación de mantenimiento y reparaciones menores,2.2.7.1.07,"Mantenimiento, reparación, servicios de pintura y sus derivados"
+2,GASTOS,2.2,CONTRATACIÓN DE SERVICIOS,2.2.7,"SERVICIOS DE CONSERVACIÓN, REPARACIONES MENORES E INSTALACIONES TEMPORALES",2.2.7.2,Mantenimiento y reparación  de maquinarias y equipos,2.2.7.2.01,Mantenimiento y reparación de mobiliarios y equipos de oficina
+2,GASTOS,2.2,CONTRATACIÓN DE SERVICIOS,2.2.7,"SERVICIOS DE CONSERVACIÓN, REPARACIONES MENORES E INSTALACIONES TEMPORALES",2.2.7.2,Mantenimiento y reparación  de maquinarias y equipos,2.2.7.2.02,Mantenimiento y reparación de equipos tecnología e información
+2,GASTOS,2.2,CONTRATACIÓN DE SERVICIOS,2.2.7,"SERVICIOS DE CONSERVACIÓN, REPARACIONES MENORES E INSTALACIONES TEMPORALES",2.2.7.2,Mantenimiento y reparación  de maquinarias y equipos,2.2.7.2.05,Mantenimiento y reparación de equipo de comunicación y audiovisuales
+2,GASTOS,2.2,CONTRATACIÓN DE SERVICIOS,2.2.7,"SERVICIOS DE CONSERVACIÓN, REPARACIONES MENORES E INSTALACIONES TEMPORALES",2.2.7.2,Mantenimiento y reparación  de maquinarias y equipos,2.2.7.2.06,"Mantenimiento y reparación de equipos de transporte, tracción y elevación"
+2,GASTOS,2.2,CONTRATACIÓN DE SERVICIOS,2.2.7,"SERVICIOS DE CONSERVACIÓN, REPARACIONES MENORES E INSTALACIONES TEMPORALES",2.2.7.3,Instalaciones temporales,2.2.7.3.01,Instalaciones temporales
+2,GASTOS,2.2,CONTRATACIÓN DE SERVICIOS,2.2.8,OTROS SERVICIOS NO INCLUIDOS EN CONCEPTOS ANTERIORES,2.2.8.1,Gastos y representación judiciales,2.2.8.1.01,Gastos judiciales
+2,GASTOS,2.2,CONTRATACIÓN DE SERVICIOS,2.2.8,OTROS SERVICIOS NO INCLUIDOS EN CONCEPTOS ANTERIORES,2.2.8.2,Comisiones y gastos,2.2.8.2.01,Comisiones y gastos
+2,GASTOS,2.2,CONTRATACIÓN DE SERVICIOS,2.2.8,OTROS SERVICIOS NO INCLUIDOS EN CONCEPTOS ANTERIORES,2.2.8.4,Servicios funerarios y gastos conexos,2.2.8.4.01,Servicios funerarios y gastos conexos
+2,GASTOS,2.2,CONTRATACIÓN DE SERVICIOS,2.2.8,OTROS SERVICIOS NO INCLUIDOS EN CONCEPTOS ANTERIORES,2.2.8.5,"Fumigación, lavandería, limpieza e higiene",2.2.8.5.01,Fumigación
+2,GASTOS,2.2,CONTRATACIÓN DE SERVICIOS,2.2.8,OTROS SERVICIOS NO INCLUIDOS EN CONCEPTOS ANTERIORES,2.2.8.5,"Fumigación, lavandería, limpieza e higiene",2.2.8.5.02,Lavandería
+2,GASTOS,2.2,CONTRATACIÓN DE SERVICIOS,2.2.8,OTROS SERVICIOS NO INCLUIDOS EN CONCEPTOS ANTERIORES,2.2.8.5,"Fumigación, lavandería, limpieza e higiene",2.2.8.5.03,Limpieza e higiene
+2,GASTOS,2.2,CONTRATACIÓN DE SERVICIOS,2.2.8,OTROS SERVICIOS NO INCLUIDOS EN CONCEPTOS ANTERIORES,2.2.8.6,"Servicio de organización de eventos, festividades y actividades de entretenimiento",2.2.8.6.01,Eventos generales
+2,GASTOS,2.2,CONTRATACIÓN DE SERVICIOS,2.2.8,OTROS SERVICIOS NO INCLUIDOS EN CONCEPTOS ANTERIORES,2.2.8.6,"Servicio de organización de eventos, festividades y actividades de entretenimiento",2.2.8.6.02,Festividades
+2,GASTOS,2.2,CONTRATACIÓN DE SERVICIOS,2.2.8,OTROS SERVICIOS NO INCLUIDOS EN CONCEPTOS ANTERIORES,2.2.8.6,"Servicio de organización de eventos, festividades y actividades de entretenimiento",2.2.8.6.04,Actuaciones artísticas
+2,GASTOS,2.2,CONTRATACIÓN DE SERVICIOS,2.2.8,OTROS SERVICIOS NO INCLUIDOS EN CONCEPTOS ANTERIORES,2.2.8.7,Servicios Técnicos y Profesionales,2.2.8.7.01,Servicios técnicos y profesionales
+2,GASTOS,2.2,CONTRATACIÓN DE SERVICIOS,2.2.8,OTROS SERVICIOS NO INCLUIDOS EN CONCEPTOS ANTERIORES,2.2.8.7,Servicios Técnicos y Profesionales,2.2.8.7.02,Servicios jurídicos
+2,GASTOS,2.2,CONTRATACIÓN DE SERVICIOS,2.2.8,OTROS SERVICIOS NO INCLUIDOS EN CONCEPTOS ANTERIORES,2.2.8.7,Servicios Técnicos y Profesionales,2.2.8.7.03,Servicios de contabilidad y auditoría
+2,GASTOS,2.2,CONTRATACIÓN DE SERVICIOS,2.2.8,OTROS SERVICIOS NO INCLUIDOS EN CONCEPTOS ANTERIORES,2.2.8.7,Servicios Técnicos y Profesionales,2.2.8.7.04,Servicios de capacitación
+2,GASTOS,2.2,CONTRATACIÓN DE SERVICIOS,2.2.8,OTROS SERVICIOS NO INCLUIDOS EN CONCEPTOS ANTERIORES,2.2.8.7,Servicios Técnicos y Profesionales,2.2.8.7.05,Servicios de informática y sistemas computarizados
+2,GASTOS,2.2,CONTRATACIÓN DE SERVICIOS,2.2.8,OTROS SERVICIOS NO INCLUIDOS EN CONCEPTOS ANTERIORES,2.2.8.7,Servicios Técnicos y Profesionales,2.2.8.7.06,Otros servicios técnicos profesionales
+2,GASTOS,2.2,CONTRATACIÓN DE SERVICIOS,2.2.8,OTROS SERVICIOS NO INCLUIDOS EN CONCEPTOS ANTERIORES,2.2.8.8,"Impuestos, derechos y tasas",2.2.8.8.01,Impuestos
+2,GASTOS,2.2,CONTRATACIÓN DE SERVICIOS,2.2.8,OTROS SERVICIOS NO INCLUIDOS EN CONCEPTOS ANTERIORES,2.2.8.8,"Impuestos, derechos y tasas",2.2.8.8.03,Tasas
+2,GASTOS,2.2,CONTRATACIÓN DE SERVICIOS,2.2.9,OTRAS CONTRATACIONES DE SERVICIOS,2.2.9.2,Servicios de alimentación,2.2.9.2.01,Servicios de alimentación
+2,GASTOS,2.3,MATERIALES Y SUMINISTROS,2.3.1,ALIMENTOS Y PRODUCTOS AGROFORESTALES,2.3.1.1,Alimentos y bebidas para personas,2.3.1.1.01,Alimentos y bebidas para personas
+2,GASTOS,2.3,MATERIALES Y SUMINISTROS,2.3.1,ALIMENTOS Y PRODUCTOS AGROFORESTALES,2.3.1.3,Productos agroforestales y pecuarios,2.3.1.3.03,Productos forestales
+2,GASTOS,2.3,MATERIALES Y SUMINISTROS,2.3.1,ALIMENTOS Y PRODUCTOS AGROFORESTALES,2.3.1.4,"Madera, corcho y sus manufacturas",2.3.1.4.01,"Madera, corcho y sus manufacturas"
+2,GASTOS,2.3,MATERIALES Y SUMINISTROS,2.3.2,TEXTILES Y VESTUARIOS,2.3.2.2,Acabados textiles,2.3.2.2.01,Acabados textiles
+2,GASTOS,2.3,MATERIALES Y SUMINISTROS,2.3.2,TEXTILES Y VESTUARIOS,2.3.2.3,Prendas y accesorios de vestir,2.3.2.3.01,Prendas y accesorios de vestir
+2,GASTOS,2.3,MATERIALES Y SUMINISTROS,2.3.3,"PAPEL, CARTÓN E IMPRESOS",2.3.3.1,Papel de escritorio,2.3.3.1.01,Papel de escritorio
+2,GASTOS,2.3,MATERIALES Y SUMINISTROS,2.3.3,"PAPEL, CARTÓN E IMPRESOS",2.3.3.2,Papel y cartón,2.3.3.2.01,Papel y cartón
+2,GASTOS,2.3,MATERIALES Y SUMINISTROS,2.3.3,"PAPEL, CARTÓN E IMPRESOS",2.3.3.3,Productos de artes gráficas,2.3.3.3.01,Productos de artes gráficas
+2,GASTOS,2.3,MATERIALES Y SUMINISTROS,2.3.3,"PAPEL, CARTÓN E IMPRESOS",2.3.3.4,"Libros, revistas y periódicos",2.3.3.4.01,"Libros, revistas y periódicos"
+2,GASTOS,2.3,MATERIALES Y SUMINISTROS,2.3.4,PRODUCTOS FARMACÉUTICOS,2.3.4.1,Productos medicinales para uso humano,2.3.4.1.01,Productos medicinales para uso humano
+2,GASTOS,2.3,MATERIALES Y SUMINISTROS,2.3.5,"CUERO, CAUCHO Y PLÁSTICO",2.3.5.3,Llantas y neumáticos,2.3.5.3.01,Llantas y neumáticos
+2,GASTOS,2.3,MATERIALES Y SUMINISTROS,2.3.5,"CUERO, CAUCHO Y PLÁSTICO",2.3.5.4,Artículos de caucho,2.3.5.4.01,Artículos de caucho
+2,GASTOS,2.3,MATERIALES Y SUMINISTROS,2.3.5,"CUERO, CAUCHO Y PLÁSTICO",2.3.5.5,Plástico,2.3.5.5.01,Plástico
+2,GASTOS,2.3,MATERIALES Y SUMINISTROS,2.3.6,"PRODUCTOS DE MINERALES, METÁLICOS Y NO METÁLICOS",2.3.6.1,"Productos de cemento, cal, asbesto, yeso y arcilla",2.3.6.1.01,Productos de cemento
+2,GASTOS,2.3,MATERIALES Y SUMINISTROS,2.3.6,"PRODUCTOS DE MINERALES, METÁLICOS Y NO METÁLICOS",2.3.6.1,"Productos de cemento, cal, asbesto, yeso y arcilla",2.3.6.1.04,Productos de yeso
+2,GASTOS,2.3,MATERIALES Y SUMINISTROS,2.3.6,"PRODUCTOS DE MINERALES, METÁLICOS Y NO METÁLICOS",2.3.6.2,"Productos de vidrio, loza y porcelana",2.3.6.2.01,Productos de vidrio
+2,GASTOS,2.3,MATERIALES Y SUMINISTROS,2.3.6,"PRODUCTOS DE MINERALES, METÁLICOS Y NO METÁLICOS",2.3.6.2,"Productos de vidrio, loza y porcelana",2.3.6.2.02,Productos de loza
+2,GASTOS,2.3,MATERIALES Y SUMINISTROS,2.3.6,"PRODUCTOS DE MINERALES, METÁLICOS Y NO METÁLICOS",2.3.6.2,"Productos de vidrio, loza y porcelana",2.3.6.2.03,Productos de porcelana
+2,GASTOS,2.3,MATERIALES Y SUMINISTROS,2.3.6,"PRODUCTOS DE MINERALES, METÁLICOS Y NO METÁLICOS",2.3.6.3,Productos metálicos y sus derivados,2.3.6.3.04,Herramientas menores
+2,GASTOS,2.3,MATERIALES Y SUMINISTROS,2.3.6,"PRODUCTOS DE MINERALES, METÁLICOS Y NO METÁLICOS",2.3.6.3,Productos metálicos y sus derivados,2.3.6.3.06,Productos metálicos
+2,GASTOS,2.3,MATERIALES Y SUMINISTROS,2.3.6,"PRODUCTOS DE MINERALES, METÁLICOS Y NO METÁLICOS",2.3.6.4,Minerales,2.3.6.4.04,"Piedra, arcilla y arena"
+2,GASTOS,2.3,MATERIALES Y SUMINISTROS,2.3.7,"COMBUSTIBLES, LUBRICANTES, PRODUCTOS QUÍMICOS Y CONEXOS",2.3.7.1,Combustibles y lubricantes,2.3.7.1.01,Gasolina
+2,GASTOS,2.3,MATERIALES Y SUMINISTROS,2.3.7,"COMBUSTIBLES, LUBRICANTES, PRODUCTOS QUÍMICOS Y CONEXOS",2.3.7.1,Combustibles y lubricantes,2.3.7.1.02,Gasoil
+2,GASTOS,2.3,MATERIALES Y SUMINISTROS,2.3.7,"COMBUSTIBLES, LUBRICANTES, PRODUCTOS QUÍMICOS Y CONEXOS",2.3.7.1,Combustibles y lubricantes,2.3.7.1.04,Gas GLP
+2,GASTOS,2.3,MATERIALES Y SUMINISTROS,2.3.7,"COMBUSTIBLES, LUBRICANTES, PRODUCTOS QUÍMICOS Y CONEXOS",2.3.7.1,Combustibles y lubricantes,2.3.7.1.05,Aceites y grasas
+2,GASTOS,2.3,MATERIALES Y SUMINISTROS,2.3.7,"COMBUSTIBLES, LUBRICANTES, PRODUCTOS QUÍMICOS Y CONEXOS",2.3.7.1,Combustibles y lubricantes,2.3.7.1.06,Lubricantes
+2,GASTOS,2.3,MATERIALES Y SUMINISTROS,2.3.7,"COMBUSTIBLES, LUBRICANTES, PRODUCTOS QUÍMICOS Y CONEXOS",2.3.7.2,Productos químicos y conexos,2.3.7.2.04,Abonos y fertilizantes
+2,GASTOS,2.3,MATERIALES Y SUMINISTROS,2.3.7,"COMBUSTIBLES, LUBRICANTES, PRODUCTOS QUÍMICOS Y CONEXOS",2.3.7.2,Productos químicos y conexos,2.3.7.2.05,"Insecticidas, fumigantes y otros"
+2,GASTOS,2.3,MATERIALES Y SUMINISTROS,2.3.7,"COMBUSTIBLES, LUBRICANTES, PRODUCTOS QUÍMICOS Y CONEXOS",2.3.7.2,Productos químicos y conexos,2.3.7.2.06,"Pinturas, lacas, barnices, diluyentes y absorbentes para pinturas"
+2,GASTOS,2.3,MATERIALES Y SUMINISTROS,2.3.9,PRODUCTOS Y ÚTILES VARIOS,2.3.9.1,Útiles y materiales de limpieza e higiene,2.3.9.1.02,Materiales de limpieza e higiene personal
+2,GASTOS,2.3,MATERIALES Y SUMINISTROS,2.3.9,PRODUCTOS Y ÚTILES VARIOS,2.3.9.2,"Útiles  y materiales de escritorio, oficina, informática, escolares y de enseñanza",2.3.9.2.01,"Útiles  y materiales de escritorio, oficina e informática"
+2,GASTOS,2.3,MATERIALES Y SUMINISTROS,2.3.9,PRODUCTOS Y ÚTILES VARIOS,2.3.9.3,"Útiles menores médico, quirúrgicos o de laboratorio",2.3.9.3.01,"Útiles menores médico, quirúrgicos o de laboratorio"
+2,GASTOS,2.3,MATERIALES Y SUMINISTROS,2.3.9,PRODUCTOS Y ÚTILES VARIOS,2.3.9.4,"Útiles destinados a actividades deportivas, culturales y recreativas",2.3.9.4.01,"Útiles destinados a actividades deportivas, culturales y recreativas"
+2,GASTOS,2.3,MATERIALES Y SUMINISTROS,2.3.9,PRODUCTOS Y ÚTILES VARIOS,2.3.9.5,Útiles de cocina y comedor,2.3.9.5.01,Útiles de cocina y comedor
+2,GASTOS,2.3,MATERIALES Y SUMINISTROS,2.3.9,PRODUCTOS Y ÚTILES VARIOS,2.3.9.6,Productos eléctricos y afines,2.3.9.6.01,Productos eléctricos y afines
+2,GASTOS,2.3,MATERIALES Y SUMINISTROS,2.3.9,PRODUCTOS Y ÚTILES VARIOS,2.3.9.8,Repuestos y accesorios menores,2.3.9.8.01,Repuestos
+2,GASTOS,2.3,MATERIALES Y SUMINISTROS,2.3.9,PRODUCTOS Y ÚTILES VARIOS,2.3.9.9,Productos y útiles varios no identificados precedentemente (n.i.p.),2.3.9.9.05,Productos y útiles diversos
+2,GASTOS,2.4,TRANSFERENCIAS CORRIENTES,2.4.1,TRANSFERENCIAS CORRIENTES AL SECTOR PRIVADO,2.4.1.2,Ayudas y donaciones a personas,2.4.1.2.01,Ayudas y donaciones programadas a hogares y personas
+2,GASTOS,2.4,TRANSFERENCIAS CORRIENTES,2.4.1,TRANSFERENCIAS CORRIENTES AL SECTOR PRIVADO,2.4.1.2,Ayudas y donaciones a personas,2.4.1.2.02,Ayudas y donaciones ocasionales a hogares y personas
+2,GASTOS,2.4,TRANSFERENCIAS CORRIENTES,2.4.1,TRANSFERENCIAS CORRIENTES AL SECTOR PRIVADO,2.4.1.4,Becas y viajes de estudios,2.4.1.4.01,Becas nacionales
+2,GASTOS,2.4,TRANSFERENCIAS CORRIENTES,2.4.1,TRANSFERENCIAS CORRIENTES AL SECTOR PRIVADO,2.4.1.6,Transferencias corrientes a asociaciones sin fines de lucro y partidos políticos,2.4.1.6.05,Transferencias corrientes ocasionales a asociaciones sin fines de lucro
+2,GASTOS,2.4,TRANSFERENCIAS CORRIENTES,2.4.7,TRANSFERENCIAS CORRIENTES AL SECTOR EXTERNO,2.4.7.2,Transferencias corrientes a organismos internacionales,2.4.7.2.01,Transferencias corrientes a Organismos Internacionales
+2,GASTOS,2.6,"BIENES MUEBLES, INMUEBLES E INTANGIBLES",2.6.1,MOBILIARIO Y EQUIPO,2.6.1.1,"Muebles, equipos de oficina y estantería",2.6.1.1.01,"Muebles, equipos de oficina y estantería"
+2,GASTOS,2.6,"BIENES MUEBLES, INMUEBLES E INTANGIBLES",2.6.1,MOBILIARIO Y EQUIPO,2.6.1.3,Equipos de tecnología de la información y comunicación,2.6.1.3.01,Equipos de tecnología de la información y comunicación
+2,GASTOS,2.6,"BIENES MUEBLES, INMUEBLES E INTANGIBLES",2.6.1,MOBILIARIO Y EQUIPO,2.6.1.4,Electrodomésticos,2.6.1.4.01,Electrodomésticos
+2,GASTOS,2.6,"BIENES MUEBLES, INMUEBLES E INTANGIBLES",2.6.1,MOBILIARIO Y EQUIPO,2.6.1.9,Otros mobiliarios y equipos no identificados precedentemente,2.6.1.9.01,Otros Mobiliarios y Equipos no Identificados Precedentemente
+2,GASTOS,2.6,"BIENES MUEBLES, INMUEBLES E INTANGIBLES",2.6.2,"MOBILIARIO Y EQUIPO DE AUDIO, AUDIOVISUAL, RECREATIVO Y EDUCACIONAL",2.6.2.1,Equipos y aparatos audiovisuales,2.6.2.1.01,Equipos y Aparatos Audiovisuales
+2,GASTOS,2.6,"BIENES MUEBLES, INMUEBLES E INTANGIBLES",2.6.2,"MOBILIARIO Y EQUIPO DE AUDIO, AUDIOVISUAL, RECREATIVO Y EDUCACIONAL",2.6.2.3,Cámaras fotográficas y de video,2.6.2.3.01,Cámaras fotográficas y de video
+2,GASTOS,2.6,"BIENES MUEBLES, INMUEBLES E INTANGIBLES",2.6.3,"EQUIPO E INSTRUMENTAL, CIENTÍFICO Y LABORATORIO",2.6.3.1,Equipo médico y de laboratorio,2.6.3.1.01,Equipo médico y de laboratorio
+2,GASTOS,2.6,"BIENES MUEBLES, INMUEBLES E INTANGIBLES",2.6.4,"VEHÍCULOS Y EQUIPO DE TRANSPORTE, TRACCIÓN Y ELEVACIÓN",2.6.4.1,Automóviles y camiones,2.6.4.1.01,Automóviles y camiones
+2,GASTOS,2.6,"BIENES MUEBLES, INMUEBLES E INTANGIBLES",2.6.4,"VEHÍCULOS Y EQUIPO DE TRANSPORTE, TRACCIÓN Y ELEVACIÓN",2.6.4.8,Otros equipos de transporte,2.6.4.8.01,Otros equipos de transporte
+2,GASTOS,2.6,"BIENES MUEBLES, INMUEBLES E INTANGIBLES",2.6.5,"MAQUINARIA, OTROS EQUIPOS Y HERRAMIENTAS",2.6.5.4,Sistemas y equipos de climatización,2.6.5.4.01,Sistemas y equipos de climatización
+2,GASTOS,2.6,"BIENES MUEBLES, INMUEBLES E INTANGIBLES",2.6.5,"MAQUINARIA, OTROS EQUIPOS Y HERRAMIENTAS",2.6.5.5,"Equipo de comunicación, telecomunicaciones y señalamiento",2.6.5.5.01,"Equipo de comunicación, telecomunicaciones y señalamiento"
+2,GASTOS,2.6,"BIENES MUEBLES, INMUEBLES E INTANGIBLES",2.6.5,"MAQUINARIA, OTROS EQUIPOS Y HERRAMIENTAS",2.6.5.6,Equipo de generación eléctrica y a fines,2.6.5.6.01,Equipo de generación eléctrica y a fines
+2,GASTOS,2.6,"BIENES MUEBLES, INMUEBLES E INTANGIBLES",2.6.5,"MAQUINARIA, OTROS EQUIPOS Y HERRAMIENTAS",2.6.5.7,Máquinas-herramientas,2.6.5.7.01,Máquinas-herramientas
+2,GASTOS,2.6,"BIENES MUEBLES, INMUEBLES E INTANGIBLES",2.6.5,"MAQUINARIA, OTROS EQUIPOS Y HERRAMIENTAS",2.6.5.8,Otros equipos,2.6.5.8.01,Otros equipos
+2,GASTOS,2.6,"BIENES MUEBLES, INMUEBLES E INTANGIBLES",2.6.8,BIENES INTANGIBLES,2.6.8.3,Programas de informática y base de datos,2.6.8.3.01,Programas de informática
+2,GASTOS,2.6,"BIENES MUEBLES, INMUEBLES E INTANGIBLES",2.6.9,"EDIFICIOS, ESTRUCTURAS, TIERRAS, TERRENOS Y OBJETOS DE VALOR",2.6.9.3,Terrenos urbanos,2.6.9.3.01,Terrenos urbanos sin mejoras
+2,GASTOS,2.7,OBRAS,2.7.1,OBRAS EN EDIFICACIONES,2.7.1.2,Obras para edificación no residencial,2.7.1.2.01,Obras para edificación no residencial
+2,GASTOS,2.1,REMUNERACIONES Y CONTRIBUCIONES,2.1.1,REMUNERACIONES,2.1.1.5,Prestaciones económicas,2.1.1.5.01,Prestaciones económicas
+2,GASTOS,2.1,REMUNERACIONES Y CONTRIBUCIONES,2.1.2,SOBRESUELDOS,2.1.2.2,Compensación,2.1.2.2.06,Incentivo por Rendimiento Individual
+2,GASTOS,2.1,REMUNERACIONES Y CONTRIBUCIONES,2.1.2,SOBRESUELDOS,2.1.2.2,Compensación,2.1.2.2.09,Bono por desempeño a servidores de carrera
+2,GASTOS,2.1,REMUNERACIONES Y CONTRIBUCIONES,2.1.4,GRATIFICACIONES Y BONIFICACIONES,2.1.4.1,Bonificaciones,2.1.4.1.01,Bonificaciones
+2,GASTOS,2.1,REMUNERACIONES Y CONTRIBUCIONES,2.1.4,GRATIFICACIONES Y BONIFICACIONES,2.1.4.2,Otras Gratificaciones y Bonificaciones,2.1.4.2.04,Otras gratificaciones
+2,GASTOS,2.1,REMUNERACIONES Y CONTRIBUCIONES,2.1.5,CONTRIBUCIONES A LA SEGURIDAD SOCIAL,2.1.5.4,Contribuciones al plan de retiro complementario,2.1.5.4.02,Contribuciones al plan de retiro complementario legislativo y órganos constitucionales
+2,GASTOS,2.2,CONTRATACIÓN DE SERVICIOS,2.2.5,ALQUILERES Y RENTAS,2.2.5.3,Alquileres de  equipos,2.2.5.3.01,Alquiler de equipo educacional
+2,GASTOS,2.2,CONTRATACIÓN DE SERVICIOS,2.2.5,ALQUILERES Y RENTAS,2.2.5.6,Alquileres de terrenos,2.2.5.6.01,Alquileres de terrenos
+2,GASTOS,2.2,CONTRATACIÓN DE SERVICIOS,2.2.7,"SERVICIOS DE CONSERVACIÓN, REPARACIONES MENORES E INSTALACIONES TEMPORALES",2.2.7.2,Mantenimiento y reparación  de maquinarias y equipos,2.2.7.2.03,Mantenimiento y reparación de equipo educacionales y recreación
+2,GASTOS,2.2,CONTRATACIÓN DE SERVICIOS,2.2.7,"SERVICIOS DE CONSERVACIÓN, REPARACIONES MENORES E INSTALACIONES TEMPORALES",2.2.7.2,Mantenimiento y reparación  de maquinarias y equipos,2.2.7.2.99,"Otros servicios de mantenimiento, reparación, desmonte e instalación"
+2,GASTOS,2.3,MATERIALES Y SUMINISTROS,2.3.2,TEXTILES Y VESTUARIOS,2.3.2.1,"Hilados, fibras, telas y útiles de costura",2.3.2.1.01,"Hilados, fibras, telas y útiles de costura"
+2,GASTOS,2.3,MATERIALES Y SUMINISTROS,2.3.5,"CUERO, CAUCHO Y PLÁSTICO",2.3.5.1,Cuero y pieles,2.3.5.1.01,Cuero y pieles
+2,GASTOS,2.3,MATERIALES Y SUMINISTROS,2.3.6,"PRODUCTOS DE MINERALES, METÁLICOS Y NO METÁLICOS",2.3.6.1,"Productos de cemento, cal, asbesto, yeso y arcilla",2.3.6.1.05,Productos de arcilla y derivados
+2,GASTOS,2.3,MATERIALES Y SUMINISTROS,2.3.7,"COMBUSTIBLES, LUBRICANTES, PRODUCTOS QUÍMICOS Y CONEXOS",2.3.7.2,Productos químicos y conexos,2.3.7.2.02,Productos fotoquímicos
+2,GASTOS,2.4,TRANSFERENCIAS CORRIENTES,2.4.1,TRANSFERENCIAS CORRIENTES AL SECTOR PRIVADO,2.4.1.1,Prestaciones a la seguridad social,2.4.1.1.03,Indemnización laboral
+2,GASTOS,2.4,TRANSFERENCIAS CORRIENTES,2.4.1,TRANSFERENCIAS CORRIENTES AL SECTOR PRIVADO,2.4.1.4,Becas y viajes de estudios,2.4.1.4.02,Becas extranjeras
+2,GASTOS,2.6,"BIENES MUEBLES, INMUEBLES E INTANGIBLES",2.6.2,"MOBILIARIO Y EQUIPO DE AUDIO, AUDIOVISUAL, RECREATIVO Y EDUCACIONAL",2.6.2.4,Mobiliario y equipo educacional y recreativo,2.6.2.4.01,Mobiliario y equipo educacional y recreativo
+2,GASTOS,2.6,"BIENES MUEBLES, INMUEBLES E INTANGIBLES",2.6.4,"VEHÍCULOS Y EQUIPO DE TRANSPORTE, TRACCIÓN Y ELEVACIÓN",2.6.4.6,Equipo de tracción,2.6.4.6.01,Equipo de tracción
+2,GASTOS,2.6,"BIENES MUEBLES, INMUEBLES E INTANGIBLES",2.6.6,EQUIPOS DE DEFENSA Y SEGURIDAD,2.6.6.1,Equipos de defensa,2.6.6.1.01,Equipos de defensa
+2,GASTOS,2.6,"BIENES MUEBLES, INMUEBLES E INTANGIBLES",2.6.8,BIENES INTANGIBLES,2.6.8.3,Programas de informática y base de datos,2.6.8.3.02,Base de datos
+2,GASTOS,2.7,OBRAS,2.7.2,INFRAESTRUCTURA,2.7.2.2,Obras de energía,2.7.2.2.01,Obras de energía
+2,GASTOS,2.1,REMUNERACIONES Y CONTRIBUCIONES,2.1.1,REMUNERACIONES,2.1.1.2,Remuneraciones al personal de carácter temporal,2.1.1.2.08,Empleados temporales
+2,GASTOS,2.1,REMUNERACIONES Y CONTRIBUCIONES,2.1.2,SOBRESUELDOS,2.1.2.2,Compensación,2.1.2.2.03,Pago de horas extraordinarias
+2,GASTOS,2.1,REMUNERACIONES Y CONTRIBUCIONES,2.1.2,SOBRESUELDOS,2.1.2.2,Compensación,2.1.2.2.10,Compensación por cumplimiento de indicadores del MAP
+2,GASTOS,2.2,CONTRATACIÓN DE SERVICIOS,2.2.5,ALQUILERES Y RENTAS,2.2.5.2,Alquileres de máquinas y equipos de producción,2.2.5.2.01,Alquileres de máquinas y equipos de producción
+2,GASTOS,2.2,CONTRATACIÓN DE SERVICIOS,2.2.5,ALQUILERES Y RENTAS,2.2.5.2,Alquileres de máquinas y equipos de producción,2.2.5.2.02,Alquileres de equipos eléctricos
+2,GASTOS,2.2,CONTRATACIÓN DE SERVICIOS,2.2.5,ALQUILERES Y RENTAS,2.2.5.3,Alquileres de  equipos,2.2.5.3.04,Alquiler de equipo de oficina y muebles
+2,GASTOS,2.2,CONTRATACIÓN DE SERVICIOS,2.2.7,"SERVICIOS DE CONSERVACIÓN, REPARACIONES MENORES E INSTALACIONES TEMPORALES",2.2.7.1,Contratación de mantenimiento y reparaciones menores,2.2.7.1.04,Mantenimiento y reparación de obras de ingeniería civil o infraestructura
+2,GASTOS,2.2,CONTRATACIÓN DE SERVICIOS,2.2.7,"SERVICIOS DE CONSERVACIÓN, REPARACIONES MENORES E INSTALACIONES TEMPORALES",2.2.7.2,Mantenimiento y reparación  de maquinarias y equipos,2.2.7.2.04,"Mantenimiento y reparación de equipos médicos, sanitarios y de laboratorio"
+2,GASTOS,2.2,CONTRATACIÓN DE SERVICIOS,2.2.7,"SERVICIOS DE CONSERVACIÓN, REPARACIONES MENORES E INSTALACIONES TEMPORALES",2.2.7.2,Mantenimiento y reparación  de maquinarias y equipos,2.2.7.2.07,Mantenimiento y reparación de equipos industriales y producción
+2,GASTOS,2.2,CONTRATACIÓN DE SERVICIOS,2.2.7,"SERVICIOS DE CONSERVACIÓN, REPARACIONES MENORES E INSTALACIONES TEMPORALES",2.2.7.2,Mantenimiento y reparación  de maquinarias y equipos,2.2.7.2.08,"Servicios de mantenimiento, reparación, desmonte e instalación"
+2,GASTOS,2.2,CONTRATACIÓN DE SERVICIOS,2.2.8,OTROS SERVICIOS NO INCLUIDOS EN CONCEPTOS ANTERIORES,2.2.8.3,Servicios sanitarios médicos y veterinarios,2.2.8.3.01,Servicios sanitarios médicos y veterinarios
+2,GASTOS,2.2,CONTRATACIÓN DE SERVICIOS,2.2.9,OTRAS CONTRATACIONES DE SERVICIOS,2.2.9.1,Otras contrataciones de servicios,2.2.9.1.01,Otras contrataciones de servicios
+2,GASTOS,2.2,CONTRATACIÓN DE SERVICIOS,2.2.9,OTRAS CONTRATACIONES DE SERVICIOS,2.2.9.2,Servicios de alimentación,2.2.9.2.03,Servicios de Catering
+2,GASTOS,2.3,MATERIALES Y SUMINISTROS,2.3.1,ALIMENTOS Y PRODUCTOS AGROFORESTALES,2.3.1.3,Productos agroforestales y pecuarios,2.3.1.3.01,Productos pecuarios
+2,GASTOS,2.3,MATERIALES Y SUMINISTROS,2.3.1,ALIMENTOS Y PRODUCTOS AGROFORESTALES,2.3.1.3,Productos agroforestales y pecuarios,2.3.1.3.02,Productos agrícolas
+2,GASTOS,2.3,MATERIALES Y SUMINISTROS,2.3.2,TEXTILES Y VESTUARIOS,2.3.2.4,Calzados,2.3.2.4.01,Calzados
+2,GASTOS,2.3,MATERIALES Y SUMINISTROS,2.3.3,"PAPEL, CARTÓN E IMPRESOS",2.3.3.5,Textos de enseñanza,2.3.3.5.01,Textos de enseñanza
+2,GASTOS,2.3,MATERIALES Y SUMINISTROS,2.3.5,"CUERO, CAUCHO Y PLÁSTICO",2.3.5.2,Productos de cuero,2.3.5.2.01,Artículos de cuero
+2,GASTOS,2.3,MATERIALES Y SUMINISTROS,2.3.6,"PRODUCTOS DE MINERALES, METÁLICOS Y NO METÁLICOS",2.3.6.1,"Productos de cemento, cal, asbesto, yeso y arcilla",2.3.6.1.02,Productos de cal
+2,GASTOS,2.3,MATERIALES Y SUMINISTROS,2.3.6,"PRODUCTOS DE MINERALES, METÁLICOS Y NO METÁLICOS",2.3.6.4,Minerales,2.3.6.4.01,Minerales metalíferos
+2,GASTOS,2.3,MATERIALES Y SUMINISTROS,2.3.6,"PRODUCTOS DE MINERALES, METÁLICOS Y NO METÁLICOS",2.3.6.4,Minerales,2.3.6.4.06,Productos abrasivos
+2,GASTOS,2.3,MATERIALES Y SUMINISTROS,2.3.6,"PRODUCTOS DE MINERALES, METÁLICOS Y NO METÁLICOS",2.3.6.4,Minerales,2.3.6.4.07,Otros minerales
+2,GASTOS,2.3,MATERIALES Y SUMINISTROS,2.3.6,"PRODUCTOS DE MINERALES, METÁLICOS Y NO METÁLICOS",2.3.6.9,Otros productos minerales no metálicos,2.3.6.9.01,Otros productos no metálicos
+2,GASTOS,2.3,MATERIALES Y SUMINISTROS,2.3.7,"COMBUSTIBLES, LUBRICANTES, PRODUCTOS QUÍMICOS Y CONEXOS",2.3.7.1,Combustibles y lubricantes,2.3.7.1.99,Otros combustibles
+2,GASTOS,2.3,MATERIALES Y SUMINISTROS,2.3.7,"COMBUSTIBLES, LUBRICANTES, PRODUCTOS QUÍMICOS Y CONEXOS",2.3.7.2,Productos químicos y conexos,2.3.7.2.01,Productos explosivos y pirotecnia
+2,GASTOS,2.3,MATERIALES Y SUMINISTROS,2.3.7,"COMBUSTIBLES, LUBRICANTES, PRODUCTOS QUÍMICOS Y CONEXOS",2.3.7.2,Productos químicos y conexos,2.3.7.2.03,Productos químicos de uso personal y de laboratorios
+2,GASTOS,2.3,MATERIALES Y SUMINISTROS,2.3.7,"COMBUSTIBLES, LUBRICANTES, PRODUCTOS QUÍMICOS Y CONEXOS",2.3.7.2,Productos químicos y conexos,2.3.7.2.07,Productos químicos para saneamiento de las aguas
+2,GASTOS,2.3,MATERIALES Y SUMINISTROS,2.3.7,"COMBUSTIBLES, LUBRICANTES, PRODUCTOS QUÍMICOS Y CONEXOS",2.3.7.2,Productos químicos y conexos,2.3.7.2.99,Otros productos químicos y conexos
+2,GASTOS,2.3,MATERIALES Y SUMINISTROS,2.3.8,GASTOS QUE SE ASIGNARÁN DURANTE EL EJERCICIO (ART. 32 Y 33 LEY 423-06),2.3.8.1,5 % que se asignará durante el ejercicio para gastos corrientes,2.3.8.1.01,Del 5% a ser asignados durante el ejercicio para gastos corrientes
+2,GASTOS,2.3,MATERIALES Y SUMINISTROS,2.3.8,GASTOS QUE SE ASIGNARÁN DURANTE EL EJERCICIO (ART. 32 Y 33 LEY 423-06),2.3.8.2,1 % que se asignará durante el ejercicio para gastos corrientes por calamidad pública,2.3.8.2.01,Del 1% a ser asignados durante el ej. para gastos corrientes por calamidad pública
+2,GASTOS,2.3,MATERIALES Y SUMINISTROS,2.3.9,PRODUCTOS Y ÚTILES VARIOS,2.3.9.1,Útiles y materiales de limpieza e higiene,2.3.9.1.01,Útiles y materiales de limpieza e higiene
+2,GASTOS,2.3,MATERIALES Y SUMINISTROS,2.3.9,PRODUCTOS Y ÚTILES VARIOS,2.3.9.2,"Útiles  y materiales de escritorio, oficina, informática, escolares y de enseñanza",2.3.9.2.02,Útiles y materiales  escolares y de enseñanzas
+2,GASTOS,2.3,MATERIALES Y SUMINISTROS,2.3.9,PRODUCTOS Y ÚTILES VARIOS,2.3.9.7,Productos y útiles veterinarios,2.3.9.7.01,Productos y útiles veterinarios
+2,GASTOS,2.3,MATERIALES Y SUMINISTROS,2.3.9,PRODUCTOS Y ÚTILES VARIOS,2.3.9.8,Repuestos y accesorios menores,2.3.9.8.02,Accesorios
+2,GASTOS,2.3,MATERIALES Y SUMINISTROS,2.3.9,PRODUCTOS Y ÚTILES VARIOS,2.3.9.9,Productos y útiles varios no identificados precedentemente (n.i.p.),2.3.9.9.01,Productos y Utiles Varios  n.i.p
+2,GASTOS,2.3,MATERIALES Y SUMINISTROS,2.3.9,PRODUCTOS Y ÚTILES VARIOS,2.3.9.9,Productos y útiles varios no identificados precedentemente (n.i.p.),2.3.9.9.02,Bonos para útiles diversos
+2,GASTOS,2.3,MATERIALES Y SUMINISTROS,2.3.9,PRODUCTOS Y ÚTILES VARIOS,2.3.9.9,Productos y útiles varios no identificados precedentemente (n.i.p.),2.3.9.9.04,Productos y útiles de defensa y seguridad
+2,GASTOS,2.4,TRANSFERENCIAS CORRIENTES,2.4.1,TRANSFERENCIAS CORRIENTES AL SECTOR PRIVADO,2.4.1.6,Transferencias corrientes a asociaciones sin fines de lucro y partidos políticos,2.4.1.6.06,Transferencias corrientes a federaciones deportivas
+2,GASTOS,2.4,TRANSFERENCIAS CORRIENTES,2.4.2,TRANSFERENCIAS CORRIENTES AL  GOBIERNO GENERAL NACIONAL,2.4.2.2,Transferencias corrientes a instituciones descentralizadas y autónomas no financieras,2.4.2.2.01,Transferencias corrientes a instituciones descentralizadas y autónomas no financieras para servicios personales
+2,GASTOS,2.4,TRANSFERENCIAS CORRIENTES,2.4.2,TRANSFERENCIAS CORRIENTES AL  GOBIERNO GENERAL NACIONAL,2.4.2.2,Transferencias corrientes a instituciones descentralizadas y autónomas no financieras,2.4.2.2.02,Otras transferencias corrientes a instituciones descentralizadas y autónomas no financieras
+2,GASTOS,2.4,TRANSFERENCIAS CORRIENTES,2.4.3,TRANSFERENCIAS CORRIENTES A GOBIERNOS GENERALES LOCALES,2.4.3.1,Transferencias corrientes a gobiernos centrales municipales,2.4.3.1.02,Otras transferencias corrientes a gobiernos centrales municipales
+2,GASTOS,2.4,TRANSFERENCIAS CORRIENTES,2.4.5,TRANSFERENCIAS CORRIENTES A INSTITUCIONES PÚBLICAS FINANCIERAS,2.4.5.2,Transferencias corrientes a instituciones públicas financieras monetarias,2.4.5.2.02,Otras transferencias corrientes a instituciones públicas financieras monetarias
+2,GASTOS,2.4,TRANSFERENCIAS CORRIENTES,2.4.9,TRANSFERENCIAS CORRIENTES A OTRAS INSTITUCIONES PÚBLICAS,2.4.9.1,Transferencias corrientes destinadas a otras instituciones públicas[1],2.4.9.1.01,Transferencias corrientes destinadas a otras instituciones públicas
+2,GASTOS,2.4,TRANSFERENCIAS CORRIENTES,2.4.9,TRANSFERENCIAS CORRIENTES A OTRAS INSTITUCIONES PÚBLICAS,2.4.9.1,Transferencias corrientes destinadas a otras instituciones públicas[1],2.4.9.1.03,Transferencias corrientes a otras instituciones públicas destinadas a gastos en bienes y servicios
+2,GASTOS,2.4,TRANSFERENCIAS CORRIENTES,2.4.9,TRANSFERENCIAS CORRIENTES A OTRAS INSTITUCIONES PÚBLICAS,2.4.9.2,Sueldo en las transferencias a otras instituciones públicas,2.4.9.2.01,Sueldo en las transferencias a otras instituciones públicas
+2,GASTOS,2.5,TRANSFERENCIAS DE CAPITAL,2.5.1,TRANSFERENCIAS DE CAPITAL AL SECTOR PRIVADO,2.5.1.2,Transferencias de capital a asociaciones  privadas sin fines de lucro,2.5.1.2.01,Transferencias de capital  a Asociaciones  Privadas sin Fines de Lucro
+2,GASTOS,2.5,TRANSFERENCIAS DE CAPITAL,2.5.2,TRANSFERENCIAS DE CAPITAL AL GOBIERNO GENERAL  NACIONAL,2.5.2.2,Transferencias de capital a las instituciones descentralizadas y autónomas no financieras,2.5.2.2.01,Transferencias de capital a instituciones descentralizadas y autónomas no financieras para proyectos de inversión
+2,GASTOS,2.5,TRANSFERENCIAS DE CAPITAL,2.5.2,TRANSFERENCIAS DE CAPITAL AL GOBIERNO GENERAL  NACIONAL,2.5.2.2,Transferencias de capital a las instituciones descentralizadas y autónomas no financieras,2.5.2.2.02,Otras transferencias de capital a instituciones descentralizadas y autónomas no financieras
+2,GASTOS,2.5,TRANSFERENCIAS DE CAPITAL,2.5.3,TRANSFERENCIAS DE CAPITAL A GOBIERNOS GENERALES LOCALES,2.5.3.1,Transferencias de capital a gobiernos centrales municipales,2.5.3.1.01,Transferencias de capital a gobiernos centrales municipales para proyectos de inversión
+2,GASTOS,2.5,TRANSFERENCIAS DE CAPITAL,2.5.3,TRANSFERENCIAS DE CAPITAL A GOBIERNOS GENERALES LOCALES,2.5.3.1,Transferencias de capital a gobiernos centrales municipales,2.5.3.1.02,Otras transferencias de capital a gobiernos centrales municipales
+2,GASTOS,2.5,TRANSFERENCIAS DE CAPITAL,2.5.4,TRANSFERENCIAS DE CAPITAL A SOCIEDADES PÚBLICAS NO FINANCIERAS,2.5.4.1,Transferencias de capital a empresas públicas no financieras nacionales,2.5.4.1.01,Transferencias de capital a empresas públicas no financieras nacionales para proyectos de inversión
+2,GASTOS,2.5,TRANSFERENCIAS DE CAPITAL,2.5.9,TRANSFERENCIAS DE CAPITAL A OTRAS INSTITUCIONES PÚBLICAS,2.5.9.1,Transferencias de capital a otras instituciones públicas,2.5.9.1.01,Transferencias de Capital destinada a otras Instituciones Públicas
+2,GASTOS,2.6,"BIENES MUEBLES, INMUEBLES E INTANGIBLES",2.6.1,MOBILIARIO Y EQUIPO,2.6.1.2,Muebles de alojamiento,2.6.1.2.01,Muebles de alojamiento
+2,GASTOS,2.6,"BIENES MUEBLES, INMUEBLES E INTANGIBLES",2.6.3,"EQUIPO E INSTRUMENTAL, CIENTÍFICO Y LABORATORIO",2.6.3.2,Instrumental médico y de laboratorio,2.6.3.2.01,Instrumental médico y de laboratorio
+2,GASTOS,2.6,"BIENES MUEBLES, INMUEBLES E INTANGIBLES",2.6.3,"EQUIPO E INSTRUMENTAL, CIENTÍFICO Y LABORATORIO",2.6.3.4,EQUIPO E INSTRUMENTOS DE MEDICIÓN CIENTÍFICA,2.6.3.4.01,Equipos e instrumentos de medición científica
+2,GASTOS,2.6,"BIENES MUEBLES, INMUEBLES E INTANGIBLES",2.6.4,"VEHÍCULOS Y EQUIPO DE TRANSPORTE, TRACCIÓN Y ELEVACIÓN",2.6.4.3,Equipo aeronáutico,2.6.4.3.01,Equipo aeronáutico
+2,GASTOS,2.6,"BIENES MUEBLES, INMUEBLES E INTANGIBLES",2.6.4,"VEHÍCULOS Y EQUIPO DE TRANSPORTE, TRACCIÓN Y ELEVACIÓN",2.6.4.7,Equipo de elevación,2.6.4.7.01,Equipo de elevación
+2,GASTOS,2.6,"BIENES MUEBLES, INMUEBLES E INTANGIBLES",2.6.5,"MAQUINARIA, OTROS EQUIPOS Y HERRAMIENTAS",2.6.5.1,Maquinaria y equipo agropecuario,2.6.5.1.01,Maquinaria y equipo agropecuario
+2,GASTOS,2.6,"BIENES MUEBLES, INMUEBLES E INTANGIBLES",2.6.5,"MAQUINARIA, OTROS EQUIPOS Y HERRAMIENTAS",2.6.5.2,Maquinaria y equipo industrial,2.6.5.2.01,Maquinaria y equipo industrial
+2,GASTOS,2.6,"BIENES MUEBLES, INMUEBLES E INTANGIBLES",2.6.5,"MAQUINARIA, OTROS EQUIPOS Y HERRAMIENTAS",2.6.5.2,Maquinaria y equipo industrial,2.6.5.2.02,Maquinaria y equipos para el tratamiento y suministro de agua
+2,GASTOS,2.6,"BIENES MUEBLES, INMUEBLES E INTANGIBLES",2.6.5,"MAQUINARIA, OTROS EQUIPOS Y HERRAMIENTAS",2.6.5.4,Sistemas y equipos de climatización,2.6.5.4.02,Equipos de climatización
+2,GASTOS,2.6,"BIENES MUEBLES, INMUEBLES E INTANGIBLES",2.6.6,EQUIPOS DE DEFENSA Y SEGURIDAD,2.6.6.2,Equipos de seguridad,2.6.6.2.01,Equipos de seguridad
+2,GASTOS,2.6,"BIENES MUEBLES, INMUEBLES E INTANGIBLES",2.6.9,"EDIFICIOS, ESTRUCTURAS, TIERRAS, TERRENOS Y OBJETOS DE VALOR",2.6.9.5,Objetos de valor,2.6.9.5.01,Metales y piedras preciosas
+2,GASTOS,2.6,"BIENES MUEBLES, INMUEBLES E INTANGIBLES",2.6.9,"EDIFICIOS, ESTRUCTURAS, TIERRAS, TERRENOS Y OBJETOS DE VALOR",2.6.9.5,Objetos de valor,2.6.9.5.02,"Antigüedades, bienes artísticos y otros objetos de arte"
+2,GASTOS,2.6,"BIENES MUEBLES, INMUEBLES E INTANGIBLES",2.6.9,"EDIFICIOS, ESTRUCTURAS, TIERRAS, TERRENOS Y OBJETOS DE VALOR",2.6.9.6,Accesorios para edificaciones residenciales y no residenciales,2.6.9.6.01,Accesorios para edificaciones residenciales y no residenciales
+2,GASTOS,2.7,OBRAS,2.7.4,GASTOS QUE SE ASIGNARÁN DURANTE EL EJERCICIO PARA INVERSIÓN (ART. 32 Y 33 LEY 423-06),2.7.4.1,5 % que se asignará durante el ejercicio para inversión,2.7.4.1.01,Del 5% a ser asignados durante el ejercicio para inversión
+2,GASTOS,2.7,OBRAS,2.7.4,GASTOS QUE SE ASIGNARÁN DURANTE EL EJERCICIO PARA INVERSIÓN (ART. 32 Y 33 LEY 423-06),2.7.4.2,1 % que se asignará durante el ejercicio para inversión por calamidad pública,2.7.4.2.01,Del 1% a ser asignados durante el ejercicio para inversión por calamidad pública
+2,GASTOS,2.9,GASTOS FINANCIEROS,2.9.5,"GASTOS DE INTERESES, RECARGOS MULTAS Y SANCIONES DE IMPUESTOS Y CONTRIBUCIONES SOCIALES",2.9.5.2,"Gastos de intereses, recargos, multas y sanciones contribuciones sociales",2.9.5.2.02,"Gastos de recargos, multas y sanciones de las contribuciones sociales"
+2,GASTOS,2.1,REMUNERACIONES Y CONTRIBUCIONES,2.1.1,REMUNERACIONES,2.1.1.2,Remuneraciones al personal de carácter temporal,2.1.1.2.11,Interinato
+2,GASTOS,2.2,CONTRATACIÓN DE SERVICIOS,2.2.2,"PUBLICIDAD, IMPRESIÓN Y ENCUADERNACIÓN",2.2.2.1,Publicidad y propaganda,2.2.2.1.03,Publicaciones de avisos oficiales
+2,GASTOS,2.6,"BIENES MUEBLES, INMUEBLES E INTANGIBLES",2.6.2,"MOBILIARIO Y EQUIPO DE AUDIO, AUDIOVISUAL, RECREATIVO Y EDUCACIONAL",2.6.2.2,Aparatos deportivos,2.6.2.2.01,Aparatos deportivos
+2,GASTOS,2.6,"BIENES MUEBLES, INMUEBLES E INTANGIBLES",2.6.9,"EDIFICIOS, ESTRUCTURAS, TIERRAS, TERRENOS Y OBJETOS DE VALOR",2.6.9.4,Tierras rurales,2.6.9.4.02,Tierras rurales con mejoras
+2,GASTOS,2.7,OBRAS,2.7.1,OBRAS EN EDIFICACIONES,2.7.1.1,Obras para edificación residencial (viviendas),2.7.1.1.01,Obras para edificación residencial (viviendas)
+2,GASTOS,2.7,OBRAS,2.7.1,OBRAS EN EDIFICACIONES,2.7.1.4,Mejoras de tierras y terrenos,2.7.1.4.01,Mejoras de tierras y terrenos
+2,GASTOS,2.7,OBRAS,2.7.1,OBRAS EN EDIFICACIONES,2.7.1.5,Supervisión e inspección de obras en edificaciones,2.7.1.5.01,Supervisión e inspección de obras en edificaciones
+2,GASTOS,2.7,OBRAS,2.7.2,INFRAESTRUCTURA,2.7.2.1,Obras hidráulicas y sanitarias,2.7.2.1.01,Obras hidraúlicas y sanitarias
+2,GASTOS,2.7,OBRAS,2.7.2,INFRAESTRUCTURA,2.7.2.4,Infraestructura terrestre y obras anexas,2.7.2.4.01,Infraestructura terrestre y obras anexas
+2,GASTOS,2.7,OBRAS,2.7.2,INFRAESTRUCTURA,2.7.2.4,Infraestructura terrestre y obras anexas,2.7.2.4.02,Supervisión de infraestructura terrestre y obras anexas
+2,GASTOS,2.7,OBRAS,2.7.2,INFRAESTRUCTURA,2.7.2.5,Infraestructura marítima y aérea,2.7.2.5.01,Infraestructura marítima y aérea
+2,GASTOS,2.7,OBRAS,2.7.2,INFRAESTRUCTURA,2.7.2.7,Obras urbanísticas,2.7.2.7.01,Obras urbanísticas
+2,GASTOS,2.2,CONTRATACIÓN DE SERVICIOS,2.2.5,ALQUILERES Y RENTAS,2.2.5.1,Alquileres y rentas de edificaciones y locales,2.2.5.1.02,Hospedaje
+2,GASTOS,2.2,CONTRATACIÓN DE SERVICIOS,2.2.6,SEGUROS,2.2.6.9,Otros seguros,2.2.6.9.01,Otros seguros
+2,GASTOS,2.1,REMUNERACIONES Y CONTRIBUCIONES,2.1.1,REMUNERACIONES,2.1.1.2,Remuneraciones al personal de carácter temporal,2.1.1.2.04,Personal de servicios especiales
+2,GASTOS,2.2,CONTRATACIÓN DE SERVICIOS,2.2.8,OTROS SERVICIOS NO INCLUIDOS EN CONCEPTOS ANTERIORES,2.2.8.6,"Servicio de organización de eventos, festividades y actividades de entretenimiento",2.2.8.6.03,Actuaciones deportivas
+2,GASTOS,2.2,CONTRATACIÓN DE SERVICIOS,2.2.2,"PUBLICIDAD, IMPRESIÓN Y ENCUADERNACIÓN",2.2.2.1,Publicidad y propaganda,2.2.2.1.02,Promoción y patrocinio
+2,GASTOS,2.1,REMUNERACIONES Y CONTRIBUCIONES,2.1.1,REMUNERACIONES,2.1.1.2,Remuneraciones al personal de carácter temporal,2.1.1.2.05,Periodo probatorio de ingreso a carrera
+2,GASTOS,2.1,REMUNERACIONES Y CONTRIBUCIONES,2.1.2,SOBRESUELDOS,2.1.2.2,Compensación,2.1.2.2.01,Compensación por gastos de alimentación
+2,GASTOS,2.2,CONTRATACIÓN DE SERVICIOS,2.2.4,TRANSPORTE Y ALMACENAJE,2.2.4.3,Almacenaje,2.2.4.3.01,Almacenaje
+2,GASTOS,2.2,CONTRATACIÓN DE SERVICIOS,2.2.8,OTROS SERVICIOS NO INCLUIDOS EN CONCEPTOS ANTERIORES,2.2.8.8,"Impuestos, derechos y tasas",2.2.8.8.02,Derechos
+2,GASTOS,2.3,MATERIALES Y SUMINISTROS,2.3.3,"PAPEL, CARTÓN E IMPRESOS",2.3.3.6,Especies timbradas y valoradas,2.3.3.6.01,Especies timbrados y valoradas
+2,GASTOS,2.3,MATERIALES Y SUMINISTROS,2.3.6,"PRODUCTOS DE MINERALES, METÁLICOS Y NO METÁLICOS",2.3.6.3,Productos metálicos y sus derivados,2.3.6.3.05,Productos de hojalata
+2,GASTOS,2.1,REMUNERACIONES Y CONTRIBUCIONES,2.1.1,REMUNERACIONES,2.1.1.2,Remuneraciones al personal de carácter temporal,2.1.1.2.03,Suplencias
+2,GASTOS,2.2,CONTRATACIÓN DE SERVICIOS,2.2.5,ALQUILERES Y RENTAS,2.2.5.5,Alquiler de tierras,2.2.5.5.01,Alquiler de tierras
+2,GASTOS,2.2,CONTRATACIÓN DE SERVICIOS,2.2.7,"SERVICIOS DE CONSERVACIÓN, REPARACIONES MENORES E INSTALACIONES TEMPORALES",2.2.7.1,Contratación de mantenimiento y reparaciones menores,2.2.7.1.03,"Limpieza, desmalezamiento de tierras y terrenos"
+2,GASTOS,2.6,"BIENES MUEBLES, INMUEBLES E INTANGIBLES",2.6.4,"VEHÍCULOS Y EQUIPO DE TRANSPORTE, TRACCIÓN Y ELEVACIÓN",2.6.4.2,Carrocerías y remolques,2.6.4.2.01,Carrocerías y remolques
+2,GASTOS,2.6,"BIENES MUEBLES, INMUEBLES E INTANGIBLES",2.6.5,"MAQUINARIA, OTROS EQUIPOS Y HERRAMIENTAS",2.6.5.3,Maquinaria y equipo de construcción,2.6.5.3.01,Maquinaria y equipo de construcción
+2,GASTOS,2.6,"BIENES MUEBLES, INMUEBLES E INTANGIBLES",2.6.9,"EDIFICIOS, ESTRUCTURAS, TIERRAS, TERRENOS Y OBJETOS DE VALOR",2.6.9.9,Otras estructuras y objetos de valor,2.6.9.9.01,Otras estructuras y objetos de valor
+2,GASTOS,2.7,OBRAS,2.7.1,OBRAS EN EDIFICACIONES,2.7.1.3,Obras para edificación de otras estructuras,2.7.1.3.01,Obras para edificación de otras estructuras
+2,GASTOS,2.1,REMUNERACIONES Y CONTRIBUCIONES,2.1.2,SOBRESUELDOS,2.1.2.2,Compensación,2.1.2.2.14,Compensación especial al personal militar
+2,GASTOS,2.2,CONTRATACIÓN DE SERVICIOS,2.2.1,SERVICIOS BÁSICOS,2.2.1.6,Electricidad,2.2.1.6.02,Electricidad no cortable
+2,GASTOS,2.3,MATERIALES Y SUMINISTROS,2.3.1,ALIMENTOS Y PRODUCTOS AGROFORESTALES,2.3.1.2,Alimentos para animales,2.3.1.2.01,Alimentos para animales
+2,GASTOS,2.3,MATERIALES Y SUMINISTROS,2.3.4,PRODUCTOS FARMACÉUTICOS,2.3.4.2,Productos medicinales para uso veterinario,2.3.4.2.01,Productos medicinales para uso veterinario
+2,GASTOS,2.4,TRANSFERENCIAS CORRIENTES,2.4.4,TRANSFERENCIAS CORRIENTES A SOCIEDADES PÚBLICAS NO FINANCIERAS,2.4.4.1,Transferencias corrientes a empresas públicas no financieras nacionales,2.4.4.1.02,Otras transferencias corrientes a empresas públicas no financieras nacionales
+2,GASTOS,2.6,"BIENES MUEBLES, INMUEBLES E INTANGIBLES",2.6.9,"EDIFICIOS, ESTRUCTURAS, TIERRAS, TERRENOS Y OBJETOS DE VALOR",2.6.9.3,Terrenos urbanos,2.6.9.3.02,Terrenos urbanos con mejoras
+2,GASTOS,2.2,CONTRATACIÓN DE SERVICIOS,2.2.1,SERVICIOS BÁSICOS,2.2.1.1,Radiocomunicación,2.2.1.1.01,Radiocomunicación
+2,GASTOS,2.2,CONTRATACIÓN DE SERVICIOS,2.2.5,ALQUILERES Y RENTAS,2.2.5.3,Alquileres de  equipos,2.2.5.3.05,"Alquiler de equipos médicos, sanitarios y de laboratorios"
+2,GASTOS,2.3,MATERIALES Y SUMINISTROS,2.3.6,"PRODUCTOS DE MINERALES, METÁLICOS Y NO METÁLICOS",2.3.6.1,"Productos de cemento, cal, asbesto, yeso y arcilla",2.3.6.1.03,Productos de asbestos
+2,GASTOS,2.4,TRANSFERENCIAS CORRIENTES,2.4.2,TRANSFERENCIAS CORRIENTES AL  GOBIERNO GENERAL NACIONAL,2.4.2.2,Transferencias corrientes a instituciones descentralizadas y autónomas no financieras,2.4.2.2.05,Transferencias corrientes a instituciones descentralizadas y autónomas no financieras para el pago de ASFL programadas
+2,GASTOS,2.6,"BIENES MUEBLES, INMUEBLES E INTANGIBLES",2.6.7,ACTIVOS BIOLÓGICOS,2.6.7.9,"Semillas, cultivos, plantas y árboles  que generan productos  recurrentes",2.6.7.9.01,"Semillas, cultivos, plantas y árboles  que generan productos  recurrentes"
+2,GASTOS,2.2,CONTRATACIÓN DE SERVICIOS,2.2.4,TRANSPORTE Y ALMACENAJE,2.2.4.3,Almacenaje,2.2.4.3.02,Servicios de manejo y embalaje
+2,GASTOS,2.2,CONTRATACIÓN DE SERVICIOS,2.2.7,"SERVICIOS DE CONSERVACIÓN, REPARACIONES MENORES E INSTALACIONES TEMPORALES",2.2.7.1,Contratación de mantenimiento y reparaciones menores,2.2.7.1.05,Mantenimiento y reparación en obras  de dominio público
+2,GASTOS,2.1,REMUNERACIONES Y CONTRIBUCIONES,2.1.2,SOBRESUELDOS,2.1.2.2,Compensación,2.1.2.2.04,Prima de transporte
+2,GASTOS,2.1,REMUNERACIONES Y CONTRIBUCIONES,2.1.4,GRATIFICACIONES Y BONIFICACIONES,2.1.4.2,Otras Gratificaciones y Bonificaciones,2.1.4.2.02,Gratificaciones por pasantías
+2,GASTOS,2.6,"BIENES MUEBLES, INMUEBLES E INTANGIBLES",2.6.9,"EDIFICIOS, ESTRUCTURAS, TIERRAS, TERRENOS Y OBJETOS DE VALOR",2.6.9.2,Edificios no residenciales,2.6.9.2.01,Edificios no residenciales
+2,GASTOS,2.1,REMUNERACIONES Y CONTRIBUCIONES,2.1.2,SOBRESUELDOS,2.1.2.1,Primas por antigüedad,2.1.2.1.01,Primas por antigüedad
+2,GASTOS,2.3,MATERIALES Y SUMINISTROS,2.3.7,"COMBUSTIBLES, LUBRICANTES, PRODUCTOS QUÍMICOS Y CONEXOS",2.3.7.1,Combustibles y lubricantes,2.3.7.1.03,Keroseno
+2,GASTOS,2.4,TRANSFERENCIAS CORRIENTES,2.4.1,TRANSFERENCIAS CORRIENTES AL SECTOR PRIVADO,2.4.1.6,Transferencias corrientes a asociaciones sin fines de lucro y partidos políticos,2.4.1.6.01,Transferencias corrientes programadas a asociaciones sin fines de lucro
+2,GASTOS,2.4,TRANSFERENCIAS CORRIENTES,2.4.1,TRANSFERENCIAS CORRIENTES AL SECTOR PRIVADO,2.4.1.6,Transferencias corrientes a asociaciones sin fines de lucro y partidos políticos,2.4.1.6.07,Transferencias corrientes por acuerdos de gestión a asociaciones sin fines de lucro
+2,GASTOS,2.6,"BIENES MUEBLES, INMUEBLES E INTANGIBLES",2.6.8,BIENES INTANGIBLES,2.6.8.6,Marcas y patentes,2.6.8.6.01,Marcas y patentes
+2,GASTOS,2.3,MATERIALES Y SUMINISTROS,2.3.6,"PRODUCTOS DE MINERALES, METÁLICOS Y NO METÁLICOS",2.3.6.4,Minerales,2.3.6.4.05,Productos aislantes
+2,GASTOS,2.2,CONTRATACIÓN DE SERVICIOS,2.2.7,"SERVICIOS DE CONSERVACIÓN, REPARACIONES MENORES E INSTALACIONES TEMPORALES",2.2.7.1,Contratación de mantenimiento y reparaciones menores,2.2.7.1.99,"Otros mantenimientos, reparaciones y sus derivados, no identificados precedentemente."
+2,GASTOS,2.1,REMUNERACIONES Y CONTRIBUCIONES,2.1.1,REMUNERACIONES,2.1.1.5,Prestaciones económicas,2.1.1.5.02,Pago de porcentaje por desvinculación de cargo
+2,GASTOS,2.4,TRANSFERENCIAS CORRIENTES,2.4.1,TRANSFERENCIAS CORRIENTES AL SECTOR PRIVADO,2.4.1.3,"Premios literarios, deportivos y culturales",2.4.1.3.01,"Premios literarios, deportivos y culturales"
+2,GASTOS,2.6,"BIENES MUEBLES, INMUEBLES E INTANGIBLES",2.6.8,BIENES INTANGIBLES,2.6.8.9,Otros activos intangibles,2.6.8.9.01,Otros activos intangibles
+2,GASTOS,2.4,TRANSFERENCIAS CORRIENTES,2.4.1,TRANSFERENCIAS CORRIENTES AL SECTOR PRIVADO,2.4.1.5,Transferencias corrientes a empresas del sector privado,2.4.1.5.01,Transferencias corrientes a Empresas del Sector Privado
+2,GASTOS,2.4,TRANSFERENCIAS CORRIENTES,2.4.4,TRANSFERENCIAS CORRIENTES A SOCIEDADES PÚBLICAS NO FINANCIERAS,2.4.4.1,Transferencias corrientes a empresas públicas no financieras nacionales,2.4.4.1.06,Transferencias corrientes a empresas públicas no financieras nacionales para fideicomiso
+2,GASTOS,2.4,TRANSFERENCIAS CORRIENTES,2.4.9,TRANSFERENCIAS CORRIENTES A OTRAS INSTITUCIONES PÚBLICAS,2.4.9.3,Gasto en las transferencias a otras instituciones públicas,2.4.9.3.01,Gasto en las transferencias a otras instituciones públicas
+2,GASTOS,2.5,TRANSFERENCIAS DE CAPITAL,2.5.4,TRANSFERENCIAS DE CAPITAL A SOCIEDADES PÚBLICAS NO FINANCIERAS,2.5.4.1,Transferencias de capital a empresas públicas no financieras nacionales,2.5.4.1.03,Transferencias de capital a empresas públicas no financieras nacionales para fideicomiso
+2,GASTOS,2.2,CONTRATACIÓN DE SERVICIOS,2.2.8,OTROS SERVICIOS NO INCLUIDOS EN CONCEPTOS ANTERIORES,2.2.8.1,Gastos y representación judiciales,2.2.8.1.02,Gastos por sentencias condenatorias
+2,GASTOS,2.2,CONTRATACIÓN DE SERVICIOS,2.2.8,OTROS SERVICIOS NO INCLUIDOS EN CONCEPTOS ANTERIORES,2.2.8.9,Otros gastos operativos,2.2.8.9.04,Otros gastos por indemnizaciones y compensaciones
+2,GASTOS,2.7,OBRAS,2.7.2,INFRAESTRUCTURA,2.7.2.6,Infraestructura y plantaciones agrícolas,2.7.2.6.01,Infraestructura y plantaciones agrícolas
+2,GASTOS,2.2,CONTRATACIÓN DE SERVICIOS,2.2.3,VIÁTICOS,2.2.3.2,Viáticos fuera del país,2.2.3.2.02,Viáticos a personas con labor diplomática y consular
+2,GASTOS,2.2,CONTRATACIÓN DE SERVICIOS,2.2.6,SEGUROS,2.2.6.6,Seguro sobre bienes de dominio público,2.2.6.6.01,Seguro sobre bienes de dominio público
+2,GASTOS,2.2,CONTRATACIÓN DE SERVICIOS,2.2.6,SEGUROS,2.2.6.7,Seguro sobre bienes históricos y culturales,2.2.6.7.01,Seguro sobre bienes históricos y culturales
+2,GASTOS,2.2,CONTRATACIÓN DE SERVICIOS,2.2.8,OTROS SERVICIOS NO INCLUIDOS EN CONCEPTOS ANTERIORES,2.2.8.9,Otros gastos operativos,2.2.8.9.05,Otros gastos operativos de instituciones empresariales
+2,GASTOS,2.2,CONTRATACIÓN DE SERVICIOS,2.2.9,OTRAS CONTRATACIONES DE SERVICIOS,2.2.9.1,Otras contrataciones de servicios,2.2.9.1.02,Servicios de grabación y transmisión de jornadas académicas
+2,GASTOS,2.2,CONTRATACIÓN DE SERVICIOS,2.2.9,OTRAS CONTRATACIONES DE SERVICIOS,2.2.9.2,Servicios de alimentación,2.2.9.2.02,Servicios de alimentación escolar
+2,GASTOS,2.4,TRANSFERENCIAS CORRIENTES,2.4.2,TRANSFERENCIAS CORRIENTES AL  GOBIERNO GENERAL NACIONAL,2.4.2.3,Transferencias corrientes a instituciones públicas de la seguridad social,2.4.2.3.02,Otras transferencias corrientes a instituciones públicas de la seguridad social
+2,GASTOS,2.4,TRANSFERENCIAS CORRIENTES,2.4.3,TRANSFERENCIAS CORRIENTES A GOBIERNOS GENERALES LOCALES,2.4.3.1,Transferencias corrientes a gobiernos centrales municipales,2.4.3.1.01,Transferencias corrientes a gobiernos centrales municipales para servicios personales
+2,GASTOS,2.1,REMUNERACIONES Y CONTRIBUCIONES,2.1.1,REMUNERACIONES,2.1.1.1,Remuneraciones al personal fijo,2.1.1.1.12,Sueldo fijo por cargo a personal militar y policial
+2,GASTOS,2.1,REMUNERACIONES Y CONTRIBUCIONES,2.1.1,REMUNERACIONES,2.1.1.1,Remuneraciones al personal fijo,2.1.1.1.03,Ascensos a militares
+2,GASTOS,2.1,REMUNERACIONES Y CONTRIBUCIONES,2.1.1,REMUNERACIONES,2.1.1.1,Remuneraciones al personal fijo,2.1.1.1.07,Sueldo fijo por rango
+2,GASTOS,2.1,REMUNERACIONES Y CONTRIBUCIONES,2.1.2,SOBRESUELDOS,2.1.2.2,Compensación,2.1.2.2.13,Incentivo por riesgo laboral al personal militar y policial
+2,GASTOS,2.2,CONTRATACIÓN DE SERVICIOS,2.2.5,ALQUILERES Y RENTAS,2.2.5.7,Alquileres de equipos de construcción y movimiento de tierras,2.2.5.7.01,Alquileres de equipos de construcción y movimiento de tierras
+2,GASTOS,2.6,"BIENES MUEBLES, INMUEBLES E INTANGIBLES",2.6.3,"EQUIPO E INSTRUMENTAL, CIENTÍFICO Y LABORATORIO",2.6.3.3,Equipo veterinario,2.6.3.3.01,Equipo veterinario
+2,GASTOS,2.3,MATERIALES Y SUMINISTROS,2.3.6,"PRODUCTOS DE MINERALES, METÁLICOS Y NO METÁLICOS",2.3.6.4,Minerales,2.3.6.4.03,Carbón mineral
+2,GASTOS,2.4,TRANSFERENCIAS CORRIENTES,2.4.1,TRANSFERENCIAS CORRIENTES AL SECTOR PRIVADO,2.4.1.1,Prestaciones a la seguridad social,2.4.1.1.01,Pensiones
+2,GASTOS,2.4,TRANSFERENCIAS CORRIENTES,2.4.1,TRANSFERENCIAS CORRIENTES AL SECTOR PRIVADO,2.4.1.1,Prestaciones a la seguridad social,2.4.1.1.04,Nuevas pensiones
+2,GASTOS,2.4,TRANSFERENCIAS CORRIENTES,2.4.7,TRANSFERENCIAS CORRIENTES AL SECTOR EXTERNO,2.4.7.3,Transferencias corrientes al sector privado externo,2.4.7.3.01,Transferencias corrientes al Sector Privado Externo
+2,GASTOS,2.6,"BIENES MUEBLES, INMUEBLES E INTANGIBLES",2.6.8,BIENES INTANGIBLES,2.6.8.1,Investigación y desarrollo,2.6.8.1.01,Investigación y desarrollo
+2,GASTOS,2.6,"BIENES MUEBLES, INMUEBLES E INTANGIBLES",2.6.7,ACTIVOS BIOLÓGICOS,2.6.7.3,Aves,2.6.7.3.01,Aves
+2,GASTOS,2.6,"BIENES MUEBLES, INMUEBLES E INTANGIBLES",2.6.7,ACTIVOS BIOLÓGICOS,2.6.7.7,Especies menores y de zoológico,2.6.7.7.01,Especies menores y de zoológico
+2,GASTOS,2.3,MATERIALES Y SUMINISTROS,2.3.1,ALIMENTOS Y PRODUCTOS AGROFORESTALES,2.3.1.1,Alimentos y bebidas para personas,2.3.1.1.02,Alimentación escolar
+2,GASTOS,2.1,REMUNERACIONES Y CONTRIBUCIONES,2.1.2,SOBRESUELDOS,2.1.2.2,Compensación,2.1.2.2.11,Compensación servicio diplomático de militar en el exterior
+2,GASTOS,2.1,REMUNERACIONES Y CONTRIBUCIONES,2.1.2,SOBRESUELDOS,2.1.2.2,Compensación,2.1.2.2.17,Compensación por misión diplomática
+2,GASTOS,2.4,TRANSFERENCIAS CORRIENTES,2.4.7,TRANSFERENCIAS CORRIENTES AL SECTOR EXTERNO,2.4.7.1,Transferencias corrientes a gobiernos extranjeros,2.4.7.1.01,Transferencias corrientes a Gobiernos Extranjeros
+2,GASTOS,2.2,CONTRATACIÓN DE SERVICIOS,2.2.6,SEGUROS,2.2.6.8,Seguro sobre inventarios de bienes de consumo,2.2.6.8.01,Seguro sobre inventarios de bienes de consumo
+2,GASTOS,2.6,"BIENES MUEBLES, INMUEBLES E INTANGIBLES",2.6.4,"VEHÍCULOS Y EQUIPO DE TRANSPORTE, TRACCIÓN Y ELEVACIÓN",2.6.4.4,Equipo ferroviario,2.6.4.4.01,Equipo ferroviario
+2,GASTOS,2.3,MATERIALES Y SUMINISTROS,2.3.7,"COMBUSTIBLES, LUBRICANTES, PRODUCTOS QUÍMICOS Y CONEXOS",2.3.7.1,Combustibles y lubricantes,2.3.7.1.07,Gas natural
+2,GASTOS,2.4,TRANSFERENCIAS CORRIENTES,2.4.1,TRANSFERENCIAS CORRIENTES AL SECTOR PRIVADO,2.4.1.2,Ayudas y donaciones a personas,2.4.1.2.04,Subsidio obreros portuarios Ley 199-02
+2,GASTOS,2.4,TRANSFERENCIAS CORRIENTES,2.4.4,TRANSFERENCIAS CORRIENTES A SOCIEDADES PÚBLICAS NO FINANCIERAS,2.4.4.1,Transferencias corrientes a empresas públicas no financieras nacionales,2.4.4.1.01,Transferencias corrientes a empresas públicas no financieras nacionales para servicios personales
+2,GASTOS,2.4,TRANSFERENCIAS CORRIENTES,2.4.5,TRANSFERENCIAS CORRIENTES A INSTITUCIONES PÚBLICAS FINANCIERAS,2.4.5.1,Transferencias corrientes a instituciones públicas financieras no monetarias,2.4.5.1.01,Transferencias corrientes a instituciones públicas financieras no monetarias para servicios personales
+2,GASTOS,2.4,TRANSFERENCIAS CORRIENTES,2.4.5,TRANSFERENCIAS CORRIENTES A INSTITUCIONES PÚBLICAS FINANCIERAS,2.4.5.1,Transferencias corrientes a instituciones públicas financieras no monetarias,2.4.5.1.02,Otras transferencias corrientes a  instituciones públicas financieras no monetarias
+2,GASTOS,2.4,TRANSFERENCIAS CORRIENTES,2.4.5,TRANSFERENCIAS CORRIENTES A INSTITUCIONES PÚBLICAS FINANCIERAS,2.4.5.2,Transferencias corrientes a instituciones públicas financieras monetarias,2.4.5.2.01,Transferencias corrientes a  instituciones públicas financieras monetarias para servicios personales
+2,GASTOS,2.9,GASTOS FINANCIEROS,2.9.5,"GASTOS DE INTERESES, RECARGOS MULTAS Y SANCIONES DE IMPUESTOS Y CONTRIBUCIONES SOCIALES",2.9.5.2,"Gastos de intereses, recargos, multas y sanciones contribuciones sociales",2.9.5.2.01,Gastos de interés indemnizatorio de las contribuciones sociales
+2,GASTOS,2.1,REMUNERACIONES Y CONTRIBUCIONES,2.1.1,REMUNERACIONES,2.1.1.1,Remuneraciones al personal fijo,2.1.1.1.04,Nuevas plazas maestros
+2,GASTOS,2.1,REMUNERACIONES Y CONTRIBUCIONES,2.1.5,CONTRIBUCIONES A LA SEGURIDAD SOCIAL,2.1.5.4,Contribuciones al plan de retiro complementario,2.1.5.4.01,Contribuciones al plan de retiro complementario
+2,GASTOS,2.6,"BIENES MUEBLES, INMUEBLES E INTANGIBLES",2.6.4,"VEHÍCULOS Y EQUIPO DE TRANSPORTE, TRACCIÓN Y ELEVACIÓN",2.6.4.5,Embarcaciones,2.6.4.5.01,Embarcaciones
+2,GASTOS,2.6,"BIENES MUEBLES, INMUEBLES E INTANGIBLES",2.6.9,"EDIFICIOS, ESTRUCTURAS, TIERRAS, TERRENOS Y OBJETOS DE VALOR",2.6.9.1,Edificios residenciales (viviendas),2.6.9.1.02,Adquisición de mejoras para la ejecución de proyecto
+4,Aplicaciones financieras,4.2,Disminución de pasivos,4.2.1,Disminución de pasivos corrientes,4.2.1.1,Disminución de cuentas por pagar de corto plazo,4.2.1.1.05,Disminución de ctas. por pagar internas de corto plazo sentencias condenatorias
+2,GASTOS,2.2,CONTRATACIÓN DE SERVICIOS,2.2.8,OTROS SERVICIOS NO INCLUIDOS EN CONCEPTOS ANTERIORES,2.2.8.2,Comisiones y gastos,2.2.8.2.02,Gastos por cancelación de certificados de inversión
+2,GASTOS,2.4,TRANSFERENCIAS CORRIENTES,2.4.1,TRANSFERENCIAS CORRIENTES AL SECTOR PRIVADO,2.4.1.1,Prestaciones a la seguridad social,2.4.1.1.02,Jubilaciones
+2,GASTOS,2.2,CONTRATACIÓN DE SERVICIOS,2.2.3,VIÁTICOS,2.2.3.3,Otros viáticos,2.2.3.3.01,Otros viáticos
+2,GASTOS,2.4,TRANSFERENCIAS CORRIENTES,2.4.1,TRANSFERENCIAS CORRIENTES AL SECTOR PRIVADO,2.4.1.6,Transferencias corrientes a asociaciones sin fines de lucro y partidos políticos,2.4.1.6.04,"Transferencias para investigación, innovación, fomento y desarrollo"
+2,GASTOS,2.6,"BIENES MUEBLES, INMUEBLES E INTANGIBLES",2.6.9,"EDIFICIOS, ESTRUCTURAS, TIERRAS, TERRENOS Y OBJETOS DE VALOR",2.6.9.2,Edificios no residenciales,2.6.9.2.02,Adquisición de mejoras para la ejecución de proyecto
+2,GASTOS,2.1,REMUNERACIONES Y CONTRIBUCIONES,2.1.1,REMUNERACIONES,2.1.1.1,Remuneraciones al personal fijo,2.1.1.1.08,Sueldos fijos a docentes
+2,GASTOS,2.1,REMUNERACIONES Y CONTRIBUCIONES,2.1.1,REMUNERACIONES,2.1.1.6,Vacaciones,2.1.1.6.01,Vacaciones
+2,GASTOS,2.1,REMUNERACIONES Y CONTRIBUCIONES,2.1.2,SOBRESUELDOS,2.1.2.2,Compensación,2.1.2.2.12,Compensación por cargo al personal policial
+2,GASTOS,2.1,REMUNERACIONES Y CONTRIBUCIONES,2.1.4,GRATIFICACIONES Y BONIFICACIONES,2.1.4.2,Otras Gratificaciones y Bonificaciones,2.1.4.2.03,Gratificaciones por aniversario de institución
+2,GASTOS,2.7,OBRAS,2.7.2,INFRAESTRUCTURA,2.7.2.3,Obras de telecomunicaciones,2.7.2.3.01,Obras de telecomunicaciones
+2,GASTOS,2.2,CONTRATACIÓN DE SERVICIOS,2.2.6,SEGUROS,2.2.6.5,Seguro sobre infraestructura,2.2.6.5.01,Seguro sobre infraestructura
+2,GASTOS,2.3,MATERIALES Y SUMINISTROS,2.3.9,PRODUCTOS Y ÚTILES VARIOS,2.3.9.9,Productos y útiles varios no identificados precedentemente (n.i.p.),2.3.9.9.03,Bonos para asistencia social
+2,GASTOS,2.4,TRANSFERENCIAS CORRIENTES,2.4.2,TRANSFERENCIAS CORRIENTES AL  GOBIERNO GENERAL NACIONAL,2.4.2.2,Transferencias corrientes a instituciones descentralizadas y autónomas no financieras,2.4.2.2.03,Transferencias corrientes a instituciones descentralizadas y autónomas no financieras para pago de electricidad no cortable
+2,GASTOS,2.4,TRANSFERENCIAS CORRIENTES,2.4.2,TRANSFERENCIAS CORRIENTES AL  GOBIERNO GENERAL NACIONAL,2.4.2.3,Transferencias corrientes a instituciones públicas de la seguridad social,2.4.2.3.06,Transferencias corrientes a instituciones públicas para el régimen subsidiado
+2,GASTOS,2.4,TRANSFERENCIAS CORRIENTES,2.4.4,TRANSFERENCIAS CORRIENTES A SOCIEDADES PÚBLICAS NO FINANCIERAS,2.4.4.1,Transferencias corrientes a empresas públicas no financieras nacionales,2.4.4.1.05,Transferencias corrientes a empresas públicas  no financieras para el pago de energía eléctrica
+2,GASTOS,2.5,TRANSFERENCIAS DE CAPITAL,2.5.4,TRANSFERENCIAS DE CAPITAL A SOCIEDADES PÚBLICAS NO FINANCIERAS,2.5.4.1,Transferencias de capital a empresas públicas no financieras nacionales,2.5.4.1.02,Otras transferencias de capital a empresas públicas no financieras nacionales
+2,GASTOS,2.4,TRANSFERENCIAS CORRIENTES,2.4.2,TRANSFERENCIAS CORRIENTES AL  GOBIERNO GENERAL NACIONAL,2.4.2.3,Transferencias corrientes a instituciones públicas de la seguridad social,2.4.2.3.04,Transferencias corrientes a instituciones públicas para el seguro familiar de salud de los pensionados
+2,GASTOS,2.2,CONTRATACIÓN DE SERVICIOS,2.2.6,SEGUROS,2.2.6.4,Seguros de la producción agrícola,2.2.6.4.01,Seguros de la producción agrícola
+2,GASTOS,2.4,TRANSFERENCIAS CORRIENTES,2.4.1,TRANSFERENCIAS CORRIENTES AL SECTOR PRIVADO,2.4.1.2,Ayudas y donaciones a personas,2.4.1.2.06,Ayudas y donaciones a productores
+2,GASTOS,2.4,TRANSFERENCIAS CORRIENTES,2.4.6,SUBVENCIONES,2.4.6.1,Subvenciones a empresas del sector privado,2.4.6.1.01,Subvenciones a empresas del sector privado
+2,GASTOS,2.5,TRANSFERENCIAS DE CAPITAL,2.5.5,TRANSFERENCIAS DE CAPITAL A INSTITUCIONES PÚBLICAS FINANCIERAS,2.5.5.1,Transferencias de capital a instituciones públicas financieras no monetarias,2.5.5.1.02,Otras transferencias de capital a instituciones públicas financieras no monetarias
+2,GASTOS,2.6,"BIENES MUEBLES, INMUEBLES E INTANGIBLES",2.6.7,ACTIVOS BIOLÓGICOS,2.6.7.1,Bovinos,2.6.7.1.01,Bovinos
+2,GASTOS,2.6,"BIENES MUEBLES, INMUEBLES E INTANGIBLES",2.6.7,ACTIVOS BIOLÓGICOS,2.6.7.4,Ovinos y caprinos,2.6.7.4.01,Ovinos y caprinos
+2,GASTOS,2.6,"BIENES MUEBLES, INMUEBLES E INTANGIBLES",2.6.7,ACTIVOS BIOLÓGICOS,2.6.7.5,Peces y acuicultura,2.6.7.5.01,Peces y acuicultura
+4,Aplicaciones financieras,4.1,Incremento de activos financieros,4.1.2,Incremento de activos financieros no corrientes,4.1.2.3,Compra de acciones y participaciones de capital con fines de liquidez,4.1.2.3.02,Compra de acciones y participaciones de capital de instituciones públicas financieras
+2,GASTOS,2.6,"BIENES MUEBLES, INMUEBLES E INTANGIBLES",2.6.7,ACTIVOS BIOLÓGICOS,2.6.7.8,Otros activos biológicos que generan producción recurrente,2.6.7.8.01,Otros activos biológicos que generan producción recurrente
+2,GASTOS,2.5,TRANSFERENCIAS DE CAPITAL,2.5.5,TRANSFERENCIAS DE CAPITAL A INSTITUCIONES PÚBLICAS FINANCIERAS,2.5.5.1,Transferencias de capital a instituciones públicas financieras no monetarias,2.5.5.1.01,Transferencias de capital a instituciones públicas financieras no monetarias  para proyectos de inversión
+2,GASTOS,2.3,MATERIALES Y SUMINISTROS,2.3.6,"PRODUCTOS DE MINERALES, METÁLICOS Y NO METÁLICOS",2.3.6.4,Minerales,2.3.6.4.02,Petróleo crudo
+2,GASTOS,2.4,TRANSFERENCIAS CORRIENTES,2.4.2,TRANSFERENCIAS CORRIENTES AL  GOBIERNO GENERAL NACIONAL,2.4.2.3,Transferencias corrientes a instituciones públicas de la seguridad social,2.4.2.3.01,Transferencias corrientes a instituciones públicas de la seguridad social para servicios personales
+2,GASTOS,2.6,"BIENES MUEBLES, INMUEBLES E INTANGIBLES",2.6.9,"EDIFICIOS, ESTRUCTURAS, TIERRAS, TERRENOS Y OBJETOS DE VALOR",2.6.9.3,Terrenos urbanos,2.6.9.3.03,Terrenos urbanos con edificaciones
+2,GASTOS,2.6,"BIENES MUEBLES, INMUEBLES E INTANGIBLES",2.6.9,"EDIFICIOS, ESTRUCTURAS, TIERRAS, TERRENOS Y OBJETOS DE VALOR",2.6.9.4,Tierras rurales,2.6.9.4.01,Tierras rurales sin mejoras
+2,GASTOS,2.1,REMUNERACIONES Y CONTRIBUCIONES,2.1.2,SOBRESUELDOS,2.1.2.2,Compensación,2.1.2.2.07,Compensación por distancia
+2,GASTOS,2.6,"BIENES MUEBLES, INMUEBLES E INTANGIBLES",2.6.8,BIENES INTANGIBLES,2.6.8.5,Estudios de preinversión,2.6.8.5.01,Estudios de preinversión
+2,GASTOS,2.4,TRANSFERENCIAS CORRIENTES,2.4.9,TRANSFERENCIAS CORRIENTES A OTRAS INSTITUCIONES PÚBLICAS,2.4.9.1,Transferencias corrientes destinadas a otras instituciones públicas[1],2.4.9.1.02,Transferencias corrientes a otras instituciones públicas destinadas a remuneraciones
+2,GASTOS,2.7,OBRAS,2.7.2,INFRAESTRUCTURA,2.7.2.1,Obras hidráulicas y sanitarias,2.7.2.1.02,Supervisión de obras hidráulicas y sanitarias
+2,GASTOS,2.4,TRANSFERENCIAS CORRIENTES,2.4.2,TRANSFERENCIAS CORRIENTES AL  GOBIERNO GENERAL NACIONAL,2.4.2.2,Transferencias corrientes a instituciones descentralizadas y autónomas no financieras,2.4.2.2.04,Transferencias corrientes a instituciones descentralizadas y autónomas no financieras para el pago de energía eléctrica
+2,GASTOS,2.6,"BIENES MUEBLES, INMUEBLES E INTANGIBLES",2.6.8,BIENES INTANGIBLES,2.6.8.2,Exploración y evaluación minera,2.6.8.2.01,Exploración y evaluación minera
+2,GASTOS,2.4,TRANSFERENCIAS CORRIENTES,2.4.1,TRANSFERENCIAS CORRIENTES AL SECTOR PRIVADO,2.4.1.2,Ayudas y donaciones a personas,2.4.1.2.05,Subsidios para viviendas económicas
+2,GASTOS,2.4,TRANSFERENCIAS CORRIENTES,2.4.2,TRANSFERENCIAS CORRIENTES AL  GOBIERNO GENERAL NACIONAL,2.4.2.1,Aportaciones a instituciones del gobierno central,2.4.2.1.02,Aportaciones corrientes al Poder Ejecutivo
+2,GASTOS,2.6,"BIENES MUEBLES, INMUEBLES E INTANGIBLES",2.6.9,"EDIFICIOS, ESTRUCTURAS, TIERRAS, TERRENOS Y OBJETOS DE VALOR",2.6.9.1,Edificios residenciales (viviendas),2.6.9.1.01,Edificios residenciales (viviendas)
+2,GASTOS,2.1,REMUNERACIONES Y CONTRIBUCIONES,2.1.1,REMUNERACIONES,2.1.1.1,Remuneraciones al personal fijo,2.1.1.1.05,Incentivos y escalafón
+2,GASTOS,2.4,TRANSFERENCIAS CORRIENTES,2.4.1,TRANSFERENCIAS CORRIENTES AL SECTOR PRIVADO,2.4.1.6,Transferencias corrientes a asociaciones sin fines de lucro y partidos políticos,2.4.1.6.03,Transferencias corrientes a partidos políticos
+2,GASTOS,2.1,REMUNERACIONES Y CONTRIBUCIONES,2.1.3,DIETAS Y GASTOS DE REPRESENTACIÓN,2.1.3.1,Dietas,2.1.3.1.02,Dietas en el exterior
+2,GASTOS,2.4,TRANSFERENCIAS CORRIENTES,2.4.5,TRANSFERENCIAS CORRIENTES A INSTITUCIONES PÚBLICAS FINANCIERAS,2.4.5.2,Transferencias corrientes a instituciones públicas financieras monetarias,2.4.5.2.03,"Transferencias corrientes a instituciones públicas financieras monetarias, pago de recapitalización"
+2,GASTOS,2.9,GASTOS FINANCIEROS,2.9.1,INTERESES DE LA DEUDA PÚBLICA INTERNA,2.9.1.2,Intereses de la deuda pública interna de largo plazo,2.9.1.2.01,Intereses de la deuda pública interna de largo plazo
+2,GASTOS,2.9,GASTOS FINANCIEROS,2.9.1,INTERESES DE LA DEUDA PÚBLICA INTERNA,2.9.1.2,Intereses de la deuda pública interna de largo plazo,2.9.1.2.02,Intereses de la deuda pública interna de largo plazo para recapitalización Bco. Central
+2,GASTOS,2.9,GASTOS FINANCIEROS,2.9.2,INTERESES DE LA DEUDA PUBLICA EXTERNA,2.9.2.2,Intereses de la deuda pública externa de largo plazo,2.9.2.2.01,Intereses de la deuda pública externa de largo plazo
+2,GASTOS,2.9,GASTOS FINANCIEROS,2.9.4,COMISIONES Y OTROS GASTOS BANCARIOS DE LA DEUDA PÚBLICA,2.9.4.1,Comisiones y otros gastos bancarios de la deuda pública interna,2.9.4.1.01,Comisiones y otros gastos bancarios de la deuda pública interna
+2,GASTOS,2.9,GASTOS FINANCIEROS,2.9.4,COMISIONES Y OTROS GASTOS BANCARIOS DE LA DEUDA PÚBLICA,2.9.4.2,Comisiones y otros gastos bancarios de la deuda pública externa,2.9.4.2.01,Comisiones y otros gastos bancarios de la deuda pública externa
+4,Aplicaciones financieras,4.1,Incremento de activos financieros,4.1.2,Incremento de activos financieros no corrientes,4.1.2.3,Compra de acciones y participaciones de capital con fines de liquidez,4.1.2.3.05,Compra de acciones y participaciones de capital de organismos e instituciones internacionales
+4,Aplicaciones financieras,4.2,Disminución de pasivos,4.2.1,Disminución de pasivos corrientes,4.2.1.5,Amortización de la porción de corto plazo de la deuda pública en títulos valores de largo plazo,4.2.1.5.01,Amortización de la porción de corto plazo de la deuda pública interna en títulos valores de largo plazo
+4,Aplicaciones financieras,4.2,Disminución de pasivos,4.2.1,Disminución de pasivos corrientes,4.2.1.5,Amortización de la porción de corto plazo de la deuda pública en títulos valores de largo plazo,4.2.1.5.02,Amortización de la porción de corto plazo de la deuda pública externa en títulos valores de largo plazo
+4,Aplicaciones financieras,4.2,Disminución de pasivos,4.2.1,Disminución de pasivos corrientes,4.2.1.6,Amortización de la porción de corto plazo de la deuda pública en préstamos de largo plazo,4.2.1.6.01,Amortización de la porción de corto plazo de la deuda pública interna en préstamos de largo plazo
+4,Aplicaciones financieras,4.2,Disminución de pasivos,4.2.1,Disminución de pasivos corrientes,4.2.1.6,Amortización de la porción de corto plazo de la deuda pública en préstamos de largo plazo,4.2.1.6.02,Amortización de la porción de corto plazo de la deuda pública externa en préstamos de  largo plazo
+4,Aplicaciones financieras,4.5,Importes a devengar por descuentos en colocaciones de títulos valores,4.5.2,Descuentos por colocación de títulos valores internos y externo de largo plazo,4.5.2.1,Descuentos por colocación de títulos valores internos y externos de largo plazo bajo la par,4.5.2.1.02,Descuentos por colocación de títulos valores externos de largo plazo bajo la par a devengar
+4,Aplicaciones financieras,4.5,Importes a devengar por descuentos en colocaciones de títulos valores,4.5.4,Intereses corridos internos y externos en compra de títulos valores de largo plazo,4.5.4.1,Intereses corridos en compra de títulos internos y externos de deuda a largo plazo,4.5.4.1.01,Intereses corridos en compra de títulos internos de deuda a largo plazo
+4,Aplicaciones financieras,4.5,Importes a devengar por descuentos en colocaciones de títulos valores,4.5.4,Intereses corridos internos y externos en compra de títulos valores de largo plazo,4.5.4.1,Intereses corridos en compra de títulos internos y externos de deuda a largo plazo,4.5.4.1.02,Intereses corridos en compra de títulos externos de deuda a largo plazo
+4,Aplicaciones financieras,4.6,Primas  en Recompra de Títulos y Valores,4.6.2,Primas en Recompra de Títulos Valores de Largo Plazo,4.6.2.1,Primas en Recompra de Títulos Valores Internos y Externos de Largo Plazo,4.6.2.1.01,Primas en Recompra de Títulos Valores Internos de Largo Plazo
+4,Aplicaciones financieras,4.6,Primas  en Recompra de Títulos y Valores,4.6.2,Primas en Recompra de Títulos Valores de Largo Plazo,4.6.2.1,Primas en Recompra de Títulos Valores Internos y Externos de Largo Plazo,4.6.2.1.02,Primas en Recompra de Títulos Valores Externos de Largo Plazo
+2,GASTOS,2.4,TRANSFERENCIAS CORRIENTES,2.4.1,TRANSFERENCIAS CORRIENTES AL SECTOR PRIVADO,2.4.1.1,Prestaciones a la seguridad social,2.4.1.1.05,Pensiones a personal policial
+2,GASTOS,2.4,TRANSFERENCIAS CORRIENTES,2.4.1,TRANSFERENCIAS CORRIENTES AL SECTOR PRIVADO,2.4.1.1,Prestaciones a la seguridad social,2.4.1.1.07,Pensiones Solidarias del Régimen Subsidiado
+4,Aplicaciones financieras,4.2,Disminución de pasivos,4.2.1,Disminución de pasivos corrientes,4.2.1.1,Disminución de cuentas por pagar de corto plazo,4.2.1.1.03,Disminución de ctas. por pagar internas de corto plazo deuda administrativa
+2,GASTOS,2.5,TRANSFERENCIAS DE CAPITAL,2.5.9,TRANSFERENCIAS DE CAPITAL A OTRAS INSTITUCIONES PÚBLICAS,2.5.9.3,Transferencia de capital para inversión en proyectos,2.5.9.3.01,Transferencia de Capital para Inversión en proyectos
+4,Aplicaciones financieras,4.2,Disminución de pasivos,4.2.2,Disminución de pasivos no corrientes,4.2.2.1,Disminución de cuentas por pagar de largo plazo,4.2.2.1.01,Disminución de cuentas por pagar internas de largo plazo
+2,GASTOS,2.6,"BIENES MUEBLES, INMUEBLES E INTANGIBLES",2.6.8,BIENES INTANGIBLES,2.6.8.8,"Licencias informáticas e intelectuales, industriales y comerciales",2.6.8.8.02,Licencias Intelectuales
+2,GASTOS,2.6,"BIENES MUEBLES, INMUEBLES E INTANGIBLES",2.6.9,"EDIFICIOS, ESTRUCTURAS, TIERRAS, TERRENOS Y OBJETOS DE VALOR",2.6.9.5,Objetos de valor,2.6.9.5.03,Objetos del patrimonio cultural
+2,GASTOS,2.8,ADQUISICION DE ACTIVOS FINANCIEROS CON FINES DE POLÍTICA,2.8.1,CONCESIÓN DE PRESTAMOS,2.8.1.1,Concesión de préstamos al sector privado,2.8.1.1.01,Concesión de préstamos de empresas privadas internas
+2,GASTOS,2.9,GASTOS FINANCIEROS,2.9.1,INTERESES DE LA DEUDA PÚBLICA INTERNA,2.9.1.1,Intereses de la deuda pública interna de corto plazo,2.9.1.1.01,Intereses de la deuda pública interna de corto plazo
+4,Aplicaciones financieras,4.2,Disminución de pasivos,4.2.1,Disminución de pasivos corrientes,4.2.1.3,Disminución de préstamos de corto plazo,4.2.1.3.01,Disminución de préstamos internos de corto plazo
+2,GASTOS,2.5,TRANSFERENCIAS DE CAPITAL,2.5.2,TRANSFERENCIAS DE CAPITAL AL GOBIERNO GENERAL  NACIONAL,2.5.2.1,Aportaciones de capital a instituciones del gobierno central,2.5.2.1.02,Aportaciones de capital al Poder Ejecutivo
+2,GASTOS,2.4,TRANSFERENCIAS CORRIENTES,2.4.2,TRANSFERENCIAS CORRIENTES AL  GOBIERNO GENERAL NACIONAL,2.4.2.1,Aportaciones a instituciones del gobierno central,2.4.2.1.03,Aportaciones corrientes al Poder Judicial
+4,Aplicaciones financieras,4.2,Disminución de pasivos,4.2.2,Disminución de pasivos no corrientes,4.2.2.1,Disminución de cuentas por pagar de largo plazo,4.2.2.1.02,Disminución de cuentas por pagar externas de largo plazo
+4,Aplicaciones financieras,4.2,Disminución de pasivos,4.2.1,Disminución de pasivos corrientes,4.2.1.1,Disminución de cuentas por pagar de corto plazo,4.2.1.1.01,Disminución de cuentas por pagar internas de corto plazo
+2,GASTOS,2.6,"BIENES MUEBLES, INMUEBLES E INTANGIBLES",2.6.8,BIENES INTANGIBLES,2.6.8.8,"Licencias informáticas e intelectuales, industriales y comerciales",2.6.8.8.03,Licencias Industriales
+2,GASTOS,2.1,REMUNERACIONES Y CONTRIBUCIONES,2.1.1,REMUNERACIONES,2.1.1.1,Remuneraciones al personal fijo,2.1.1.1.06,Nuevas plazas a médicos
+2,GASTOS,2.4,TRANSFERENCIAS CORRIENTES,2.4.4,TRANSFERENCIAS CORRIENTES A SOCIEDADES PÚBLICAS NO FINANCIERAS,2.4.4.2,Transferencias corrientes a empresas públicas no financieras municipales,2.4.4.2.02,Otras transferencias corrientes a empresas públicas no financieras municipales
+2,GASTOS,2.5,TRANSFERENCIAS DE CAPITAL,2.5.6,TRANSFERENCIAS DE CAPITAL AL SECTOR EXTERNO,2.5.6.2,Transferencias de capital a organismos internacionales,2.5.6.2.01,Transferencias  de capital a Organismos Internacionales
+4,Aplicaciones financieras,4.1,Incremento de activos financieros,4.1.1,Incremento de activos financieros corrientes,4.1.1.2,Incremento de inversiones financieras de corto plazo,4.1.1.2.01,Incremento de inversiones financieras internas de corto plazo
+4,Aplicaciones financieras,4.2,Disminución de pasivos,4.2.1,Disminución de pasivos corrientes,4.2.1.2,Disminución de documentos por pagar de corto plazo,4.2.1.2.01,Disminución de documentos por pagar internas de corto plazo
+2,GASTOS,2.6,"BIENES MUEBLES, INMUEBLES E INTANGIBLES",2.6.8,BIENES INTANGIBLES,2.6.8.8,"Licencias informáticas e intelectuales, industriales y comerciales",2.6.8.8.04,Licencias Comerciales
+2,GASTOS,2.4,TRANSFERENCIAS CORRIENTES,2.4.9,TRANSFERENCIAS CORRIENTES A OTRAS INSTITUCIONES PÚBLICAS,2.4.9.4,Electricidad no cortable en las transferencias a otras instituciones públicas,2.4.9.4.01,Electricidad no cortable en las transferencias a otras instituciones públicas
+2,GASTOS,2.5,TRANSFERENCIAS DE CAPITAL,2.5.1,TRANSFERENCIAS DE CAPITAL AL SECTOR PRIVADO,2.5.1.2,Transferencias de capital a asociaciones  privadas sin fines de lucro,2.5.1.2.02,Transferencias de capital a federaciones deportivas
+2,GASTOS,2.7,OBRAS,2.7.2,INFRAESTRUCTURA,2.7.2.8,Obras en cementerios,2.7.2.8.01,Obras en cementerios
+2,GASTOS,2.6,"BIENES MUEBLES, INMUEBLES E INTANGIBLES",2.6.7,ACTIVOS BIOLÓGICOS,2.6.7.2,Porcinos,2.6.7.2.01,Porcinos
+2,GASTOS,2.6,"BIENES MUEBLES, INMUEBLES E INTANGIBLES",2.6.7,ACTIVOS BIOLÓGICOS,2.6.7.6,Equinos,2.6.7.6.01,Equinos
+2,GASTOS,2.5,TRANSFERENCIAS DE CAPITAL,2.5.2,TRANSFERENCIAS DE CAPITAL AL GOBIERNO GENERAL  NACIONAL,2.5.2.3,Transferencias de capital a instituciones públicas de la seguridad social,2.5.2.3.02,Otras transferencias de capital instituciones públicas de la seguridad social
+2,GASTOS,2.6,"BIENES MUEBLES, INMUEBLES E INTANGIBLES",2.6.8,BIENES INTANGIBLES,2.6.8.7,Concesiones,2.6.8.7.01,Concesiones
+2,GASTOS,2.9,GASTOS FINANCIEROS,2.9.2,INTERESES DE LA DEUDA PUBLICA EXTERNA,2.9.2.1,Intereses de la deuda pública externa de corto plazo,2.9.2.1.01,Intereses de la deuda pública externa de corto plazo
+2,GASTOS,2.7,OBRAS,2.7.3,CONSTRUCCIONES EN BIENES CONCESIONADOS,2.7.3.1,Construcciones en bienes de uso público concesionados,2.7.3.1.01,Construcciones en bienes de uso público concesionados
+2,GASTOS,2.4,TRANSFERENCIAS CORRIENTES,2.4.6,SUBVENCIONES,2.4.6.3,Subvenciones a instituciones públicas financieras no monetarias,2.4.6.3.01,Subvenciones a Instituciones Públicas Financieras no Monetarias

@@ -6,12 +6,12 @@ def verificar_archivos():
     Verifica que los archivos CSV limpios existan y tengan las columnas esperadas.
     """
     # Directorio de datos limpios
-    base_path = r"C:\Users\Ricky\Universidad Autonoma de Santo Domingo\CI-MACDIA - Documents\Maestria IA y Ciencias de DAtos\2do modulo\INF-8235-C2 -Base de Datos I\Practica Final\datos\Limpios"
+    base_path = os.path.join("datos", "limpios")
     
     # Definición de archivos y sus encabezados requeridos
     archivos_esperados = {
         "Dim_Institucion.csv": ["Cod_Capitulo", "Capitulo", "Cod_SubCapitulo", "SubCapitulo", "Cod_Unidad_Ejecutora", "Unidad_Ejecutora"],
-        "Dim_Geografia.csv": ["Region", "Provincia", "Municipio"],
+        "Dim_Geografia.csv": ["Region", "Provincia"],
         "Dim_Programa.csv": ["Cod_Programa", "Programa", "Cod_Producto", "Producto", "Cod_Proyecto", "Proyecto", "Cod_Actividad", "Actividad"],
         "Dim_Objeto_Gasto.csv": ["Cod_Tipo", "Tipo", "Cod_Concepto", "Concepto", "Cod_Cuenta", "Cuenta", "Cod_SubCuenta", "SubCuenta", "Cod_Auxiliar", "Auxiliar"],
         "Fact_Ejecucion_Presupuestaria.csv": ["Cod_Capitulo", "Cod_SubCapitulo", "Cod_Unidad_Ejecutora", "Cod_Municipio", "Cod_Programa", "Cod_Producto", "Cod_Proyecto", "Cod_Actividad", "Cod_Tipo", "Cod_Concepto", "Cod_Cuenta", "Cod_SubCuenta", "Cod_Auxiliar", "Periodo_Anio", "Mes_Imputacion", "Presupuesto_Inicial", "Presupuesto_Vigente", "Devengado_Aprobado"]

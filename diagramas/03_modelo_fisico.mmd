@@ -2,73 +2,99 @@ erDiagram
     %% Modelo Físico - Presupuesto Nacional RD (SQL Server)
     %% Autor: Lic. Manuel Mañana Santana
 
-    Dim_Institucion ||--o{ Fact_Ejecucion : "id_institucion"
-    Dim_Geografia ||--o{ Fact_Ejecucion : "id_geografia"
-    Dim_Programa ||--o{ Fact_Ejecucion : "id_programa"
-    Dim_Objeto_Gasto ||--o{ Fact_Ejecucion : "id_objeto_gasto"
-    Dim_Tiempo ||--o{ Fact_Ejecucion : "id_tiempo"
+    Organismo ||--o{ Institucion : "FK_Institucion_Organismo"
+    Institucion ||--o{ EjecucionPresupuestaria : "FK_Ejecucion_Institucion"
+    Programa ||--o{ EjecucionPresupuestaria : "FK_Ejecucion_Programa"
+    ObjetoGasto ||--o{ EjecucionPresupuestaria : "FK_Ejecucion_ObjetoGasto"
+    Periodo ||--o{ EjecucionPresupuestaria : "FK_Ejecucion_Periodo"
+    FuenteFinanciamiento ||--o{ EjecucionPresupuestaria : "FK_Ejecucion_FuenteFinanciamiento"
+    Pais ||--o{ Region : "FK_Region_Pais"
+    Region ||--o{ Provincia : "FK_Provincia_Region"
+    Provincia ||--o{ EjecucionPresupuestaria : "FK_Ejecucion_Provincia"
 
-    Dim_Institucion {
-        INT id_institucion PK "IDENTITY"
-        NVARCHAR_20 cod_capitulo "NOT NULL"
-        NVARCHAR_255 capitulo "NOT NULL"
-        NVARCHAR_20 cod_subcapitulo
-        NVARCHAR_255 subcapitulo
-        NVARCHAR_20 cod_unidad_ejecutora
-        NVARCHAR_255 unidad_ejecutora
+    Organismo {
+        INT Organismo_ID PK "IDENTITY"
+        VARCHAR_10 Organismo_Codigo "UQ, NOT NULL"
+        VARCHAR_255 Organismo_Nombre "NOT NULL"
     }
 
-    Dim_Geografia {
-        INT id_geografia PK "IDENTITY"
-        NVARCHAR_10 cod_region
-        NVARCHAR_100 region
-        NVARCHAR_10 cod_provincia
-        NVARCHAR_100 provincia
-        NVARCHAR_10 cod_municipio
-        NVARCHAR_100 municipio
+    Institucion {
+        INT Institucion_ID PK "IDENTITY"
+        INT Institucion_OrganismoID FK
+        VARCHAR_10 Institucion_CodigoCapitulo "NOT NULL"
+        VARCHAR_255 Institucion_Capitulo "NOT NULL"
+        VARCHAR_10 Institucion_CodigoSubCapitulo
+        VARCHAR_255 Institucion_SubCapitulo
+        VARCHAR_10 Institucion_CodigoUnidadEjecutora "NOT NULL"
+        VARCHAR_255 Institucion_UnidadEjecutora "NOT NULL"
+        VARCHAR_100 Institucion_TipoInstitucion
     }
 
-    Dim_Programa {
-        INT id_programa PK "IDENTITY"
-        NVARCHAR_20 cod_programa
-        NVARCHAR_255 programa
-        NVARCHAR_20 cod_producto
-        NVARCHAR_255 producto
-        NVARCHAR_20 cod_proyecto
-        NVARCHAR_255 proyecto
-        NVARCHAR_20 cod_actividad
-        NVARCHAR_255 actividad
+    Programa {
+        INT Programa_ID PK "IDENTITY"
+        VARCHAR_20 Programa_CodigoPrograma "NOT NULL"
+        VARCHAR_255 Programa_Nombre "NOT NULL"
+        VARCHAR_20 Programa_CodigoProducto
+        VARCHAR_255 Programa_Producto
+        VARCHAR_20 Programa_CodigoProyecto
+        VARCHAR_255 Programa_Proyecto
+        VARCHAR_20 Programa_CodigoActividad "NOT NULL"
+        VARCHAR_255 Programa_Actividad "NOT NULL"
     }
 
-    Dim_Objeto_Gasto {
-        INT id_objeto_gasto PK "IDENTITY"
-        NVARCHAR_10 cod_tipo
-        NVARCHAR_100 tipo
-        NVARCHAR_10 cod_concepto
-        NVARCHAR_100 concepto
-        NVARCHAR_10 cod_cuenta
-        NVARCHAR_100 cuenta
-        NVARCHAR_10 cod_subcuenta
-        NVARCHAR_100 subcuenta
-        NVARCHAR_10 cod_auxiliar
-        NVARCHAR_100 auxiliar
+    ObjetoGasto {
+        INT ObjetoGasto_ID PK "IDENTITY"
+        VARCHAR_20 ObjetoGasto_CodigoTipo "NOT NULL"
+        VARCHAR_100 ObjetoGasto_Tipo "NOT NULL"
+        VARCHAR_20 ObjetoGasto_CodigoConcepto "NOT NULL"
+        VARCHAR_100 ObjetoGasto_Concepto "NOT NULL"
+        VARCHAR_20 ObjetoGasto_CodigoCuenta "NOT NULL"
+        VARCHAR_100 ObjetoGasto_Cuenta "NOT NULL"
+        VARCHAR_20 ObjetoGasto_CodigoSubCuenta "NOT NULL"
+        VARCHAR_100 ObjetoGasto_SubCuenta "NOT NULL"
+        VARCHAR_20 ObjetoGasto_CodigoAuxiliar "NOT NULL"
+        VARCHAR_255 ObjetoGasto_Auxiliar "NOT NULL"
     }
 
-    Dim_Tiempo {
-        INT id_tiempo PK "IDENTITY"
-        INT periodo_anio "NOT NULL"
-        INT mes_imputacion "NOT NULL"
-        NVARCHAR_20 nombre_mes "NOT NULL"
+    Periodo {
+        INT Periodo_ID PK "IDENTITY"
+        INT Periodo_Anio "NOT NULL"
+        INT Periodo_Mes "NOT NULL, CHECK"
+        VARCHAR_20 Periodo_NombreMes "NOT NULL"
     }
 
-    Fact_Ejecucion {
-        BIGINT id_ejecucion PK "IDENTITY"
-        INT id_institucion FK
-        INT id_geografia FK
-        INT id_programa FK
-        INT id_objeto_gasto FK
-        INT id_tiempo FK
-        DECIMAL_18_2 presupuesto_inicial "DEFAULT 0"
-        DECIMAL_18_2 presupuesto_vigente "DEFAULT 0"
-        DECIMAL_18_2 devengado_aprobado "DEFAULT 0"
+    FuenteFinanciamiento {
+        INT FuenteFinanciamiento_ID PK "IDENTITY"
+        VARCHAR_10 FuenteFinanciamiento_Codigo "UQ, NOT NULL"
+        VARCHAR_255 FuenteFinanciamiento_Descripcion "NOT NULL"
+    }
+
+    Pais {
+        INT Pais_ID PK
+        VARCHAR_255 Pais_Nombre
+    }
+
+    Region {
+        INT Region_ID PK
+        VARCHAR_255 Region_Nombre
+        INT Region_PaisID FK
+    }
+
+    Provincia {
+        INT Provincia_ID PK
+        VARCHAR_255 Provincia_Nombre
+        INT Provincia_RegionID FK
+    }
+
+    EjecucionPresupuestaria {
+        INT EjecucionPresupuestaria_ID PK "IDENTITY"
+        INT EjecucionPresupuestaria_InstitucionID FK "NOT NULL"
+        INT EjecucionPresupuestaria_ProgramaID FK "NOT NULL"
+        INT EjecucionPresupuestaria_ObjetoGastoID FK "NOT NULL"
+        INT EjecucionPresupuestaria_PeriodoID FK "NOT NULL"
+        INT EjecucionPresupuestaria_FuenteFinanciamientoID FK
+        INT EjecucionPresupuestaria_ProvinciaID FK
+        DECIMAL_18_2 EjecucionPresupuestaria_PresupuestoInicial "DEFAULT 0, CHECK"
+        DECIMAL_18_2 EjecucionPresupuestaria_PresupuestoVigente "DEFAULT 0, CHECK"
+        DECIMAL_18_2 EjecucionPresupuestaria_DevengadoAprobado "DEFAULT 0, CHECK"
     }

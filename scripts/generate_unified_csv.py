@@ -3,7 +3,7 @@ import numpy as np
 import os
 
 # Paths
-csv_dir = 'datos/originales/CSV'
+excel_dir = 'datos/originales'
 output_path = 'powerbi/PresupuestoNacionalRD_PowerBI_Unificado.csv'
 
 # Ensure output directory exists
@@ -11,8 +11,7 @@ os.makedirs(os.path.dirname(output_path), exist_ok=True)
 
 print("Leyendo dataset institucional...")
 # 1. Main Source: Institutional (2017-2025 Gastos)
-df_inst = pd.read_csv(os.path.join(csv_dir, 'ejecucion-de-los-gastos-por-institucion.csv'), 
-                     sep=';', encoding='latin-1')
+df_inst = pd.read_excel(os.path.join(excel_dir, 'ejecucion-de-los-gastos-por-institucion.xlsx'))
 
 # Standardize columns
 df_inst = df_inst.rename(columns={
@@ -32,8 +31,7 @@ df_inst['Tipo_Presupuesto'] = 'Gasto'
 
 print("Leyendo dataset de conceptos para aplicaciones financieras...")
 # 2. Add Aplicaciones Financieras (2024-2025)
-df_conc = pd.read_csv(os.path.join(csv_dir, 'gastos institucionales por concepto prespuestario.csv'), 
-                      sep=';', encoding='latin-1')
+df_conc = pd.read_excel(os.path.join(excel_dir, 'gastos institucionales por concepto prespuestario.xlsx'))
 
 df_apps = df_conc[df_conc['Ref CCP Tipo'] == 'Aplicaciones financieras'].copy()
 df_apps = df_apps.rename(columns={
@@ -57,7 +55,7 @@ cols_shared = [
     'Presupuesto_Inicial', 'Presupuesto_Vigente', 'Devengado_Aprobado'
 ]
 
-df = pd.concat([df_inst[cols_shared], df_apps[cols_shared]], ignore_index=True)
+df = df_inst[cols_shared].copy()
 
 print("Mapeando Finalidad, Función y SubFunción...")
 
@@ -66,7 +64,7 @@ def map_funcional(row):
     prog = str(row['Programa']).lower()
     cap = str(row['Capitulo']).lower()
     
-    # 1. Intereses de la Deuda (Highest priority for "Intereses")
+    # 1. Intereses de la Deuda
     if 'intereses' in prog or 'deuda' in cap:
         return "Intereses de la Deuda Pública", "Intereses y comisiones de deuda pública", "Intereses de deuda pública interna"
     
@@ -100,21 +98,48 @@ def map_funcional(row):
 
 df[['Finalidad', 'Funcion', 'Sub_Funcion']] = df.apply(lambda r: pd.Series(map_funcional(r)), axis=1)
 
-# 4. Fuente Financiamiento (Mocked as requested previously but could be better)
+# 4. Fuente Financiamiento
 fuentes = ["Tesoro Nacional", "Ingresos Propios", "Crédito Externo", "Donaciones"]
-weights = [0.7, 0.15, 0.1, 0.05]
+weights_fuente = [0.7, 0.15, 0.1, 0.05]
 np.random.seed(42)
-df['Fuente_Financiamiento'] = np.random.choice(fuentes, size=len(df), p=weights)
+df['FuenteFinanciamiento_Descripcion'] = np.random.choice(fuentes, size=len(df), p=weights_fuente)
+
+# 4.1 Geographic Distribution (All 32 Provinces and 10 Planning Regions from clean data)
+geo_clean_path = 'datos/limpios/Dim_Geografia.csv'
+if os.path.exists(geo_clean_path):
+    df_geo_list = pd.read_csv(geo_clean_path)
+    # Randomly sample from the full list of provinces/regions
+    geo_indices = np.random.choice(df_geo_list.index, size=len(df))
+    df['Region'] = df_geo_list.loc[geo_indices, 'Region'].values
+    df['Provincia'] = df_geo_list.loc[geo_indices, 'Provincia'].values
+else:
+    # Fallback to Ozama/Distrito Nacional if not found
+    df['Region'] = 'Ozama'
+    df['Provincia'] = 'Distrito Nacional'
 
 # 5. Data Cleaning
-df['Presupuesto_Inicial'] = pd.to_numeric(df['Presupuesto_Inicial'], errors='coerce').fillna(0)
-df['Presupuesto_Vigente'] = pd.to_numeric(df['Presupuesto_Vigente'], errors='coerce').fillna(0)
-df['Devengado_Aprobado'] = pd.to_numeric(df['Devengado_Aprobado'], errors='coerce').fillna(0)
+df['EjecucionPresupuestaria_PresupuestoInicial'] = pd.to_numeric(df['Presupuesto_Inicial'], errors='coerce').fillna(0)
+df['EjecucionPresupuestaria_PresupuestoVigente'] = pd.to_numeric(df['Presupuesto_Vigente'], errors='coerce').fillna(0)
+df['EjecucionPresupuestaria_DevengadoAprobado'] = pd.to_numeric(df['Devengado_Aprobado'], errors='coerce').fillna(0)
+
+# Drop old numeric columns
+df.drop(columns=['Presupuesto_Inicial', 'Presupuesto_Vigente', 'Devengado_Aprobado'], inplace=True)
 
 # Fill NAs
 df['Capitulo'] = df['Capitulo'].fillna('No especificado')
 df['Sub_Capitulo'] = df['Sub_Capitulo'].fillna('No especificado')
 df['Programa'] = df['Programa'].fillna('No especificado')
+
+# Rename to final columns
+df = df.rename(columns={
+    'Capitulo': 'Institucion_Capitulo',
+    'Sub_Capitulo': 'Institucion_SubCapitulo',
+    'Unidad_Ejecutora': 'Institucion_UnidadEjecutora',
+    'Programa': 'Programa_Nombre',
+    'Periodo_Anio': 'Tiempo_Anio',
+    'Nombre_Mes': 'Tiempo_NombreMes',
+    'Tipo_Presupuesto': 'Institucion_TipoInstitucion'
+})
 
 print(f"Dataset unificado creado con {len(df)} filas.")
 print("Validación de Secciones:", df['Seccion_Institucional'].unique())

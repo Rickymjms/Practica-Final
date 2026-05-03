@@ -2,74 +2,89 @@
 **Autor:** Lic. Manuel Mañana Santana
 **Fuente:** Dirección General de Presupuesto (DIGEPRES)
 
-Este diccionario técnico define la estructura analítica utilizada para el análisis de la ejecución presupuestaria de la República Dominicana, siguiendo los estándares oficiales de clasificación.
+Este diccionario técnico define la estructura analítica utilizada para el análisis de la ejecución presupuestaria de la República Dominicana, sincronizado con la implementación física en SQL Server.
 
-## 📈 Tabla de Hechos: `Fact_Ejecucion_Presupuestaria`
+## 📈 Tabla de Hechos: `EjecucionPresupuestaria`
 Centraliza las métricas financieras vinculadas a las dimensiones descriptivas.
 
 | Columna | Tipo de Dato | Descripción |
 | --- | --- | --- |
-| `ID_Ejecucion` | BIGINT (PK) | Identificador único de la línea de ejecución. |
-| `ID_Institucion` | INT (FK) | Vínculo con la jerarquía institucional. |
-| `ID_Geografia` | INT (FK) | Vínculo con la ubicación geográfica. |
-| `ID_Programa` | INT (FK) | Vínculo con la estructura programática. |
-| `ID_Objeto_Gasto` | INT (FK) | Vínculo con el clasificador del objeto de gasto. |
-| `ID_Tiempo` | INT (FK) | Vínculo con el periodo fiscal. |
-| `Presupuesto_Inicial` | MONEY | Monto aprobado por ley al inicio del año. |
-| `Presupuesto_Vigente` | MONEY | Monto actual después de modificaciones y transferencias. |
-| `Devengado_Aprobado` | MONEY | Monto cuya obligación de pago ha sido reconocida. |
+| `EjecucionPresupuestaria_ID` | INT (PK) | Identificador único (IDENTITY). |
+| `EjecucionPresupuestaria_InstitucionID` | INT (FK) | Vínculo con la dimensión Institución. |
+| `EjecucionPresupuestaria_ProgramaID` | INT (FK) | Vínculo con la dimensión Programa. |
+| `EjecucionPresupuestaria_ObjetoGastoID` | INT (FK) | Vínculo con la dimensión ObjetoGasto. |
+| `EjecucionPresupuestaria_PeriodoID` | INT (FK) | Vínculo con la dimensión Periodo. |
+| `EjecucionPresupuestaria_FuenteFinanciamientoID` | INT (FK) | Vínculo con la dimensión FuenteFinanciamiento. |
+| `EjecucionPresupuestaria_ProvinciaID` | INT (FK) | Vínculo con la dimensión Provincia (Geografía). |
+| `EjecucionPresupuestaria_PresupuestoInicial` | DECIMAL(18,2) | Monto aprobado por ley al inicio del año. |
+| `EjecucionPresupuestaria_PresupuestoVigente` | DECIMAL(18,2) | Monto actual después de modificaciones. |
+| `EjecucionPresupuestaria_DevengadoAprobado` | DECIMAL(18,2) | Monto cuya obligación de pago ha sido reconocida. |
 
-## 🏢 Dimensión: `Dim_Institucion`
-Contiene la clasificación institucional del sector público no financiero.
-
-| Columna | Tipo de Dato | Descripción |
-| --- | --- | --- |
-| `ID_Institucion` | INT (PK) | Identificador de la entidad. |
-| `Seccion_Institucional`| VARCHAR(255)| Categoría superior (Administración Central, Descentralizadas, etc.). |
-| `Capitulo` | VARCHAR(255) | Ministerio o ente de máximo nivel. |
-| `SubCapitulo` | VARCHAR(255) | Dependencia directa del capítulo. |
-| `Unidad_Ejecutora` | VARCHAR(255) | Entidad específica responsable de ejecutar los fondos. |
-
-## 📍 Dimensión: `Dim_Geografia`
-Jerarquía de ubicación de la inversión y el gasto.
+## 🏛️ Dimensión: `Organismo`
+Nivel superior de agrupación institucional.
 
 | Columna | Tipo de Dato | Descripción |
 | --- | --- | --- |
-| `ID_Geografia` | INT (PK) | Identificador de ubicación. |
-| `Region` | VARCHAR(100) | Macro-regiones oficiales (Cibao Norte, Sur, etc.). |
-| `Provincia` | VARCHAR(100) | División política de segundo nivel. |
-| `Municipio` | VARCHAR(100) | División política de tercer nivel. |
+| `Organismo_ID` | INT (PK) | Identificador único. |
+| `Organismo_Codigo` | VARCHAR(10) | Código oficial del organismo. |
+| `Organismo_Nombre` | VARCHAR(255) | Nombre (Poder Ejecutivo, Legislativo, etc.). |
 
-## 🛠️ Dimensión: `Dim_Programa`
+## 🏢 Dimensión: `Institucion`
+Contiene la clasificación institucional detallada.
+
+| Columna | Tipo de Dato | Descripción |
+| --- | --- | --- |
+| `Institucion_ID` | INT (PK) | Identificador único. |
+| `Institucion_OrganismoID` | INT (FK) | Relación con la tabla Organismo. |
+| `Institucion_CodigoCapitulo` | VARCHAR(10) | Código del Capítulo. |
+| `Institucion_Capitulo` | VARCHAR(255) | Nombre del Ministerio o Ente. |
+| `Institucion_UnidadEjecutora` | VARCHAR(255) | Entidad específica responsable de los fondos. |
+| `Institucion_TipoInstitucion` | VARCHAR(100) | Clasificación (Gobierno Central, Descentralizada, etc.). |
+
+## 📍 Dimensión: `Geografía (Pais, Region, Provincia)`
+Jerarquía normalizada de ubicación.
+
+| Tabla | Columna | Descripción |
+| --- | --- | --- |
+| `Pais` | `Pais_Nombre` | República Dominicana (u otros). |
+| `Region` | `Region_Nombre` | Macro-regiones (Cibao, Sur, Este, etc.). |
+| `Provincia` | `Provincia_Nombre` | Provincias y Distrito Nacional. |
+
+## 🛠️ Dimensión: `Programa`
 Clasificación funcional y programática del gasto.
 
 | Columna | Tipo de Dato | Descripción |
 | --- | --- | --- |
-| `ID_Programa` | INT (PK) | Identificador del programa. |
-| `Finalidad` | VARCHAR(100) | Propósito macro (Servicios Sociales, Económicos, etc.). |
-| `Funcion` | VARCHAR(100) | Función específica dentro de la finalidad. |
-| `Programa` | VARCHAR(255) | Nombre del programa presupuestario. |
-| `Actividad_Obra` | VARCHAR(255) | Tarea o infraestructura específica. |
+| `Programa_ID` | INT (PK) | Identificador único. |
+| `Programa_CodigoPrograma` | VARCHAR(20) | Código del Programa Presupuestario. |
+| `Programa_Nombre` | VARCHAR(255) | Descripción del Programa. |
+| `Programa_Actividad` | VARCHAR(255) | Actividad o tarea específica. |
 
-## 💰 Dimensión: `Dim_Objeto_Gasto`
-Detalle técnico de qué se está comprando o pagando.
+## 💰 Dimensión: `ObjetoGasto`
+Detalle económico de la naturaleza del gasto.
 
 | Columna | Tipo de Dato | Descripción |
 | --- | --- | --- |
-| `ID_Objeto_Gasto` | INT (PK) | Identificador del objeto de gasto. |
-| `Tipo_Presupuesto` | VARCHAR(50) | Clasifica entre "Gasto" y "Aplicación Financiera". |
-| `Fuente_Financiamiento`| VARCHAR(100)| Origen de los fondos (Interna, Externa, Propios). |
-| `Concepto` | VARCHAR(255) | Agrupación técnica (Remuneraciones, Obras, etc.). |
-| `Detalle_Gasto` | VARCHAR(255) | Descripción atómica del insumo o servicio. |
+| `ObjetoGasto_ID` | INT (PK) | Identificador único. |
+| `ObjetoGasto_Tipo` | VARCHAR(100) | Clasificación macro (Sueldos, Obras, etc.). |
+| `ObjetoGasto_Concepto` | VARCHAR(100) | Agrupación técnica. |
+| `ObjetoGasto_Auxiliar` | VARCHAR(255) | Descripción atómica del gasto. |
 
-## 📅 Dimensión: `Dim_Tiempo`
+## 📅 Dimensión: `Periodo`
 | Columna | Tipo de Dato | Descripción |
 | --- | --- | --- |
-| `ID_Tiempo` | INT (PK) | Identificador temporal. |
+| `Periodo_ID` | INT (PK) | Identificador único. |
 | `Periodo_Anio` | INT | Año fiscal (2017-2025). |
-| `Mes_Imputacion` | INT | Número del mes (1-12). |
-| `Nombre_Mes` | VARCHAR(20) | Nombre del mes en español e inglés (vía UI). |
+| `Periodo_Mes` | INT | Número del mes (1-12). |
+| `Periodo_NombreMes` | VARCHAR(20) | Nombre del mes en español. |
+
+## 💳 Dimensión: `FuenteFinanciamiento`
+| Columna | Tipo de Dato | Descripción |
+| --- | --- | --- |
+| `FuenteFinanciamiento_ID` | INT (PK) | Identificador único. |
+| `FuenteFinanciamiento_Codigo` | VARCHAR(10) | Código de la fuente. |
+| `FuenteFinanciamiento_Descripcion` | VARCHAR(255) | Tesoro Nacional, Crédito Externo, etc. |
 
 ---
 **Documento mantenido por:** Lic. Manuel Mañana Santana
-**Estatus:** Validado contra Diccionario de Datos DIGEPRES.
+**Estatus:** Sincronizado con DDL v2.0.

@@ -1,74 +1,100 @@
 erDiagram
-    %% Modelo Lógico - Presupuesto Nacional RD (Star Schema)
+    %% Modelo Lógico - Presupuesto Nacional RD
     %% Autor: Lic. Manuel Mañana Santana
 
-    DIM_INSTITUCION ||--o{ FACT_EJECUCION : "ejecuta"
-    DIM_GEOGRAFIA ||--o{ FACT_EJECUCION : "se ubica en"
-    DIM_PROGRAMA ||--o{ FACT_EJECUCION : "corresponde a"
-    DIM_OBJETO_GASTO ||--o{ FACT_EJECUCION : "se clasifica por"
-    DIM_TIEMPO ||--o{ FACT_EJECUCION : "ocurre en"
+    Organismo ||--o{ Institucion : "agrupa"
+    Institucion ||--o{ EjecucionPresupuestaria : "ejecuta"
+    Programa ||--o{ EjecucionPresupuestaria : "corresponde a"
+    ObjetoGasto ||--o{ EjecucionPresupuestaria : "se clasifica por"
+    Periodo ||--o{ EjecucionPresupuestaria : "ocurre en"
+    FuenteFinanciamiento ||--o{ EjecucionPresupuestaria : "financia"
+    Pais ||--o{ Region : "contiene"
+    Region ||--o{ Provincia : "contiene"
+    Provincia ||--o{ EjecucionPresupuestaria : "se ubica en"
 
-    DIM_INSTITUCION {
-        int id_institucion PK
-        string cod_capitulo
-        string capitulo
-        string cod_subcapitulo
-        string subcapitulo
-        string cod_unidad_ejecutora
-        string unidad_ejecutora
+    Organismo {
+        int Organismo_ID PK
+        string Organismo_Codigo
+        string Organismo_Nombre
     }
 
-    DIM_GEOGRAFIA {
-        int id_geografia PK
-        string cod_region
-        string region
-        string cod_provincia
-        string provincia
-        string cod_municipio
-        string municipio
+    Institucion {
+        int Institucion_ID PK
+        int Institucion_OrganismoID FK
+        string Institucion_CodigoCapitulo
+        string Institucion_Capitulo
+        string Institucion_CodigoSubCapitulo
+        string Institucion_SubCapitulo
+        string Institucion_CodigoUnidadEjecutora
+        string Institucion_UnidadEjecutora
+        string Institucion_TipoInstitucion
     }
 
-    DIM_PROGRAMA {
-        int id_programa PK
-        string cod_programa
-        string programa
-        string cod_producto
-        string producto
-        string cod_proyecto
-        string proyecto
-        string cod_actividad
-        string actividad
+    Programa {
+        int Programa_ID PK
+        string Programa_CodigoPrograma
+        string Programa_Nombre
+        string Programa_CodigoProducto
+        string Programa_Producto
+        string Programa_CodigoProyecto
+        string Programa_Proyecto
+        string Programa_CodigoActividad
+        string Programa_Actividad
     }
 
-    DIM_OBJETO_GASTO {
-        int id_objeto_gasto PK
-        string cod_tipo
-        string tipo
-        string cod_concepto
-        string concepto
-        string cod_cuenta
-        string cuenta
-        string cod_subcuenta
-        string subcuenta
-        string cod_auxiliar
-        string auxiliar
+    ObjetoGasto {
+        int ObjetoGasto_ID PK
+        string ObjetoGasto_CodigoTipo
+        string ObjetoGasto_Tipo
+        string ObjetoGasto_CodigoConcepto
+        string ObjetoGasto_Concepto
+        string ObjetoGasto_CodigoCuenta
+        string ObjetoGasto_Cuenta
+        string ObjetoGasto_CodigoSubCuenta
+        string ObjetoGasto_SubCuenta
+        string ObjetoGasto_CodigoAuxiliar
+        string ObjetoGasto_Auxiliar
     }
 
-    DIM_TIEMPO {
-        int id_tiempo PK
-        int periodo_anio
-        int mes_imputacion
-        string nombre_mes
+    Periodo {
+        int Periodo_ID PK
+        int Periodo_Anio
+        int Periodo_Mes
+        string Periodo_NombreMes
     }
 
-    FACT_EJECUCION {
-        int id_ejecucion PK
-        int id_institucion FK
-        int id_geografia FK
-        int id_programa FK
-        int id_objeto_gasto FK
-        int id_tiempo FK
-        decimal presupuesto_inicial
-        decimal presupuesto_vigente
-        decimal devengado_aprobado
+    FuenteFinanciamiento {
+        int FuenteFinanciamiento_ID PK
+        string FuenteFinanciamiento_Codigo
+        string FuenteFinanciamiento_Descripcion
+    }
+
+    Pais {
+        int Pais_ID PK
+        string Pais_Nombre
+    }
+
+    Region {
+        int Region_ID PK
+        string Region_Nombre
+        int Region_PaisID FK
+    }
+
+    Provincia {
+        int Provincia_ID PK
+        string Provincia_Nombre
+        int Provincia_RegionID FK
+    }
+
+    EjecucionPresupuestaria {
+        int EjecucionPresupuestaria_ID PK
+        int EjecucionPresupuestaria_InstitucionID FK
+        int EjecucionPresupuestaria_ProgramaID FK
+        int EjecucionPresupuestaria_ObjetoGastoID FK
+        int EjecucionPresupuestaria_PeriodoID FK
+        int EjecucionPresupuestaria_FuenteFinanciamientoID FK
+        int EjecucionPresupuestaria_ProvinciaID FK
+        decimal EjecucionPresupuestaria_PresupuestoInicial
+        decimal EjecucionPresupuestaria_PresupuestoVigente
+        decimal EjecucionPresupuestaria_DevengadoAprobado
     }

@@ -3,23 +3,29 @@ graph TD
     %% Autor: Lic. Manuel Mañana Santana
 
     subgraph Entidades_Principales
+        Organismo[Organismo]
         Institucion[Institución]
-        Geografia[Geografía]
+        Geografia[Geografía <br/> País/Región/Provincia]
         Programa[Programa Presupuestario]
         ObjetoGasto[Objeto del Gasto]
-        Tiempo[Tiempo/Periodo]
+        Periodo[Periodo/Tiempo]
+        FuenteFinanciamiento[Fuente de Financiamiento]
         Ejecucion{Ejecución Presupuestaria}
     end
 
+    Organismo --- Institucion
     Institucion --- Ejecucion
     Geografia --- Ejecucion
     Programa --- Ejecucion
     ObjetoGasto --- Ejecucion
-    Tiempo --- Ejecucion
+    Periodo --- Ejecucion
+    FuenteFinanciamiento --- Ejecucion
 
     style Ejecucion fill:#f9f,stroke:#333,stroke-width:4px
     style Institucion fill:#bbf,stroke:#333
     style Geografia fill:#bfb,stroke:#333
     style Programa fill:#fbb,stroke:#333
     style ObjetoGasto fill:#ffd,stroke:#333
-    style Tiempo fill:#dff,stroke:#333
+    style Periodo fill:#dff,stroke:#333
+    style Organismo fill:#eee,stroke:#333
+    style FuenteFinanciamiento fill:#efefef,stroke:#333

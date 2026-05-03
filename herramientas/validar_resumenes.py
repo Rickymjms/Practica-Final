@@ -38,15 +38,15 @@ def get_summary_totals(df):
 
 def validate_summaries():
     summary_path = 'datos/originales/Resumen_datos_ejecucion_presupuestaria.xlsx'
-    csv_dir = 'datos/originales/CSV'
+    excel_dir = 'datos/originales'
     
     comparisons = [
-        {'sheet': 'resumen-ejecucion-institucion', 'csv': 'ejecucion-de-los-gastos-por-institucion.csv', 'name': 'Institucion'},
-        {'sheet': 'Resumen-ejecucion-por-funcion', 'csv': 'ejecucion-de-los-gastos-por-funcion.csv', 'name': 'Funcion'},
-        {'sheet': 'Resumen-Concepto-prespuesta', 'csv': 'gastos institucionales por concepto prespuestario.csv', 'name': 'Concepto'}
+        {'sheet': 'resumen-ejecucion-institucion', 'excel': 'ejecucion-de-los-gastos-por-institucion.xlsx', 'name': 'Institucion'},
+        {'sheet': 'Resumen-ejecucion-por-funcion', 'excel': 'Estadisticas-de-ejecucion-de-los-ga-por-funcion.xlsx', 'name': 'Funcion'},
+        {'sheet': 'Resumen-Concepto-prespuesta', 'excel': 'gastos institucionales por concepto prespuestario.xlsx', 'name': 'Concepto'}
     ]
 
-    print("=== Validando Resúmenes vs Originales (CSV) ===")
+    print("=== Validando Resúmenes vs Originales (Excel) ===")
     
     for comp in comparisons:
         print(f"\nAnalizando {comp['name']}...")
@@ -73,21 +73,20 @@ def validate_summaries():
             print(f"Error al leer hoja {comp['sheet']}: {e}")
             continue
 
-        # Read Original CSV
-        csv_path = os.path.join(csv_dir, comp['csv'])
+        # Read Original Excel
+        excel_path = os.path.join(excel_dir, comp['excel'])
         try:
-            # We use usecols with lambda to handle potential BOM or weird spaces in CSV headers
-            df_csv = pd.read_csv(csv_path, sep=';', encoding='latin-1')
+            df_excel = pd.read_excel(excel_path)
             
-            # Identify columns by content if needed, but names usually work with latin-1
+            # Identify columns by content if needed, but names usually work
             # Filter for Concepto
             if comp['name'] == 'Concepto':
-                df_csv = df_csv[df_csv['Período'].isin([2024, 2025])]
+                df_excel = df_excel[df_excel['Período'].isin([2024, 2025])]
             
-            sum_vigente_csv = df_csv['Pres. Vigente Aprobado'].sum()
-            sum_devengado_csv = df_csv['Devengado Aprobado'].sum()
+            sum_vigente_csv = df_excel['Pres. Vigente Aprobado'].sum()
+            sum_devengado_csv = df_excel['Devengado Aprobado'].sum()
         except Exception as e:
-            print(f"Error al leer CSV {comp['csv']}: {e}")
+            print(f"Error al leer Excel {comp['excel']}: {e}")
             continue
 
         print(f"  Summary Vigente:  {sum_vigente_res:,.2f}")

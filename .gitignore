@@ -1,0 +1,12 @@
+# Large generated files
+sql/02_dml_presupuesto_nacional.sql
+powerbi/PresupuestoNacionalRD_PowerBI_Unificado.csv
+
+# Environment files
+.env
+.env.local
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class

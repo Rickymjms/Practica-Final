@@ -53,7 +53,7 @@ const MOCK_DATA = [
     "fuente": "Ingresos Propios",
     "initial": 0.0,
     "budget": 2055.629571,
-    "spent": 8303.885094
+    "spent": 8303.885093
   },
   {
     "year": 2017,
@@ -81,7 +81,7 @@ const MOCK_DATA = [
     "fuente": "Crédito Externo",
     "initial": 0.0,
     "budget": 0.0,
-    "spent": 24560.492267
+    "spent": 24560.492266
   },
   {
     "year": 2017,
@@ -95,7 +95,7 @@ const MOCK_DATA = [
     "fuente": "Donaciones",
     "initial": 0.0,
     "budget": 0.0,
-    "spent": 9571.704245
+    "spent": 9571.704246
   },
   {
     "year": 2017,
@@ -107,9 +107,9 @@ const MOCK_DATA = [
     "subfuncion": "Intereses de deuda pública interna",
     "tipo": "Gasto",
     "fuente": "Ingresos Propios",
-    "initial": 114739.0,
-    "budget": 91227.617626,
-    "spent": 29139.360501
+    "initial": 114739.14,
+    "budget": 91227.757626,
+    "spent": 29139.360502
   },
   {
     "year": 2017,
@@ -123,7 +123,7 @@ const MOCK_DATA = [
     "fuente": "Tesoro Nacional",
     "initial": 59020.612501,
     "budget": 59020.612501,
-    "spent": 80196.420617
+    "spent": 80196.420616
   },
   {
     "year": 2017,
@@ -753,7 +753,7 @@ const MOCK_DATA = [
     "fuente": "Tesoro Nacional",
     "initial": 1455.031377,
     "budget": 1455.031377,
-    "spent": 871.285299
+    "spent": 871.2853
   },
   {
     "year": 2017,
@@ -851,7 +851,7 @@ const MOCK_DATA = [
     "fuente": "Ingresos Propios",
     "initial": 516.666574,
     "budget": 490.07423,
-    "spent": 3562.83052
+    "spent": 3562.830521
   },
   {
     "year": 2017,
@@ -1033,7 +1033,7 @@ const MOCK_DATA = [
     "fuente": "Tesoro Nacional",
     "initial": 2413.799728,
     "budget": 5527.224953,
-    "spent": 7037.340239
+    "spent": 7037.340238
   },
   {
     "year": 2017,
@@ -1145,7 +1145,7 @@ const MOCK_DATA = [
     "fuente": "Tesoro Nacional",
     "initial": 3085.235929,
     "budget": 5141.519659,
-    "spent": 4885.444843
+    "spent": 4885.444842
   },
   {
     "year": 2017,
@@ -1425,7 +1425,7 @@ const MOCK_DATA = [
     "fuente": "Tesoro Nacional",
     "initial": 6367.081907,
     "budget": 6050.27616,
-    "spent": 5138.410634
+    "spent": 5138.410635
   },
   {
     "year": 2017,
@@ -1592,8 +1592,8 @@ const MOCK_DATA = [
     "tipo": "Gasto",
     "fuente": "Tesoro Nacional",
     "initial": 125057.54169,
-    "budget": 127038.412886,
-    "spent": 97436.860486
+    "budget": 127038.412887,
+    "spent": 97436.860485
   },
   {
     "year": 2017,
@@ -1732,7 +1732,7 @@ const MOCK_DATA = [
     "tipo": "Gasto",
     "fuente": "Tesoro Nacional",
     "initial": 861.455226,
-    "budget": 896.243695,
+    "budget": 896.243696,
     "spent": 583.257907
   },
   {
@@ -1803,7 +1803,7 @@ const MOCK_DATA = [
     "fuente": "Crédito Externo",
     "initial": 0.0,
     "budget": -9.025,
-    "spent": 3323.310321
+    "spent": 3323.31032
   },
   {
     "year": 2017,
@@ -1830,7 +1830,7 @@ const MOCK_DATA = [
     "tipo": "Gasto",
     "fuente": "Ingresos Propios",
     "initial": 11018.405695,
-    "budget": 11200.880438,
+    "budget": 11200.880437,
     "spent": 1865.771585
   },
   {
@@ -2559,7 +2559,7 @@ const MOCK_DATA = [
     "fuente": "Tesoro Nacional",
     "initial": 6690.373449,
     "budget": 7090.103108,
-    "spent": 5879.386287
+    "spent": 5879.386286
   },
   {
     "year": 2017,
@@ -2783,7 +2783,7 @@ const MOCK_DATA = [
     "fuente": "Crédito Externo",
     "initial": 1010.221132,
     "budget": 1193.701959,
-    "spent": 6167.935664
+    "spent": 6167.935665
   },
   {
     "year": 2017,
@@ -2811,7 +2811,7 @@ const MOCK_DATA = [
     "fuente": "Ingresos Propios",
     "initial": 54746.141843,
     "budget": 54920.459331,
-    "spent": 9614.776605
+    "spent": 9614.776604
   },
   {
     "year": 2017,
@@ -3273,7 +3273,7 @@ const MOCK_DATA = [
     "fuente": "Tesoro Nacional",
     "initial": 2221.592595,
     "budget": 9593.668021,
-    "spent": 14084.453515
+    "spent": 14084.453516
   },
   {
     "year": 2017,
@@ -3384,7 +3384,7 @@ const MOCK_DATA = [
     "tipo": "Gasto",
     "fuente": "Tesoro Nacional",
     "initial": 18908.045979,
-    "budget": 19269.279465,
+    "budget": 19269.279466,
     "spent": 16332.167615
   },
   {
@@ -4869,7 +4869,7 @@ const MOCK_DATA = [
     "fuente": "Crédito Externo",
     "initial": 653.179952,
     "budget": 2594.668113,
-    "spent": 5592.294036
+    "spent": 5592.294037
   },
   {
     "year": 2017,
@@ -4897,7 +4897,7 @@ const MOCK_DATA = [
     "fuente": "Ingresos Propios",
     "initial": 1688.284716,
     "budget": 2139.229451,
-    "spent": 2896.712229
+    "spent": 2896.71223
   },
   {
     "year": 2017,
@@ -4911,7 +4911,7 @@ const MOCK_DATA = [
     "fuente": "Tesoro Nacional",
     "initial": 22964.450433,
     "budget": 22315.683743,
-    "spent": 17452.115234
+    "spent": 17452.115232
   },
   {
     "year": 2017,
@@ -5513,7 +5513,7 @@ const MOCK_DATA = [
     "fuente": "Ingresos Propios",
     "initial": 0.0,
     "budget": 0.0,
-    "spent": 458.550627
+    "spent": 458.550626
   },
   {
     "year": 2017,
@@ -5527,7 +5527,7 @@ const MOCK_DATA = [
     "fuente": "Tesoro Nacional",
     "initial": 671.572431,
     "budget": 671.572431,
-    "spent": 3045.866557
+    "spent": 3045.866558
   },
   {
     "year": 2017,
@@ -6675,7 +6675,7 @@ const MOCK_DATA = [
     "fuente": "Crédito Externo",
     "initial": 0.0,
     "budget": 42.724553,
-    "spent": 6812.87014
+    "spent": 6812.870139
   },
   {
     "year": 2018,
@@ -6717,7 +6717,7 @@ const MOCK_DATA = [
     "fuente": "Tesoro Nacional",
     "initial": 53923.137018,
     "budget": 58828.7773,
-    "spent": 60362.89648
+    "spent": 60362.896482
   },
   {
     "year": 2018,
@@ -6771,9 +6771,9 @@ const MOCK_DATA = [
     "subfuncion": "Intereses de deuda pública interna",
     "tipo": "Gasto",
     "fuente": "Tesoro Nacional",
-    "initial": 201557.83607,
-    "budget": 211017.81832,
-    "spent": 156709.5059
+    "initial": 201557.48514,
+    "budget": 211017.46739,
+    "spent": 156709.505901
   },
   {
     "year": 2018,
@@ -7711,7 +7711,7 @@ const MOCK_DATA = [
     "fuente": "Tesoro Nacional",
     "initial": 14776.838332,
     "budget": 14115.552307,
-    "spent": 11064.859263
+    "spent": 11064.859262
   },
   {
     "year": 2018,
@@ -7935,7 +7935,7 @@ const MOCK_DATA = [
     "fuente": "Tesoro Nacional",
     "initial": 13568.576791,
     "budget": 13898.312416,
-    "spent": 12061.605845
+    "spent": 12061.605846
   },
   {
     "year": 2018,
@@ -8047,7 +8047,7 @@ const MOCK_DATA = [
     "fuente": "Tesoro Nacional",
     "initial": 9473.448505,
     "budget": 7320.850146,
-    "spent": 4387.134346
+    "spent": 4387.134345
   },
   {
     "year": 2018,
@@ -8173,7 +8173,7 @@ const MOCK_DATA = [
     "fuente": "Crédito Externo",
     "initial": 54732.955924,
     "budget": 53336.826289,
-    "spent": 16249.695883
+    "spent": 16249.695882
   },
   {
     "year": 2018,
@@ -8214,8 +8214,8 @@ const MOCK_DATA = [
     "tipo": "Gasto",
     "fuente": "Tesoro Nacional",
     "initial": 82107.550872,
-    "budget": 87080.704033,
-    "spent": 98836.076485
+    "budget": 87080.704032,
+    "spent": 98836.076486
   },
   {
     "year": 2018,
@@ -8285,7 +8285,7 @@ const MOCK_DATA = [
     "fuente": "Donaciones",
     "initial": 0.0,
     "budget": 14.214895,
-    "spent": 242.397554
+    "spent": 242.397553
   },
   {
     "year": 2018,
@@ -8886,7 +8886,7 @@ const MOCK_DATA = [
     "tipo": "Gasto",
     "fuente": "Tesoro Nacional",
     "initial": 8131.704173,
-    "budget": 8578.28597,
+    "budget": 8578.285971,
     "spent": 6589.094772
   },
   {
@@ -9447,7 +9447,7 @@ const MOCK_DATA = [
     "fuente": "Ingresos Propios",
     "initial": 132.797336,
     "budget": -149.64131,
-    "spent": 22462.78432
+    "spent": 22462.784321
   },
   {
     "year": 2018,
@@ -9461,7 +9461,7 @@ const MOCK_DATA = [
     "fuente": "Tesoro Nacional",
     "initial": 14441.560036,
     "budget": 12297.886323,
-    "spent": 36011.410897
+    "spent": 36011.410898
   },
   {
     "year": 2018,
@@ -9755,7 +9755,7 @@ const MOCK_DATA = [
     "fuente": "Ingresos Propios",
     "initial": 241.606819,
     "budget": 438.326067,
-    "spent": 3561.994242
+    "spent": 3561.994241
   },
   {
     "year": 2018,
@@ -9769,7 +9769,7 @@ const MOCK_DATA = [
     "fuente": "Tesoro Nacional",
     "initial": 18153.708166,
     "budget": 18030.424082,
-    "spent": 13445.584073
+    "spent": 13445.584072
   },
   {
     "year": 2018,
@@ -9867,7 +9867,7 @@ const MOCK_DATA = [
     "fuente": "Ingresos Propios",
     "initial": 800.0,
     "budget": 913.960165,
-    "spent": 897.034384
+    "spent": 897.034383
   },
   {
     "year": 2018,
@@ -9951,7 +9951,7 @@ const MOCK_DATA = [
     "fuente": "Crédito Externo",
     "initial": 14593.626509,
     "budget": 14951.822256,
-    "spent": 8618.658004
+    "spent": 8618.658003
   },
   {
     "year": 2018,
@@ -9993,7 +9993,7 @@ const MOCK_DATA = [
     "fuente": "Tesoro Nacional",
     "initial": 15460.325364,
     "budget": 13762.869613,
-    "spent": 19234.493966
+    "spent": 19234.493965
   },
   {
     "year": 2018,
@@ -10217,7 +10217,7 @@ const MOCK_DATA = [
     "fuente": "Tesoro Nacional",
     "initial": 10037.443758,
     "budget": 10159.268097,
-    "spent": 10028.102599
+    "spent": 10028.1026
   },
   {
     "year": 2018,
@@ -11715,7 +11715,7 @@ const MOCK_DATA = [
     "fuente": "Crédito Externo",
     "initial": 797.271304,
     "budget": 3901.090592,
-    "spent": 3738.825064
+    "spent": 3738.825063
   },
   {
     "year": 2018,
@@ -12723,7 +12723,7 @@ const MOCK_DATA = [
     "fuente": "Donaciones",
     "initial": 0.0,
     "budget": 40.259297,
-    "spent": 116.314284
+    "spent": 116.314283
   },
   {
     "year": 2018,
@@ -13633,7 +13633,7 @@ const MOCK_DATA = [
     "fuente": "Donaciones",
     "initial": 0.0,
     "budget": 388.996517,
-    "spent": 7469.112263
+    "spent": 7469.112262
   },
   {
     "year": 2019,
@@ -13647,7 +13647,7 @@ const MOCK_DATA = [
     "fuente": "Ingresos Propios",
     "initial": 51584.841513,
     "budget": 50248.1271,
-    "spent": 7540.814217
+    "spent": 7540.814216
   },
   {
     "year": 2019,
@@ -13661,7 +13661,7 @@ const MOCK_DATA = [
     "fuente": "Tesoro Nacional",
     "initial": 38829.173649,
     "budget": 30187.942835,
-    "spent": 47742.837043
+    "spent": 47742.837044
   },
   {
     "year": 2019,
@@ -13701,9 +13701,9 @@ const MOCK_DATA = [
     "subfuncion": "Intereses de deuda pública interna",
     "tipo": "Gasto",
     "fuente": "Tesoro Nacional",
-    "initial": 243819.288995,
-    "budget": 262219.493575,
-    "spent": 173085.956196
+    "initial": 243819.508996,
+    "budget": 262219.713576,
+    "spent": 173085.956198
   },
   {
     "year": 2019,
@@ -14277,7 +14277,7 @@ const MOCK_DATA = [
     "fuente": "Ingresos Propios",
     "initial": 4888.922845,
     "budget": 4888.922845,
-    "spent": 2102.48515
+    "spent": 2102.485149
   },
   {
     "year": 2019,
@@ -14445,7 +14445,7 @@ const MOCK_DATA = [
     "fuente": "Ingresos Propios",
     "initial": 1646.649486,
     "budget": 1456.557828,
-    "spent": 2725.319391
+    "spent": 2725.31939
   },
   {
     "year": 2019,
@@ -14459,7 +14459,7 @@ const MOCK_DATA = [
     "fuente": "Tesoro Nacional",
     "initial": 23093.61119,
     "budget": 22390.700693,
-    "spent": 19727.728089
+    "spent": 19727.728087
   },
   {
     "year": 2019,
@@ -14627,7 +14627,7 @@ const MOCK_DATA = [
     "fuente": "Tesoro Nacional",
     "initial": 5674.324809,
     "budget": 6852.168559,
-    "spent": 4784.78076
+    "spent": 4784.780759
   },
   {
     "year": 2019,
@@ -14682,7 +14682,7 @@ const MOCK_DATA = [
     "tipo": "Gasto",
     "fuente": "Tesoro Nacional",
     "initial": 19925.127313,
-    "budget": 20827.170524,
+    "budget": 20827.170523,
     "spent": 11274.646897
   },
   {
@@ -14851,7 +14851,7 @@ const MOCK_DATA = [
     "fuente": "Tesoro Nacional",
     "initial": 13510.509742,
     "budget": 14056.835906,
-    "spent": 12115.871185
+    "spent": 12115.871186
   },
   {
     "year": 2019,
@@ -15089,7 +15089,7 @@ const MOCK_DATA = [
     "fuente": "Crédito Externo",
     "initial": 4051.427456,
     "budget": 18667.516698,
-    "spent": 19267.37305
+    "spent": 19267.373051
   },
   {
     "year": 2019,
@@ -15103,7 +15103,7 @@ const MOCK_DATA = [
     "fuente": "Donaciones",
     "initial": 1272.7006,
     "budget": 69.102389,
-    "spent": 9255.142057
+    "spent": 9255.142058
   },
   {
     "year": 2019,
@@ -15131,7 +15131,7 @@ const MOCK_DATA = [
     "fuente": "Tesoro Nacional",
     "initial": 158749.203016,
     "budget": 145524.123027,
-    "spent": 120146.071274
+    "spent": 120146.071276
   },
   {
     "year": 2019,
@@ -15229,7 +15229,7 @@ const MOCK_DATA = [
     "fuente": "Donaciones",
     "initial": 3.101496,
     "budget": 15.084693,
-    "spent": 320.013354
+    "spent": 320.013355
   },
   {
     "year": 2019,
@@ -15509,7 +15509,7 @@ const MOCK_DATA = [
     "fuente": "Donaciones",
     "initial": 0.0,
     "budget": 24.275903,
-    "spent": 1675.503722
+    "spent": 1675.503721
   },
   {
     "year": 2019,
@@ -16405,7 +16405,7 @@ const MOCK_DATA = [
     "fuente": "Tesoro Nacional",
     "initial": 4667.687323,
     "budget": 5429.316665,
-    "spent": 7699.112878
+    "spent": 7699.112877
   },
   {
     "year": 2019,
@@ -16783,7 +16783,7 @@ const MOCK_DATA = [
     "fuente": "Crédito Externo",
     "initial": 818.823477,
     "budget": 818.357076,
-    "spent": 2878.634171
+    "spent": 2878.634172
   },
   {
     "year": 2019,
@@ -16811,7 +16811,7 @@ const MOCK_DATA = [
     "fuente": "Ingresos Propios",
     "initial": 3267.087402,
     "budget": 3296.730098,
-    "spent": 2124.972333
+    "spent": 2124.972334
   },
   {
     "year": 2019,
@@ -16825,7 +16825,7 @@ const MOCK_DATA = [
     "fuente": "Tesoro Nacional",
     "initial": 17697.135947,
     "budget": 17906.190437,
-    "spent": 14307.905746
+    "spent": 14307.905747
   },
   {
     "year": 2019,
@@ -16922,7 +16922,7 @@ const MOCK_DATA = [
     "tipo": "Gasto",
     "fuente": "Ingresos Propios",
     "initial": 0.0,
-    "budget": 191.92575,
+    "budget": 191.925749,
     "spent": 1159.809597
   },
   {
@@ -17021,7 +17021,7 @@ const MOCK_DATA = [
     "fuente": "Donaciones",
     "initial": 598.619813,
     "budget": 987.214106,
-    "spent": 3098.568015
+    "spent": 3098.568014
   },
   {
     "year": 2019,
@@ -17049,7 +17049,7 @@ const MOCK_DATA = [
     "fuente": "Tesoro Nacional",
     "initial": 31854.211234,
     "budget": 26184.536253,
-    "spent": 23935.782805
+    "spent": 23935.782804
   },
   {
     "year": 2019,
@@ -18840,7 +18840,7 @@ const MOCK_DATA = [
     "tipo": "Gasto",
     "fuente": "Tesoro Nacional",
     "initial": 6589.942988,
-    "budget": 5623.75571,
+    "budget": 5623.755711,
     "spent": 3654.32483
   },
   {
@@ -18883,7 +18883,7 @@ const MOCK_DATA = [
     "fuente": "Ingresos Propios",
     "initial": 1158.912433,
     "budget": 3408.215906,
-    "spent": 9651.829434
+    "spent": 9651.829433
   },
   {
     "year": 2019,
@@ -20941,7 +20941,7 @@ const MOCK_DATA = [
     "fuente": "Ingresos Propios",
     "initial": 0.0,
     "budget": 12475.742515,
-    "spent": 43452.976551
+    "spent": 43452.976552
   },
   {
     "year": 2020,
@@ -20955,7 +20955,7 @@ const MOCK_DATA = [
     "fuente": "Tesoro Nacional",
     "initial": 103477.419507,
     "budget": 122191.103698,
-    "spent": 119003.71324
+    "spent": 119003.713239
   },
   {
     "year": 2020,
@@ -20969,7 +20969,7 @@ const MOCK_DATA = [
     "fuente": "Crédito Externo",
     "initial": 0.0,
     "budget": 0.0,
-    "spent": 72076.754851
+    "spent": 72076.754852
   },
   {
     "year": 2020,
@@ -20983,7 +20983,7 @@ const MOCK_DATA = [
     "fuente": "Donaciones",
     "initial": 86908.642256,
     "budget": 86908.642256,
-    "spent": 24814.924383
+    "spent": 24814.924384
   },
   {
     "year": 2020,
@@ -21009,9 +21009,9 @@ const MOCK_DATA = [
     "subfuncion": "Intereses de deuda pública interna",
     "tipo": "Gasto",
     "fuente": "Tesoro Nacional",
-    "initial": 167986.8,
-    "budget": 160626.172703,
-    "spent": 139866.255178
+    "initial": 167986.579513,
+    "budget": 160625.952216,
+    "spent": 139866.255177
   },
   {
     "year": 2020,
@@ -21277,7 +21277,7 @@ const MOCK_DATA = [
     "fuente": "Tesoro Nacional",
     "initial": 7850.894957,
     "budget": 12307.494957,
-    "spent": 10857.293819
+    "spent": 10857.29382
   },
   {
     "year": 2020,
@@ -21613,7 +21613,7 @@ const MOCK_DATA = [
     "fuente": "Tesoro Nacional",
     "initial": 6253.155892,
     "budget": 6253.155892,
-    "spent": 5897.856437
+    "spent": 5897.856436
   },
   {
     "year": 2020,
@@ -21780,8 +21780,8 @@ const MOCK_DATA = [
     "tipo": "Gasto",
     "fuente": "Tesoro Nacional",
     "initial": 5017.340874,
-    "budget": 77937.31039,
-    "spent": 50616.920641
+    "budget": 77937.310389,
+    "spent": 50616.92064
   },
   {
     "year": 2020,
@@ -22088,7 +22088,7 @@ const MOCK_DATA = [
     "tipo": "Gasto",
     "fuente": "Tesoro Nacional",
     "initial": 15887.301645,
-    "budget": 12457.825241,
+    "budget": 12457.825242,
     "spent": 10700.666189
   },
   {
@@ -22243,7 +22243,7 @@ const MOCK_DATA = [
     "fuente": "Ingresos Propios",
     "initial": 1347.742783,
     "budget": 1287.094772,
-    "spent": 872.060657
+    "spent": 872.060656
   },
   {
     "year": 2020,
@@ -22257,7 +22257,7 @@ const MOCK_DATA = [
     "fuente": "Tesoro Nacional",
     "initial": 13702.065811,
     "budget": 12756.386652,
-    "spent": 13007.814102
+    "spent": 13007.814103
   },
   {
     "year": 2020,
@@ -22495,7 +22495,7 @@ const MOCK_DATA = [
     "fuente": "Crédito Externo",
     "initial": 6025.849573,
     "budget": 3966.266408,
-    "spent": 32381.851094
+    "spent": 32381.851093
   },
   {
     "year": 2020,
@@ -22508,8 +22508,8 @@ const MOCK_DATA = [
     "tipo": "Gasto",
     "fuente": "Donaciones",
     "initial": 4503.630762,
-    "budget": 5549.834664,
-    "spent": 13720.743478
+    "budget": 5549.834665,
+    "spent": 13720.743479
   },
   {
     "year": 2020,
@@ -22523,7 +22523,7 @@ const MOCK_DATA = [
     "fuente": "Ingresos Propios",
     "initial": 17890.108386,
     "budget": 15209.331251,
-    "spent": 11051.484791
+    "spent": 11051.484792
   },
   {
     "year": 2020,
@@ -22536,7 +22536,7 @@ const MOCK_DATA = [
     "tipo": "Gasto",
     "fuente": "Tesoro Nacional",
     "initial": 165392.501219,
-    "budget": 179870.198232,
+    "budget": 179870.198233,
     "spent": 143613.797476
   },
   {
@@ -22649,7 +22649,7 @@ const MOCK_DATA = [
     "fuente": "Tesoro Nacional",
     "initial": 2273.596027,
     "budget": 2114.32451,
-    "spent": 3616.415836
+    "spent": 3616.415835
   },
   {
     "year": 2020,
@@ -22915,7 +22915,7 @@ const MOCK_DATA = [
     "fuente": "Ingresos Propios",
     "initial": 100.516918,
     "budget": 725.190668,
-    "spent": 4223.445135
+    "spent": 4223.445136
   },
   {
     "year": 2020,
@@ -22929,7 +22929,7 @@ const MOCK_DATA = [
     "fuente": "Tesoro Nacional",
     "initial": 23138.621572,
     "budget": 22300.265063,
-    "spent": 14958.707963
+    "spent": 14958.707962
   },
   {
     "year": 2020,
@@ -23545,7 +23545,7 @@ const MOCK_DATA = [
     "fuente": "Tesoro Nacional",
     "initial": 2478.813207,
     "budget": 3248.091187,
-    "spent": 7530.192297
+    "spent": 7530.192298
   },
   {
     "year": 2020,
@@ -23881,7 +23881,7 @@ const MOCK_DATA = [
     "fuente": "Tesoro Nacional",
     "initial": 81746.138327,
     "budget": 93043.101043,
-    "spent": 63075.65488
+    "spent": 63075.654881
   },
   {
     "year": 2020,
@@ -24413,7 +24413,7 @@ const MOCK_DATA = [
     "fuente": "Ingresos Propios",
     "initial": 4987.980713,
     "budget": 5792.318218,
-    "spent": 8480.40835
+    "spent": 8480.408349
   },
   {
     "year": 2020,
@@ -24427,7 +24427,7 @@ const MOCK_DATA = [
     "fuente": "Tesoro Nacional",
     "initial": 24720.802111,
     "budget": 42292.317725,
-    "spent": 31163.354185
+    "spent": 31163.354184
   },
   {
     "year": 2020,
@@ -24693,7 +24693,7 @@ const MOCK_DATA = [
     "fuente": "Tesoro Nacional",
     "initial": 263.530892,
     "budget": 339.98183,
-    "spent": 5899.125004
+    "spent": 5899.125005
   },
   {
     "year": 2020,
@@ -26302,7 +26302,7 @@ const MOCK_DATA = [
     "tipo": "Gasto",
     "fuente": "Tesoro Nacional",
     "initial": 40.074666,
-    "budget": 8588.451458,
+    "budget": 8588.451459,
     "spent": 5186.139352
   },
   {
@@ -26331,7 +26331,7 @@ const MOCK_DATA = [
     "fuente": "Donaciones",
     "initial": 95.303048,
     "budget": 149.469731,
-    "spent": 2657.912972
+    "spent": 2657.912973
   },
   {
     "year": 2020,
@@ -26359,7 +26359,7 @@ const MOCK_DATA = [
     "fuente": "Tesoro Nacional",
     "initial": 32719.242218,
     "budget": 35903.919239,
-    "spent": 30312.994146
+    "spent": 30312.994145
   },
   {
     "year": 2020,
@@ -28417,7 +28417,7 @@ const MOCK_DATA = [
     "fuente": "Tesoro Nacional",
     "initial": 11186.482729,
     "budget": 15697.900112,
-    "spent": 97245.797002
+    "spent": 97245.797001
   },
   {
     "year": 2021,
@@ -28429,9 +28429,9 @@ const MOCK_DATA = [
     "subfuncion": "Intereses de deuda pública interna",
     "tipo": "Gasto",
     "fuente": "Crédito Externo",
-    "initial": 184836.0,
-    "budget": 186836.0,
-    "spent": 38823.076176
+    "initial": 184836.13,
+    "budget": 186836.13,
+    "spent": 38823.076175
   },
   {
     "year": 2021,
@@ -28459,7 +28459,7 @@ const MOCK_DATA = [
     "fuente": "Tesoro Nacional",
     "initial": 94430.2,
     "budget": 143847.300459,
-    "spent": 189934.406725
+    "spent": 189934.406726
   },
   {
     "year": 2021,
@@ -28515,7 +28515,7 @@ const MOCK_DATA = [
     "fuente": "Tesoro Nacional",
     "initial": 318.426356,
     "budget": 1318.426356,
-    "spent": 4358.25881
+    "spent": 4358.258811
   },
   {
     "year": 2021,
@@ -28697,7 +28697,7 @@ const MOCK_DATA = [
     "fuente": "Ingresos Propios",
     "initial": 2122.179259,
     "budget": 2122.179259,
-    "spent": 1161.180259
+    "spent": 1161.18026
   },
   {
     "year": 2021,
@@ -29047,7 +29047,7 @@ const MOCK_DATA = [
     "fuente": "Tesoro Nacional",
     "initial": 6551.81793,
     "budget": 8540.01793,
-    "spent": 7443.62631
+    "spent": 7443.626309
   },
   {
     "year": 2021,
@@ -29159,7 +29159,7 @@ const MOCK_DATA = [
     "fuente": "Tesoro Nacional",
     "initial": 1009.973608,
     "budget": 1108.811639,
-    "spent": 2747.718465
+    "spent": 2747.718466
   },
   {
     "year": 2021,
@@ -29201,7 +29201,7 @@ const MOCK_DATA = [
     "fuente": "Ingresos Propios",
     "initial": 25714.377754,
     "budget": 25127.096205,
-    "spent": 13657.043123
+    "spent": 13657.043124
   },
   {
     "year": 2021,
@@ -29215,7 +29215,7 @@ const MOCK_DATA = [
     "fuente": "Tesoro Nacional",
     "initial": 4918.790468,
     "budget": 22179.133227,
-    "spent": 34716.682444
+    "spent": 34716.682445
   },
   {
     "year": 2021,
@@ -29271,7 +29271,7 @@ const MOCK_DATA = [
     "fuente": "Tesoro Nacional",
     "initial": 9371.5347,
     "budget": 12913.865828,
-    "spent": 7568.671923
+    "spent": 7568.671922
   },
   {
     "year": 2021,
@@ -29523,7 +29523,7 @@ const MOCK_DATA = [
     "fuente": "Tesoro Nacional",
     "initial": 9397.886944,
     "budget": 10755.807723,
-    "spent": 11337.388953
+    "spent": 11337.388952
   },
   {
     "year": 2021,
@@ -29690,7 +29690,7 @@ const MOCK_DATA = [
     "tipo": "Gasto",
     "fuente": "Tesoro Nacional",
     "initial": 5614.802633,
-    "budget": 7016.288605,
+    "budget": 7016.288606,
     "spent": 13953.113798
   },
   {
@@ -29859,7 +29859,7 @@ const MOCK_DATA = [
     "fuente": "Tesoro Nacional",
     "initial": 14172.726714,
     "budget": 22278.156325,
-    "spent": 19786.095657
+    "spent": 19786.095656
   },
   {
     "year": 2021,
@@ -29929,7 +29929,7 @@ const MOCK_DATA = [
     "fuente": "Crédito Externo",
     "initial": 6336.943877,
     "budget": 3313.522669,
-    "spent": 9374.567767
+    "spent": 9374.567766
   },
   {
     "year": 2021,
@@ -29957,7 +29957,7 @@ const MOCK_DATA = [
     "fuente": "Ingresos Propios",
     "initial": 33942.262367,
     "budget": 40395.675979,
-    "spent": 36118.574059
+    "spent": 36118.574058
   },
   {
     "year": 2021,
@@ -29970,8 +29970,8 @@ const MOCK_DATA = [
     "tipo": "Gasto",
     "fuente": "Tesoro Nacional",
     "initial": 151911.730056,
-    "budget": 142399.741467,
-    "spent": 135521.185004
+    "budget": 142399.741468,
+    "spent": 135521.185006
   },
   {
     "year": 2021,
@@ -30083,7 +30083,7 @@ const MOCK_DATA = [
     "fuente": "Tesoro Nacional",
     "initial": 6820.963666,
     "budget": 19022.614497,
-    "spent": 14808.773126
+    "spent": 14808.773125
   },
   {
     "year": 2021,
@@ -30223,7 +30223,7 @@ const MOCK_DATA = [
     "fuente": "Ingresos Propios",
     "initial": 94.5,
     "budget": 89.731019,
-    "spent": 2395.710539
+    "spent": 2395.710538
   },
   {
     "year": 2021,
@@ -30349,7 +30349,7 @@ const MOCK_DATA = [
     "fuente": "Tesoro Nacional",
     "initial": 21739.298613,
     "budget": 27197.094157,
-    "spent": 23769.335601
+    "spent": 23769.3356
   },
   {
     "year": 2021,
@@ -31258,7 +31258,7 @@ const MOCK_DATA = [
     "tipo": "Gasto",
     "fuente": "Tesoro Nacional",
     "initial": 96731.067409,
-    "budget": 114698.489306,
+    "budget": 114698.489307,
     "spent": 104062.098371
   },
   {
@@ -31469,7 +31469,7 @@ const MOCK_DATA = [
     "fuente": "Tesoro Nacional",
     "initial": 415.506,
     "budget": 62.074822,
-    "spent": 491.587709
+    "spent": 491.587708
   },
   {
     "year": 2021,
@@ -31581,7 +31581,7 @@ const MOCK_DATA = [
     "fuente": "Tesoro Nacional",
     "initial": 19828.508816,
     "budget": 18948.272072,
-    "spent": 15308.644853
+    "spent": 15308.644855
   },
   {
     "year": 2021,
@@ -31805,7 +31805,7 @@ const MOCK_DATA = [
     "fuente": "Tesoro Nacional",
     "initial": 28836.705078,
     "budget": 27550.787092,
-    "spent": 20360.018814
+    "spent": 20360.018813
   },
   {
     "year": 2021,
@@ -32113,7 +32113,7 @@ const MOCK_DATA = [
     "fuente": "Tesoro Nacional",
     "initial": 17373.980489,
     "budget": 17171.125015,
-    "spent": 10011.634102
+    "spent": 10011.634101
   },
   {
     "year": 2021,
@@ -32588,7 +32588,7 @@ const MOCK_DATA = [
     "tipo": "Gasto",
     "fuente": "Tesoro Nacional",
     "initial": 386.759382,
-    "budget": 604.13144,
+    "budget": 604.131439,
     "spent": 314.436672
   },
   {
@@ -33610,7 +33610,7 @@ const MOCK_DATA = [
     "tipo": "Gasto",
     "fuente": "Ingresos Propios",
     "initial": 68.697565,
-    "budget": 2818.196636,
+    "budget": 2818.196635,
     "spent": 2009.769894
   },
   {
@@ -33625,7 +33625,7 @@ const MOCK_DATA = [
     "fuente": "Tesoro Nacional",
     "initial": 16295.345571,
     "budget": 16290.051114,
-    "spent": 9456.373985
+    "spent": 9456.373986
   },
   {
     "year": 2021,
@@ -33680,7 +33680,7 @@ const MOCK_DATA = [
     "tipo": "Gasto",
     "fuente": "Tesoro Nacional",
     "initial": 41232.51693,
-    "budget": 48248.389987,
+    "budget": 48248.389988,
     "spent": 37225.634633
   },
   {
@@ -34044,7 +34044,7 @@ const MOCK_DATA = [
     "tipo": "Gasto",
     "fuente": "Crédito Externo",
     "initial": 263.468707,
-    "budget": 318.379462,
+    "budget": 318.379463,
     "spent": 112.898835
   },
   {
@@ -34786,7 +34786,7 @@ const MOCK_DATA = [
     "tipo": "Gasto",
     "fuente": "Tesoro Nacional",
     "initial": 3188.287765,
-    "budget": 3357.768836,
+    "budget": 3357.768837,
     "spent": 5602.902313
   },
   {
@@ -35795,7 +35795,7 @@ const MOCK_DATA = [
     "fuente": "Ingresos Propios",
     "initial": 8256.788929,
     "budget": -3132.526836,
-    "spent": 17896.039756
+    "spent": 17896.039755
   },
   {
     "year": 2022,
@@ -35809,7 +35809,7 @@ const MOCK_DATA = [
     "fuente": "Tesoro Nacional",
     "initial": 113586.58251,
     "budget": 159272.825528,
-    "spent": 101894.575883
+    "spent": 101894.575884
   },
   {
     "year": 2022,
@@ -35863,8 +35863,8 @@ const MOCK_DATA = [
     "subfuncion": "Intereses de deuda pública interna",
     "tipo": "Gasto",
     "fuente": "Tesoro Nacional",
-    "initial": 217039.0,
-    "budget": 210331.195684,
+    "initial": 217039.052885,
+    "budget": 210331.248569,
     "spent": 178010.844807
   },
   {
@@ -36467,7 +36467,7 @@ const MOCK_DATA = [
     "fuente": "Tesoro Nacional",
     "initial": 2383.067341,
     "budget": 5138.456776,
-    "spent": 6462.865459
+    "spent": 6462.86546
   },
   {
     "year": 2022,
@@ -36705,7 +36705,7 @@ const MOCK_DATA = [
     "fuente": "Donaciones",
     "initial": 685.096757,
     "budget": -2793.081382,
-    "spent": 4833.678697
+    "spent": 4833.678696
   },
   {
     "year": 2022,
@@ -36732,7 +36732,7 @@ const MOCK_DATA = [
     "tipo": "Gasto",
     "fuente": "Tesoro Nacional",
     "initial": 39922.674763,
-    "budget": 52990.436496,
+    "budget": 52990.436497,
     "spent": 38839.46571
   },
   {
@@ -36789,7 +36789,7 @@ const MOCK_DATA = [
     "fuente": "Tesoro Nacional",
     "initial": 9767.327856,
     "budget": 13769.529598,
-    "spent": 16361.146271
+    "spent": 16361.14627
   },
   {
     "year": 2022,
@@ -36999,7 +36999,7 @@ const MOCK_DATA = [
     "fuente": "Ingresos Propios",
     "initial": 158.134583,
     "budget": 201.347206,
-    "spent": 3973.852427
+    "spent": 3973.852428
   },
   {
     "year": 2022,
@@ -37012,7 +37012,7 @@ const MOCK_DATA = [
     "tipo": "Gasto",
     "fuente": "Tesoro Nacional",
     "initial": 15025.553026,
-    "budget": 18942.135002,
+    "budget": 18942.135003,
     "spent": 12357.294596
   },
   {
@@ -37125,7 +37125,7 @@ const MOCK_DATA = [
     "fuente": "Tesoro Nacional",
     "initial": 8484.014778,
     "budget": 14819.152485,
-    "spent": 8159.350129
+    "spent": 8159.35013
   },
   {
     "year": 2022,
@@ -37180,8 +37180,8 @@ const MOCK_DATA = [
     "tipo": "Gasto",
     "fuente": "Tesoro Nacional",
     "initial": 15241.358076,
-    "budget": 19464.460985,
-    "spent": 20401.582951
+    "budget": 19464.460984,
+    "spent": 20401.58295
   },
   {
     "year": 2022,
@@ -37250,7 +37250,7 @@ const MOCK_DATA = [
     "tipo": "Gasto",
     "fuente": "Crédito Externo",
     "initial": 7962.64931,
-    "budget": 2521.113505,
+    "budget": 2521.113506,
     "spent": 20902.035331
   },
   {
@@ -37264,8 +37264,8 @@ const MOCK_DATA = [
     "tipo": "Gasto",
     "fuente": "Donaciones",
     "initial": 507.706624,
-    "budget": 619.410294,
-    "spent": 5175.646289
+    "budget": 619.410293,
+    "spent": 5175.64629
   },
   {
     "year": 2022,
@@ -37292,8 +37292,8 @@ const MOCK_DATA = [
     "tipo": "Gasto",
     "fuente": "Tesoro Nacional",
     "initial": 168665.72122,
-    "budget": 167655.765109,
-    "spent": 145488.712405
+    "budget": 167655.76511,
+    "spent": 145488.712401
   },
   {
     "year": 2022,
@@ -37390,7 +37390,7 @@ const MOCK_DATA = [
     "tipo": "Gasto",
     "fuente": "Ingresos Propios",
     "initial": 2857.20651,
-    "budget": 40085.399086,
+    "budget": 40085.399087,
     "spent": 2961.969804
   },
   {
@@ -37405,7 +37405,7 @@ const MOCK_DATA = [
     "fuente": "Tesoro Nacional",
     "initial": 3453.576148,
     "budget": 4620.160973,
-    "spent": 40321.049148
+    "spent": 40321.049147
   },
   {
     "year": 2022,
@@ -37531,7 +37531,7 @@ const MOCK_DATA = [
     "fuente": "Donaciones",
     "initial": 0.0,
     "budget": -413.549096,
-    "spent": 3444.05891
+    "spent": 3444.058909
   },
   {
     "year": 2022,
@@ -37671,7 +37671,7 @@ const MOCK_DATA = [
     "fuente": "Tesoro Nacional",
     "initial": 3575.41742,
     "budget": 8257.77329,
-    "spent": 19818.107295
+    "spent": 19818.107294
   },
   {
     "year": 2022,
@@ -38539,7 +38539,7 @@ const MOCK_DATA = [
     "fuente": "Crédito Externo",
     "initial": 1748.500769,
     "budget": 2094.951462,
-    "spent": 4183.524757
+    "spent": 4183.524756
   },
   {
     "year": 2022,
@@ -38553,7 +38553,7 @@ const MOCK_DATA = [
     "fuente": "Donaciones",
     "initial": 434.698941,
     "budget": 1769.131319,
-    "spent": 15531.776269
+    "spent": 15531.776268
   },
   {
     "year": 2022,
@@ -38567,7 +38567,7 @@ const MOCK_DATA = [
     "fuente": "Ingresos Propios",
     "initial": 6139.487245,
     "budget": 6446.41371,
-    "spent": 18361.014354
+    "spent": 18361.014353
   },
   {
     "year": 2022,
@@ -38861,7 +38861,7 @@ const MOCK_DATA = [
     "fuente": "Crédito Externo",
     "initial": 13695.345722,
     "budget": 13496.922548,
-    "spent": 3944.357644
+    "spent": 3944.357643
   },
   {
     "year": 2022,
@@ -38903,7 +38903,7 @@ const MOCK_DATA = [
     "fuente": "Tesoro Nacional",
     "initial": 3087.812638,
     "budget": 3961.625705,
-    "spent": 13975.574954
+    "spent": 13975.574953
   },
   {
     "year": 2022,
@@ -38973,7 +38973,7 @@ const MOCK_DATA = [
     "fuente": "Crédito Externo",
     "initial": 1647.584392,
     "budget": 2937.31082,
-    "spent": 1691.588937
+    "spent": 1691.588938
   },
   {
     "year": 2022,
@@ -39015,7 +39015,7 @@ const MOCK_DATA = [
     "fuente": "Tesoro Nacional",
     "initial": 5612.411081,
     "budget": 7876.603089,
-    "spent": 9917.162347
+    "spent": 9917.162348
   },
   {
     "year": 2022,
@@ -41045,7 +41045,7 @@ const MOCK_DATA = [
     "fuente": "Crédito Externo",
     "initial": 10852.774649,
     "budget": 10936.210436,
-    "spent": 8032.957329
+    "spent": 8032.957328
   },
   {
     "year": 2022,
@@ -41087,7 +41087,7 @@ const MOCK_DATA = [
     "fuente": "Tesoro Nacional",
     "initial": 44637.824691,
     "budget": 45800.511999,
-    "spent": 39641.26315
+    "spent": 39641.263151
   },
   {
     "year": 2022,
@@ -41142,7 +41142,7 @@ const MOCK_DATA = [
     "tipo": "Gasto",
     "fuente": "Tesoro Nacional",
     "initial": 5743.188694,
-    "budget": 6480.716232,
+    "budget": 6480.716231,
     "spent": 2690.677536
   },
   {
@@ -43103,7 +43103,7 @@ const MOCK_DATA = [
     "fuente": "Ingresos Propios",
     "initial": 4205.485083,
     "budget": 5081.860607,
-    "spent": 13074.759604
+    "spent": 13074.759605
   },
   {
     "year": 2023,
@@ -43117,7 +43117,7 @@ const MOCK_DATA = [
     "fuente": "Tesoro Nacional",
     "initial": 89470.941019,
     "budget": 88225.061538,
-    "spent": 94225.592735
+    "spent": 94225.592734
   },
   {
     "year": 2023,
@@ -43157,8 +43157,8 @@ const MOCK_DATA = [
     "subfuncion": "Intereses de deuda pública interna",
     "tipo": "Gasto",
     "fuente": "Tesoro Nacional",
-    "initial": 386689.026236,
-    "budget": 340048.136699,
+    "initial": 386688.707918,
+    "budget": 340047.818381,
     "spent": 306904.12962
   },
   {
@@ -43635,7 +43635,7 @@ const MOCK_DATA = [
     "fuente": "Ingresos Propios",
     "initial": 0.0,
     "budget": -51.009405,
-    "spent": 398.725671
+    "spent": 398.72567
   },
   {
     "year": 2023,
@@ -43662,7 +43662,7 @@ const MOCK_DATA = [
     "tipo": "Gasto",
     "fuente": "Crédito Externo",
     "initial": 342.94061,
-    "budget": -1251.226607,
+    "budget": -1251.226608,
     "spent": 1184.130842
   },
   {
@@ -43704,7 +43704,7 @@ const MOCK_DATA = [
     "tipo": "Gasto",
     "fuente": "Tesoro Nacional",
     "initial": 6070.999834,
-    "budget": 7246.211369,
+    "budget": 7246.211368,
     "spent": 9568.798198
   },
   {
@@ -44083,7 +44083,7 @@ const MOCK_DATA = [
     "fuente": "Tesoro Nacional",
     "initial": 22639.849865,
     "budget": 27088.117762,
-    "spent": 49712.921194
+    "spent": 49712.921193
   },
   {
     "year": 2023,
@@ -44125,7 +44125,7 @@ const MOCK_DATA = [
     "fuente": "Ingresos Propios",
     "initial": 324.983417,
     "budget": 345.099527,
-    "spent": 2444.166016
+    "spent": 2444.166015
   },
   {
     "year": 2023,
@@ -44180,7 +44180,7 @@ const MOCK_DATA = [
     "tipo": "Gasto",
     "fuente": "Ingresos Propios",
     "initial": 3571.769916,
-    "budget": 3209.490847,
+    "budget": 3209.490848,
     "spent": 4475.558903
   },
   {
@@ -44195,7 +44195,7 @@ const MOCK_DATA = [
     "fuente": "Tesoro Nacional",
     "initial": 13099.774554,
     "budget": 17765.273823,
-    "spent": 14303.483309
+    "spent": 14303.483308
   },
   {
     "year": 2023,
@@ -44237,7 +44237,7 @@ const MOCK_DATA = [
     "fuente": "Ingresos Propios",
     "initial": 4979.132474,
     "budget": 6179.132474,
-    "spent": 4325.976803
+    "spent": 4325.976802
   },
   {
     "year": 2023,
@@ -44475,7 +44475,7 @@ const MOCK_DATA = [
     "fuente": "Tesoro Nacional",
     "initial": 10356.106876,
     "budget": 17118.259788,
-    "spent": 14968.687434
+    "spent": 14968.687433
   },
   {
     "year": 2023,
@@ -44517,7 +44517,7 @@ const MOCK_DATA = [
     "fuente": "Ingresos Propios",
     "initial": 1438.375823,
     "budget": 2361.311253,
-    "spent": 2506.723853
+    "spent": 2506.723854
   },
   {
     "year": 2023,
@@ -44531,7 +44531,7 @@ const MOCK_DATA = [
     "fuente": "Tesoro Nacional",
     "initial": 16484.670095,
     "budget": 22338.876171,
-    "spent": 19569.58895
+    "spent": 19569.588949
   },
   {
     "year": 2023,
@@ -44615,7 +44615,7 @@ const MOCK_DATA = [
     "fuente": "Donaciones",
     "initial": 2471.685492,
     "budget": 3660.694459,
-    "spent": 14736.626217
+    "spent": 14736.626216
   },
   {
     "year": 2023,
@@ -44628,7 +44628,7 @@ const MOCK_DATA = [
     "tipo": "Gasto",
     "fuente": "Ingresos Propios",
     "initial": 74322.688579,
-    "budget": 75295.494427,
+    "budget": 75295.494426,
     "spent": 22411.663349
   },
   {
@@ -44642,8 +44642,8 @@ const MOCK_DATA = [
     "tipo": "Gasto",
     "fuente": "Tesoro Nacional",
     "initial": 186098.09184,
-    "budget": 184917.556541,
-    "spent": 183661.49642
+    "budget": 184917.55654,
+    "spent": 183661.496419
   },
   {
     "year": 2023,
@@ -44741,7 +44741,7 @@ const MOCK_DATA = [
     "fuente": "Ingresos Propios",
     "initial": 20241.128786,
     "budget": 20248.502769,
-    "spent": 6102.488188
+    "spent": 6102.488187
   },
   {
     "year": 2023,
@@ -44754,7 +44754,7 @@ const MOCK_DATA = [
     "tipo": "Gasto",
     "fuente": "Tesoro Nacional",
     "initial": 6967.824223,
-    "budget": 2188.996654,
+    "budget": 2188.996653,
     "spent": 13642.746995
   },
   {
@@ -45020,7 +45020,7 @@ const MOCK_DATA = [
     "tipo": "Gasto",
     "fuente": "Tesoro Nacional",
     "initial": 27871.546415,
-    "budget": 30656.961329,
+    "budget": 30656.961328,
     "spent": 22495.231685
   },
   {
@@ -45412,8 +45412,8 @@ const MOCK_DATA = [
     "tipo": "Gasto",
     "fuente": "Tesoro Nacional",
     "initial": 8646.935632,
-    "budget": 8995.369035,
-    "spent": 6550.956631
+    "budget": 8995.369034,
+    "spent": 6550.95663
   },
   {
     "year": 2023,
@@ -45819,7 +45819,7 @@ const MOCK_DATA = [
     "fuente": "Ingresos Propios",
     "initial": 143.718541,
     "budget": 390.206708,
-    "spent": 1449.165262
+    "spent": 1449.165263
   },
   {
     "year": 2023,
@@ -45832,8 +45832,8 @@ const MOCK_DATA = [
     "tipo": "Gasto",
     "fuente": "Tesoro Nacional",
     "initial": 10589.042244,
-    "budget": 10788.64717,
-    "spent": 9441.963219
+    "budget": 10788.647169,
+    "spent": 9441.96322
   },
   {
     "year": 2023,
@@ -45931,7 +45931,7 @@ const MOCK_DATA = [
     "fuente": "Ingresos Propios",
     "initial": 43687.763804,
     "budget": 43305.695666,
-    "spent": 22986.343167
+    "spent": 22986.343166
   },
   {
     "year": 2023,
@@ -45944,8 +45944,8 @@ const MOCK_DATA = [
     "tipo": "Gasto",
     "fuente": "Tesoro Nacional",
     "initial": 76162.68107,
-    "budget": 84525.071154,
-    "spent": 100672.643567
+    "budget": 84525.071153,
+    "spent": 100672.643565
   },
   {
     "year": 2023,
@@ -46239,7 +46239,7 @@ const MOCK_DATA = [
     "fuente": "Crédito Externo",
     "initial": 3172.809685,
     "budget": 3187.418613,
-    "spent": 2727.877978
+    "spent": 2727.877979
   },
   {
     "year": 2023,
@@ -46281,7 +46281,7 @@ const MOCK_DATA = [
     "fuente": "Tesoro Nacional",
     "initial": 18051.29258,
     "budget": 20536.577078,
-    "spent": 18384.330706
+    "spent": 18384.330705
   },
   {
     "year": 2023,
@@ -46379,7 +46379,7 @@ const MOCK_DATA = [
     "fuente": "Ingresos Propios",
     "initial": 2538.455117,
     "budget": 2504.417349,
-    "spent": 4005.935607
+    "spent": 4005.935606
   },
   {
     "year": 2023,
@@ -46393,7 +46393,7 @@ const MOCK_DATA = [
     "fuente": "Tesoro Nacional",
     "initial": 11574.522038,
     "budget": 14405.235626,
-    "spent": 13616.810561
+    "spent": 13616.81056
   },
   {
     "year": 2023,
@@ -46505,7 +46505,7 @@ const MOCK_DATA = [
     "fuente": "Tesoro Nacional",
     "initial": 19073.415363,
     "budget": 36193.747021,
-    "spent": 23124.363364
+    "spent": 23124.363363
   },
   {
     "year": 2023,
@@ -47289,7 +47289,7 @@ const MOCK_DATA = [
     "fuente": "Tesoro Nacional",
     "initial": 18696.153152,
     "budget": 18696.153152,
-    "spent": 15554.975028
+    "spent": 15554.975031
   },
   {
     "year": 2023,
@@ -48325,7 +48325,7 @@ const MOCK_DATA = [
     "fuente": "Crédito Externo",
     "initial": 299.941593,
     "budget": 386.629588,
-    "spent": 6815.900145
+    "spent": 6815.900146
   },
   {
     "year": 2023,
@@ -48367,7 +48367,7 @@ const MOCK_DATA = [
     "fuente": "Tesoro Nacional",
     "initial": 24316.222027,
     "budget": 24607.916444,
-    "spent": 40516.389988
+    "spent": 40516.38999
   },
   {
     "year": 2023,
@@ -48381,7 +48381,7 @@ const MOCK_DATA = [
     "fuente": "Crédito Externo",
     "initial": 58.0,
     "budget": 122.377111,
-    "spent": 379.964017
+    "spent": 379.964018
   },
   {
     "year": 2023,
@@ -49151,7 +49151,7 @@ const MOCK_DATA = [
     "fuente": "Tesoro Nacional",
     "initial": 5657.059328,
     "budget": 7161.059328,
-    "spent": 3019.446183
+    "spent": 3019.446184
   },
   {
     "year": 2023,
@@ -49584,7 +49584,7 @@ const MOCK_DATA = [
     "tipo": "Gasto",
     "fuente": "Tesoro Nacional",
     "initial": 3386.27195,
-    "budget": 8343.691069,
+    "budget": 8343.691068,
     "spent": 4935.27087
   },
   {
@@ -50523,7 +50523,7 @@ const MOCK_DATA = [
     "fuente": "Crédito Externo",
     "initial": 43127.947245,
     "budget": 42246.268646,
-    "spent": 25956.088518
+    "spent": 25956.088517
   },
   {
     "year": 2024,
@@ -50551,7 +50551,7 @@ const MOCK_DATA = [
     "fuente": "Ingresos Propios",
     "initial": 2367.599832,
     "budget": 1768.1294,
-    "spent": 15683.031924
+    "spent": 15683.031923
   },
   {
     "year": 2024,
@@ -50565,7 +50565,7 @@ const MOCK_DATA = [
     "fuente": "Tesoro Nacional",
     "initial": 107674.596163,
     "budget": 118159.902104,
-    "spent": 88672.241676
+    "spent": 88672.241675
   },
   {
     "year": 2024,
@@ -50605,8 +50605,8 @@ const MOCK_DATA = [
     "subfuncion": "Intereses de deuda pública interna",
     "tipo": "Gasto",
     "fuente": "Ingresos Propios",
-    "initial": 294634.0,
-    "budget": 294634.0,
+    "initial": 294634.030542,
+    "budget": 294634.030542,
     "spent": 70633.789155
   },
   {
@@ -50622,104 +50622,6 @@ const MOCK_DATA = [
     "initial": 91550.686175,
     "budget": 85462.052765,
     "spent": 226864.377921
-  },
-  {
-    "year": 2024,
-    "seccion": "Administración central",
-    "capitulo": "ADMINISTRACION DE DEUDA PUBLICA Y ACTIVOS FINANCIEROS",
-    "subcapitulo": "DEUDA PUBLICA Y OTRAS OPERACIONES FINANCIERAS",
-    "finalidad": "Intereses de la Deuda Pública",
-    "funcion": "Intereses y comisiones de deuda pública",
-    "subfuncion": "Intereses de deuda pública interna",
-    "tipo": "Aplicaciones Financieras",
-    "fuente": "Crédito Externo",
-    "initial": 3257.658874,
-    "budget": 1827.658875,
-    "spent": 14673.176847
-  },
-  {
-    "year": 2024,
-    "seccion": "Administración central",
-    "capitulo": "ADMINISTRACION DE DEUDA PUBLICA Y ACTIVOS FINANCIEROS",
-    "subcapitulo": "DEUDA PUBLICA Y OTRAS OPERACIONES FINANCIERAS",
-    "finalidad": "Intereses de la Deuda Pública",
-    "funcion": "Intereses y comisiones de deuda pública",
-    "subfuncion": "Intereses de deuda pública interna",
-    "tipo": "Aplicaciones Financieras",
-    "fuente": "Donaciones",
-    "initial": 0.0,
-    "budget": 14885.0,
-    "spent": 18121.443935
-  },
-  {
-    "year": 2024,
-    "seccion": "Administración central",
-    "capitulo": "ADMINISTRACION DE DEUDA PUBLICA Y ACTIVOS FINANCIEROS",
-    "subcapitulo": "DEUDA PUBLICA Y OTRAS OPERACIONES FINANCIERAS",
-    "finalidad": "Intereses de la Deuda Pública",
-    "funcion": "Intereses y comisiones de deuda pública",
-    "subfuncion": "Intereses de deuda pública interna",
-    "tipo": "Aplicaciones Financieras",
-    "fuente": "Ingresos Propios",
-    "initial": 3446.14335,
-    "budget": 4673.14335,
-    "spent": 4387.93091
-  },
-  {
-    "year": 2024,
-    "seccion": "Administración central",
-    "capitulo": "ADMINISTRACION DE DEUDA PUBLICA Y ACTIVOS FINANCIEROS",
-    "subcapitulo": "DEUDA PUBLICA Y OTRAS OPERACIONES FINANCIERAS",
-    "finalidad": "Intereses de la Deuda Pública",
-    "funcion": "Intereses y comisiones de deuda pública",
-    "subfuncion": "Intereses de deuda pública interna",
-    "tipo": "Aplicaciones Financieras",
-    "fuente": "Tesoro Nacional",
-    "initial": 84846.883951,
-    "budget": 70164.88395,
-    "spent": 51187.072083
-  },
-  {
-    "year": 2024,
-    "seccion": "Administración central",
-    "capitulo": "ADMINISTRACION DE OBLIGACIONES DEL TESORO NACIONAL",
-    "subcapitulo": "ADM. DE OBLIGACIONES DEL TESORO",
-    "finalidad": "Servicios Generales",
-    "funcion": "Administración general",
-    "subfuncion": "Dirección y coordinación superior",
-    "tipo": "Aplicaciones Financieras",
-    "fuente": "Crédito Externo",
-    "initial": 12071.324482,
-    "budget": 12071.324482,
-    "spent": 2.104233
-  },
-  {
-    "year": 2024,
-    "seccion": "Administración central",
-    "capitulo": "ADMINISTRACION DE OBLIGACIONES DEL TESORO NACIONAL",
-    "subcapitulo": "ADM. DE OBLIGACIONES DEL TESORO",
-    "finalidad": "Servicios Generales",
-    "funcion": "Administración general",
-    "subfuncion": "Dirección y coordinación superior",
-    "tipo": "Aplicaciones Financieras",
-    "fuente": "Ingresos Propios",
-    "initial": 0.0,
-    "budget": 0.0,
-    "spent": 2484.362085
-  },
-  {
-    "year": 2024,
-    "seccion": "Administración central",
-    "capitulo": "ADMINISTRACION DE OBLIGACIONES DEL TESORO NACIONAL",
-    "subcapitulo": "ADM. DE OBLIGACIONES DEL TESORO",
-    "finalidad": "Servicios Generales",
-    "funcion": "Administración general",
-    "subfuncion": "Dirección y coordinación superior",
-    "tipo": "Aplicaciones Financieras",
-    "fuente": "Tesoro Nacional",
-    "initial": 9210.299681,
-    "budget": 8432.662668,
-    "spent": 2720.843867
   },
   {
     "year": 2024,
@@ -50775,7 +50677,7 @@ const MOCK_DATA = [
     "fuente": "Tesoro Nacional",
     "initial": 5510.349087,
     "budget": 6524.555802,
-    "spent": 4346.904557
+    "spent": 4346.904558
   },
   {
     "year": 2024,
@@ -50990,20 +50892,6 @@ const MOCK_DATA = [
   {
     "year": 2024,
     "seccion": "Administración central",
-    "capitulo": "MINISTERIO DE AGRICULTURA",
-    "subcapitulo": "MINISTERIO DE AGRICULTURA",
-    "finalidad": "Servicios Generales",
-    "funcion": "Administración general",
-    "subfuncion": "Dirección y coordinación superior",
-    "tipo": "Aplicaciones Financieras",
-    "fuente": "Tesoro Nacional",
-    "initial": 0.0,
-    "budget": 681.0,
-    "spent": 681.0
-  },
-  {
-    "year": 2024,
-    "seccion": "Administración central",
     "capitulo": "MINISTERIO DE ECONOMIA, PLANIFICACION Y DESARROLLO",
     "subcapitulo": "MINISTERIO DE ECONOMIA, PLANIFICACION Y DESARROLLO",
     "finalidad": "Servicios Generales",
@@ -51112,62 +51000,6 @@ const MOCK_DATA = [
     "initial": 316.646797,
     "budget": 264.448004,
     "spent": 478.062544
-  },
-  {
-    "year": 2024,
-    "seccion": "Administración central",
-    "capitulo": "MINISTERIO DE ECONOMÍA, PLANIFICACIÓN Y DESARROLLO",
-    "subcapitulo": "MINISTERIO DE ECONOMIA, PLANIFICACION Y DESARROLLO",
-    "finalidad": "Servicios Generales",
-    "funcion": "Administración general",
-    "subfuncion": "Dirección y coordinación superior",
-    "tipo": "Aplicaciones Financieras",
-    "fuente": "Ingresos Propios",
-    "initial": 835.789266,
-    "budget": 835.789266,
-    "spent": 0.0
-  },
-  {
-    "year": 2024,
-    "seccion": "Administración central",
-    "capitulo": "MINISTERIO DE ECONOMÍA, PLANIFICACIÓN Y DESARROLLO",
-    "subcapitulo": "MINISTERIO DE ECONOMIA, PLANIFICACION Y DESARROLLO",
-    "finalidad": "Servicios Generales",
-    "funcion": "Administración general",
-    "subfuncion": "Dirección y coordinación superior",
-    "tipo": "Aplicaciones Financieras",
-    "fuente": "Tesoro Nacional",
-    "initial": 0.0,
-    "budget": 15.637013,
-    "spent": 849.204677
-  },
-  {
-    "year": 2024,
-    "seccion": "Administración central",
-    "capitulo": "MINISTERIO DE EDUCACIÓN",
-    "subcapitulo": "MINISTERIO DE EDUCACION",
-    "finalidad": "Servicios Generales",
-    "funcion": "Administración general",
-    "subfuncion": "Dirección y coordinación superior",
-    "tipo": "Aplicaciones Financieras",
-    "fuente": "Ingresos Propios",
-    "initial": 0.0,
-    "budget": 0.0,
-    "spent": 7.557575
-  },
-  {
-    "year": 2024,
-    "seccion": "Administración central",
-    "capitulo": "MINISTERIO DE EDUCACIÓN",
-    "subcapitulo": "MINISTERIO DE EDUCACION",
-    "finalidad": "Servicios Generales",
-    "funcion": "Administración general",
-    "subfuncion": "Dirección y coordinación superior",
-    "tipo": "Aplicaciones Financieras",
-    "fuente": "Tesoro Nacional",
-    "initial": 0.0,
-    "budget": 81.0,
-    "spent": 17.652325
   },
   {
     "year": 2024,
@@ -51363,7 +51195,7 @@ const MOCK_DATA = [
     "fuente": "Donaciones",
     "initial": 199.706213,
     "budget": 251.428353,
-    "spent": 290.118026
+    "spent": 290.118027
   },
   {
     "year": 2024,
@@ -51531,7 +51363,7 @@ const MOCK_DATA = [
     "fuente": "Tesoro Nacional",
     "initial": 6578.085311,
     "budget": 8771.502249,
-    "spent": 7093.736404
+    "spent": 7093.736405
   },
   {
     "year": 2024,
@@ -51657,7 +51489,7 @@ const MOCK_DATA = [
     "fuente": "Crédito Externo",
     "initial": 1356.310541,
     "budget": 137.393256,
-    "spent": 4853.450546
+    "spent": 4853.450545
   },
   {
     "year": 2024,
@@ -51699,7 +51531,7 @@ const MOCK_DATA = [
     "fuente": "Tesoro Nacional",
     "initial": 30433.358403,
     "budget": 32144.02993,
-    "spent": 45745.827438
+    "spent": 45745.827437
   },
   {
     "year": 2024,
@@ -51810,7 +51642,7 @@ const MOCK_DATA = [
     "tipo": "Gasto",
     "fuente": "Tesoro Nacional",
     "initial": 17906.012236,
-    "budget": 19314.225878,
+    "budget": 19314.225877,
     "spent": 16238.27382
   },
   {
@@ -51951,7 +51783,7 @@ const MOCK_DATA = [
     "fuente": "Donaciones",
     "initial": 0.0,
     "budget": -6.43973,
-    "spent": 1524.102841
+    "spent": 1524.10284
   },
   {
     "year": 2024,
@@ -51964,7 +51796,7 @@ const MOCK_DATA = [
     "tipo": "Gasto",
     "fuente": "Ingresos Propios",
     "initial": 3034.233403,
-    "budget": 3017.84995,
+    "budget": 3017.849949,
     "spent": 2111.883751
   },
   {
@@ -52231,7 +52063,7 @@ const MOCK_DATA = [
     "fuente": "Donaciones",
     "initial": 949.559075,
     "budget": 4690.693177,
-    "spent": 5201.814256
+    "spent": 5201.814257
   },
   {
     "year": 2024,
@@ -52244,8 +52076,8 @@ const MOCK_DATA = [
     "tipo": "Gasto",
     "fuente": "Ingresos Propios",
     "initial": 52141.12747,
-    "budget": 54927.200075,
-    "spent": 35850.518647
+    "budget": 54927.200076,
+    "spent": 35850.518646
   },
   {
     "year": 2024,
@@ -52258,8 +52090,8 @@ const MOCK_DATA = [
     "tipo": "Gasto",
     "fuente": "Tesoro Nacional",
     "initial": 227392.305793,
-    "budget": 219418.204949,
-    "spent": 223399.695651
+    "budget": 219418.204948,
+    "spent": 223399.69565
   },
   {
     "year": 2024,
@@ -52343,7 +52175,7 @@ const MOCK_DATA = [
     "fuente": "Donaciones",
     "initial": 14603.981917,
     "budget": 14487.795529,
-    "spent": 231.94808
+    "spent": 231.948081
   },
   {
     "year": 2024,
@@ -52370,8 +52202,8 @@ const MOCK_DATA = [
     "tipo": "Gasto",
     "fuente": "Tesoro Nacional",
     "initial": 4199.167783,
-    "budget": 10150.469907,
-    "spent": 24081.725971
+    "budget": 10150.469908,
+    "spent": 24081.725972
   },
   {
     "year": 2024,
@@ -52539,7 +52371,7 @@ const MOCK_DATA = [
     "fuente": "Tesoro Nacional",
     "initial": 27898.877579,
     "budget": 27381.661807,
-    "spent": 27350.667765
+    "spent": 27350.667766
   },
   {
     "year": 2024,
@@ -52651,7 +52483,7 @@ const MOCK_DATA = [
     "fuente": "Tesoro Nacional",
     "initial": 26860.730861,
     "budget": 29234.992567,
-    "spent": 23952.179259
+    "spent": 23952.179258
   },
   {
     "year": 2024,
@@ -52973,7 +52805,7 @@ const MOCK_DATA = [
     "fuente": "Crédito Externo",
     "initial": 53.859132,
     "budget": 257.064487,
-    "spent": 3722.054353
+    "spent": 3722.054354
   },
   {
     "year": 2024,
@@ -53001,7 +52833,7 @@ const MOCK_DATA = [
     "fuente": "Ingresos Propios",
     "initial": 11952.672135,
     "budget": 12905.267292,
-    "spent": 4146.706156
+    "spent": 4146.706155
   },
   {
     "year": 2024,
@@ -53168,8 +53000,8 @@ const MOCK_DATA = [
     "tipo": "Gasto",
     "fuente": "Ingresos Propios",
     "initial": 5965.431112,
-    "budget": 5814.558096,
-    "spent": 1173.983687
+    "budget": 5814.558097,
+    "spent": 1173.983688
   },
   {
     "year": 2024,
@@ -53182,7 +53014,7 @@ const MOCK_DATA = [
     "tipo": "Gasto",
     "fuente": "Tesoro Nacional",
     "initial": 1897.331807,
-    "budget": 2558.67393,
+    "budget": 2558.673931,
     "spent": 5102.72051
   },
   {
@@ -53294,8 +53126,8 @@ const MOCK_DATA = [
     "tipo": "Gasto",
     "fuente": "Tesoro Nacional",
     "initial": 14573.383956,
-    "budget": 13956.014545,
-    "spent": 11013.927153
+    "budget": 13956.014546,
+    "spent": 11013.927154
   },
   {
     "year": 2024,
@@ -53631,7 +53463,7 @@ const MOCK_DATA = [
     "fuente": "Tesoro Nacional",
     "initial": 68890.832735,
     "budget": 83011.392143,
-    "spent": 108530.803994
+    "spent": 108530.803995
   },
   {
     "year": 2024,
@@ -53785,7 +53617,7 @@ const MOCK_DATA = [
     "fuente": "Tesoro Nacional",
     "initial": 1624.505708,
     "budget": 1512.855956,
-    "spent": 2003.56735
+    "spent": 2003.567349
   },
   {
     "year": 2024,
@@ -53925,7 +53757,7 @@ const MOCK_DATA = [
     "fuente": "Donaciones",
     "initial": 611.147971,
     "budget": 640.047019,
-    "spent": 1723.759506
+    "spent": 1723.759507
   },
   {
     "year": 2024,
@@ -53939,7 +53771,7 @@ const MOCK_DATA = [
     "fuente": "Ingresos Propios",
     "initial": 590.357818,
     "budget": 1794.058847,
-    "spent": 5650.39546
+    "spent": 5650.395461
   },
   {
     "year": 2024,
@@ -53952,8 +53784,8 @@ const MOCK_DATA = [
     "tipo": "Gasto",
     "fuente": "Tesoro Nacional",
     "initial": 20006.742597,
-    "budget": 18131.608754,
-    "spent": 14724.834772
+    "budget": 18131.608755,
+    "spent": 14724.834773
   },
   {
     "year": 2024,
@@ -54177,7 +54009,7 @@ const MOCK_DATA = [
     "fuente": "Tesoro Nacional",
     "initial": 49274.125774,
     "budget": 33945.536675,
-    "spent": 24438.192474
+    "spent": 24438.192473
   },
   {
     "year": 2024,
@@ -54498,7 +54330,7 @@ const MOCK_DATA = [
     "tipo": "Gasto",
     "fuente": "Tesoro Nacional",
     "initial": 327.1,
-    "budget": 485.718081,
+    "budget": 485.718082,
     "spent": 329.878716
   },
   {
@@ -54733,34 +54565,6 @@ const MOCK_DATA = [
     "finalidad": "Servicios Generales",
     "funcion": "Administración general",
     "subfuncion": "Dirección y coordinación superior",
-    "tipo": "Aplicaciones Financieras",
-    "fuente": "Ingresos Propios",
-    "initial": 160.0,
-    "budget": 160.0,
-    "spent": 0.0
-  },
-  {
-    "year": 2024,
-    "seccion": "Instituciones de la seguridad social",
-    "capitulo": "SEGURO NACIONAL DE SALUD",
-    "subcapitulo": "SEGURO NACIONAL DE SALUD",
-    "finalidad": "Servicios Generales",
-    "funcion": "Administración general",
-    "subfuncion": "Dirección y coordinación superior",
-    "tipo": "Aplicaciones Financieras",
-    "fuente": "Tesoro Nacional",
-    "initial": 528.0,
-    "budget": 528.0,
-    "spent": 0.0
-  },
-  {
-    "year": 2024,
-    "seccion": "Instituciones de la seguridad social",
-    "capitulo": "SEGURO NACIONAL DE SALUD",
-    "subcapitulo": "SEGURO NACIONAL DE SALUD",
-    "finalidad": "Servicios Generales",
-    "funcion": "Administración general",
-    "subfuncion": "Dirección y coordinación superior",
     "tipo": "Gasto",
     "fuente": "Crédito Externo",
     "initial": 825.883182,
@@ -54915,20 +54719,6 @@ const MOCK_DATA = [
     "finalidad": "Servicios Generales",
     "funcion": "Administración general",
     "subfuncion": "Dirección y coordinación superior",
-    "tipo": "Aplicaciones Financieras",
-    "fuente": "Ingresos Propios",
-    "initial": 12.0,
-    "budget": 12.0,
-    "spent": 0.0
-  },
-  {
-    "year": 2024,
-    "seccion": "Instituciones de la seguridad social",
-    "capitulo": "SUPERINTENDENCIA DE SALUD Y RIESGO LABORAL",
-    "subcapitulo": "SUPERINTENDENCIA DE SALUD Y RIESGO LABORAL",
-    "finalidad": "Servicios Generales",
-    "funcion": "Administración general",
-    "subfuncion": "Dirección y coordinación superior",
     "tipo": "Gasto",
     "fuente": "Ingresos Propios",
     "initial": 12.0,
@@ -55017,7 +54807,7 @@ const MOCK_DATA = [
     "fuente": "Tesoro Nacional",
     "initial": 20579.972819,
     "budget": 20816.572819,
-    "spent": 15413.377629
+    "spent": 15413.377627
   },
   {
     "year": 2024,
@@ -55996,7 +55786,7 @@ const MOCK_DATA = [
     "tipo": "Gasto",
     "fuente": "Ingresos Propios",
     "initial": 2085.350532,
-    "budget": 2377.376674,
+    "budget": 2377.376673,
     "spent": 3695.93487
   },
   {
@@ -56010,8 +55800,8 @@ const MOCK_DATA = [
     "tipo": "Gasto",
     "fuente": "Tesoro Nacional",
     "initial": 15456.821617,
-    "budget": 23725.028769,
-    "spent": 17083.041756
+    "budget": 23725.028768,
+    "spent": 17083.041755
   },
   {
     "year": 2024,
@@ -56067,7 +55857,7 @@ const MOCK_DATA = [
     "fuente": "Tesoro Nacional",
     "initial": 57760.257348,
     "budget": 62303.114596,
-    "spent": 47052.487209
+    "spent": 47052.48721
   },
   {
     "year": 2024,
@@ -56180,34 +55970,6 @@ const MOCK_DATA = [
     "initial": 142.595765,
     "budget": 167.977969,
     "spent": 128.641178
-  },
-  {
-    "year": 2024,
-    "seccion": "Instituciones públicas descentralizadas y autónomas no financieras",
-    "capitulo": "DIRECCION GENERAL DE IMPUESTOS INTERNOS",
-    "subcapitulo": "DIRECCION GENERAL DE IMPUESTOS INTERNOS",
-    "finalidad": "Servicios Generales",
-    "funcion": "Administración general",
-    "subfuncion": "Dirección y coordinación superior",
-    "tipo": "Aplicaciones Financieras",
-    "fuente": "Ingresos Propios",
-    "initial": 0.0,
-    "budget": 2114.7,
-    "spent": 0.0
-  },
-  {
-    "year": 2024,
-    "seccion": "Instituciones públicas descentralizadas y autónomas no financieras",
-    "capitulo": "DIRECCION GENERAL DE IMPUESTOS INTERNOS",
-    "subcapitulo": "DIRECCION GENERAL DE IMPUESTOS INTERNOS",
-    "finalidad": "Servicios Generales",
-    "funcion": "Administración general",
-    "subfuncion": "Dirección y coordinación superior",
-    "tipo": "Aplicaciones Financieras",
-    "fuente": "Tesoro Nacional",
-    "initial": 1328.308604,
-    "budget": 1328.308604,
-    "spent": 0.0
   },
   {
     "year": 2024,
@@ -56724,7 +56486,7 @@ const MOCK_DATA = [
     "tipo": "Gasto",
     "fuente": "Crédito Externo",
     "initial": 151.07097,
-    "budget": 145.332096,
+    "budget": 145.332097,
     "spent": 29.968712
   },
   {
@@ -57242,7 +57004,7 @@ const MOCK_DATA = [
     "tipo": "Gasto",
     "fuente": "Tesoro Nacional",
     "initial": 7066.653352,
-    "budget": 6005.125405,
+    "budget": 6005.125404,
     "spent": 6921.650756
   },
   {
@@ -57650,20 +57412,6 @@ const MOCK_DATA = [
     "initial": 7.1061,
     "budget": 105.523807,
     "spent": 130.788951
-  },
-  {
-    "year": 2024,
-    "seccion": "Instituciones públicas descentralizadas y autónomas no financieras",
-    "capitulo": "LIGA MUNICIPAL DOMINICANA",
-    "subcapitulo": "LIGA MUNICIPAL DOMINICANA",
-    "finalidad": "Servicios Generales",
-    "funcion": "Administración general",
-    "subfuncion": "Dirección y coordinación superior",
-    "tipo": "Aplicaciones Financieras",
-    "fuente": "Tesoro Nacional",
-    "initial": 5.0,
-    "budget": 5.0,
-    "spent": 0.0
   },
   {
     "year": 2024,
@@ -58191,20 +57939,6 @@ const MOCK_DATA = [
     "finalidad": "Servicios Generales",
     "funcion": "Administración general",
     "subfuncion": "Dirección y coordinación superior",
-    "tipo": "Aplicaciones Financieras",
-    "fuente": "Crédito Externo",
-    "initial": 30.897342,
-    "budget": 30.897342,
-    "spent": 0.0
-  },
-  {
-    "year": 2024,
-    "seccion": "Instituciones públicas descentralizadas y autónomas no financieras",
-    "capitulo": "UNIVERSIDAD AUTÓNOMA DE SANTO DOMINGO",
-    "subcapitulo": "UNIVERSIDAD AUTONOMA DE SANTO DOMINGO",
-    "finalidad": "Servicios Generales",
-    "funcion": "Administración general",
-    "subfuncion": "Dirección y coordinación superior",
     "tipo": "Gasto",
     "fuente": "Crédito Externo",
     "initial": 550.132946,
@@ -58261,62 +57995,6 @@ const MOCK_DATA = [
     "finalidad": "Intereses de la Deuda Pública",
     "funcion": "Intereses y comisiones de deuda pública",
     "subfuncion": "Intereses de deuda pública interna",
-    "tipo": "Aplicaciones Financieras",
-    "fuente": "Crédito Externo",
-    "initial": 0.0,
-    "budget": 0.0,
-    "spent": 21702.9364
-  },
-  {
-    "year": 2025,
-    "seccion": "Administración central",
-    "capitulo": "ADMINISTRACION DE DEUDA PUBLICA Y ACTIVOS FINANCIEROS",
-    "subcapitulo": "DEUDA PUBLICA Y OTRAS OPERACIONES FINANCIERAS",
-    "finalidad": "Intereses de la Deuda Pública",
-    "funcion": "Intereses y comisiones de deuda pública",
-    "subfuncion": "Intereses de deuda pública interna",
-    "tipo": "Aplicaciones Financieras",
-    "fuente": "Donaciones",
-    "initial": 55487.576433,
-    "budget": 55487.576433,
-    "spent": 6181.188988
-  },
-  {
-    "year": 2025,
-    "seccion": "Administración central",
-    "capitulo": "ADMINISTRACION DE DEUDA PUBLICA Y ACTIVOS FINANCIEROS",
-    "subcapitulo": "DEUDA PUBLICA Y OTRAS OPERACIONES FINANCIERAS",
-    "finalidad": "Intereses de la Deuda Pública",
-    "funcion": "Intereses y comisiones de deuda pública",
-    "subfuncion": "Intereses de deuda pública interna",
-    "tipo": "Aplicaciones Financieras",
-    "fuente": "Ingresos Propios",
-    "initial": 0.0,
-    "budget": -3966.244901,
-    "spent": 9233.097233
-  },
-  {
-    "year": 2025,
-    "seccion": "Administración central",
-    "capitulo": "ADMINISTRACION DE DEUDA PUBLICA Y ACTIVOS FINANCIEROS",
-    "subcapitulo": "DEUDA PUBLICA Y OTRAS OPERACIONES FINANCIERAS",
-    "finalidad": "Intereses de la Deuda Pública",
-    "funcion": "Intereses y comisiones de deuda pública",
-    "subfuncion": "Intereses de deuda pública interna",
-    "tipo": "Aplicaciones Financieras",
-    "fuente": "Tesoro Nacional",
-    "initial": 38297.144836,
-    "budget": 45871.157121,
-    "spent": 50859.260346
-  },
-  {
-    "year": 2025,
-    "seccion": "Administración central",
-    "capitulo": "ADMINISTRACION DE DEUDA PUBLICA Y ACTIVOS FINANCIEROS",
-    "subcapitulo": "DEUDA PUBLICA Y OTRAS OPERACIONES FINANCIERAS",
-    "finalidad": "Intereses de la Deuda Pública",
-    "funcion": "Intereses y comisiones de deuda pública",
-    "subfuncion": "Intereses de deuda pública interna",
     "tipo": "Gasto",
     "fuente": "Crédito Externo",
     "initial": 0.0,
@@ -58361,65 +58039,9 @@ const MOCK_DATA = [
     "subfuncion": "Intereses de deuda pública interna",
     "tipo": "Gasto",
     "fuente": "Tesoro Nacional",
-    "initial": 427270.721269,
-    "budget": 490370.472702,
-    "spent": 332490.703237
-  },
-  {
-    "year": 2025,
-    "seccion": "Administración central",
-    "capitulo": "ADMINISTRACION DE OBLIGACIONES DEL TESORO NACIONAL",
-    "subcapitulo": "ADM. DE OBLIGACIONES DEL TESORO",
-    "finalidad": "Servicios Generales",
-    "funcion": "Administración general",
-    "subfuncion": "Dirección y coordinación superior",
-    "tipo": "Aplicaciones Financieras",
-    "fuente": "Crédito Externo",
-    "initial": 10000.0,
-    "budget": 10000.0,
-    "spent": 310.206628
-  },
-  {
-    "year": 2025,
-    "seccion": "Administración central",
-    "capitulo": "ADMINISTRACION DE OBLIGACIONES DEL TESORO NACIONAL",
-    "subcapitulo": "ADM. DE OBLIGACIONES DEL TESORO",
-    "finalidad": "Servicios Generales",
-    "funcion": "Administración general",
-    "subfuncion": "Dirección y coordinación superior",
-    "tipo": "Aplicaciones Financieras",
-    "fuente": "Donaciones",
-    "initial": 0.0,
-    "budget": 2191.0,
-    "spent": 761.828847
-  },
-  {
-    "year": 2025,
-    "seccion": "Administración central",
-    "capitulo": "ADMINISTRACION DE OBLIGACIONES DEL TESORO NACIONAL",
-    "subcapitulo": "ADM. DE OBLIGACIONES DEL TESORO",
-    "finalidad": "Servicios Generales",
-    "funcion": "Administración general",
-    "subfuncion": "Dirección y coordinación superior",
-    "tipo": "Aplicaciones Financieras",
-    "fuente": "Ingresos Propios",
-    "initial": 0.0,
-    "budget": -1994.9,
-    "spent": 1479.973978
-  },
-  {
-    "year": 2025,
-    "seccion": "Administración central",
-    "capitulo": "ADMINISTRACION DE OBLIGACIONES DEL TESORO NACIONAL",
-    "subcapitulo": "ADM. DE OBLIGACIONES DEL TESORO",
-    "finalidad": "Servicios Generales",
-    "funcion": "Administración general",
-    "subfuncion": "Dirección y coordinación superior",
-    "tipo": "Aplicaciones Financieras",
-    "fuente": "Tesoro Nacional",
-    "initial": 3500.0,
-    "budget": 481.921882,
-    "spent": 3861.885268
+    "initial": 427271.192407,
+    "budget": 490370.94384,
+    "spent": 332490.703239
   },
   {
     "year": 2025,
@@ -58447,7 +58069,7 @@ const MOCK_DATA = [
     "fuente": "Donaciones",
     "initial": 0.0,
     "budget": 0.0,
-    "spent": 26384.628933
+    "spent": 26384.628932
   },
   {
     "year": 2025,
@@ -58475,7 +58097,7 @@ const MOCK_DATA = [
     "fuente": "Tesoro Nacional",
     "initial": 156389.944555,
     "budget": 174330.128718,
-    "spent": 125789.44845
+    "spent": 125789.448451
   },
   {
     "year": 2025,
@@ -58587,7 +58209,7 @@ const MOCK_DATA = [
     "fuente": "Tesoro Nacional",
     "initial": 5896.375178,
     "budget": 7396.375178,
-    "spent": 5623.254255
+    "spent": 5623.254254
   },
   {
     "year": 2025,
@@ -58740,7 +58362,7 @@ const MOCK_DATA = [
     "tipo": "Gasto",
     "fuente": "Crédito Externo",
     "initial": 1340.989258,
-    "budget": 1901.38168,
+    "budget": 1901.381681,
     "spent": 3568.507162
   },
   {
@@ -58755,7 +58377,7 @@ const MOCK_DATA = [
     "fuente": "Donaciones",
     "initial": 16.228652,
     "budget": 60.35554,
-    "spent": 2191.152304
+    "spent": 2191.152303
   },
   {
     "year": 2025,
@@ -58783,7 +58405,7 @@ const MOCK_DATA = [
     "fuente": "Tesoro Nacional",
     "initial": 33108.101089,
     "budget": 40078.687147,
-    "spent": 35148.433623
+    "spent": 35148.433624
   },
   {
     "year": 2025,
@@ -58965,7 +58587,7 @@ const MOCK_DATA = [
     "fuente": "Crédito Externo",
     "initial": 0.0,
     "budget": 24.330823,
-    "spent": 3151.576027
+    "spent": 3151.576028
   },
   {
     "year": 2025,
@@ -58993,7 +58615,7 @@ const MOCK_DATA = [
     "fuente": "Ingresos Propios",
     "initial": 1891.147511,
     "budget": 2086.963156,
-    "spent": 4120.553495
+    "spent": 4120.553494
   },
   {
     "year": 2025,
@@ -59007,7 +58629,7 @@ const MOCK_DATA = [
     "fuente": "Tesoro Nacional",
     "initial": 32053.753354,
     "budget": 32641.802916,
-    "spent": 27070.631437
+    "spent": 27070.631436
   },
   {
     "year": 2025,
@@ -59185,34 +58807,6 @@ const MOCK_DATA = [
     "finalidad": "Servicios Generales",
     "funcion": "Administración general",
     "subfuncion": "Dirección y coordinación superior",
-    "tipo": "Aplicaciones Financieras",
-    "fuente": "Crédito Externo",
-    "initial": 0.0,
-    "budget": 2000.0,
-    "spent": 2000.0
-  },
-  {
-    "year": 2025,
-    "seccion": "Administración central",
-    "capitulo": "MINISTERIO DE AGRICULTURA",
-    "subcapitulo": "MINISTERIO DE AGRICULTURA",
-    "finalidad": "Servicios Generales",
-    "funcion": "Administración general",
-    "subfuncion": "Dirección y coordinación superior",
-    "tipo": "Aplicaciones Financieras",
-    "fuente": "Tesoro Nacional",
-    "initial": 0.0,
-    "budget": -2000.0,
-    "spent": -2000.0
-  },
-  {
-    "year": 2025,
-    "seccion": "Administración central",
-    "capitulo": "MINISTERIO DE AGRICULTURA",
-    "subcapitulo": "MINISTERIO DE AGRICULTURA",
-    "finalidad": "Servicios Generales",
-    "funcion": "Administración general",
-    "subfuncion": "Dirección y coordinación superior",
     "tipo": "Gasto",
     "fuente": "Crédito Externo",
     "initial": 79.693722,
@@ -59258,8 +58852,8 @@ const MOCK_DATA = [
     "tipo": "Gasto",
     "fuente": "Tesoro Nacional",
     "initial": 11379.480174,
-    "budget": 16741.61083,
-    "spent": 14806.475349
+    "budget": 16741.610831,
+    "spent": 14806.475348
   },
   {
     "year": 2025,
@@ -59511,7 +59105,7 @@ const MOCK_DATA = [
     "fuente": "Tesoro Nacional",
     "initial": 19360.10349,
     "budget": 19863.076925,
-    "spent": 15564.564189
+    "spent": 15564.564188
   },
   {
     "year": 2025,
@@ -59581,7 +59175,7 @@ const MOCK_DATA = [
     "fuente": "Crédito Externo",
     "initial": 0.0,
     "budget": -13.0,
-    "spent": 1555.544082
+    "spent": 1555.544081
   },
   {
     "year": 2025,
@@ -59763,7 +59357,7 @@ const MOCK_DATA = [
     "fuente": "Ingresos Propios",
     "initial": 4603.914715,
     "budget": 3252.452326,
-    "spent": 3019.808629
+    "spent": 3019.808628
   },
   {
     "year": 2025,
@@ -59777,7 +59371,7 @@ const MOCK_DATA = [
     "fuente": "Tesoro Nacional",
     "initial": 11645.38883,
     "budget": 11337.675613,
-    "spent": 11096.777554
+    "spent": 11096.777555
   },
   {
     "year": 2025,
@@ -59805,7 +59399,7 @@ const MOCK_DATA = [
     "fuente": "Donaciones",
     "initial": 0.0,
     "budget": 1.081588,
-    "spent": 266.082567
+    "spent": 266.082566
   },
   {
     "year": 2025,
@@ -59833,7 +59427,7 @@ const MOCK_DATA = [
     "fuente": "Tesoro Nacional",
     "initial": 3648.333805,
     "budget": 3938.163444,
-    "spent": 3054.372501
+    "spent": 3054.3725
   },
   {
     "year": 2025,
@@ -60053,34 +59647,6 @@ const MOCK_DATA = [
     "finalidad": "Servicios Generales",
     "funcion": "Administración general",
     "subfuncion": "Dirección y coordinación superior",
-    "tipo": "Aplicaciones Financieras",
-    "fuente": "Crédito Externo",
-    "initial": 0.0,
-    "budget": -835.789266,
-    "spent": 0.0
-  },
-  {
-    "year": 2025,
-    "seccion": "Administración central",
-    "capitulo": "MINISTERIO DE ECONOMÍA, PLANIFICACIÓN Y DESARROLLO",
-    "subcapitulo": "MINISTERIO DE ECONOMIA, PLANIFICACION Y DESARROLLO",
-    "finalidad": "Servicios Generales",
-    "funcion": "Administración general",
-    "subfuncion": "Dirección y coordinación superior",
-    "tipo": "Aplicaciones Financieras",
-    "fuente": "Tesoro Nacional",
-    "initial": 835.789266,
-    "budget": 835.789266,
-    "spent": 0.0
-  },
-  {
-    "year": 2025,
-    "seccion": "Administración central",
-    "capitulo": "MINISTERIO DE ECONOMÍA, PLANIFICACIÓN Y DESARROLLO",
-    "subcapitulo": "MINISTERIO DE ECONOMIA, PLANIFICACION Y DESARROLLO",
-    "finalidad": "Servicios Generales",
-    "funcion": "Administración general",
-    "subfuncion": "Dirección y coordinación superior",
     "tipo": "Gasto",
     "fuente": "Crédito Externo",
     "initial": 190.070039,
@@ -60193,20 +59759,6 @@ const MOCK_DATA = [
     "finalidad": "Servicios Generales",
     "funcion": "Administración general",
     "subfuncion": "Dirección y coordinación superior",
-    "tipo": "Aplicaciones Financieras",
-    "fuente": "Tesoro Nacional",
-    "initial": 0.0,
-    "budget": 50.0,
-    "spent": 44.164942
-  },
-  {
-    "year": 2025,
-    "seccion": "Administración central",
-    "capitulo": "MINISTERIO DE EDUCACIÓN",
-    "subcapitulo": "MINISTERIO DE EDUCACION",
-    "finalidad": "Servicios Generales",
-    "funcion": "Administración general",
-    "subfuncion": "Dirección y coordinación superior",
     "tipo": "Gasto",
     "fuente": "Crédito Externo",
     "initial": 6638.445396,
@@ -60224,8 +59776,8 @@ const MOCK_DATA = [
     "tipo": "Gasto",
     "fuente": "Donaciones",
     "initial": 24975.382797,
-    "budget": 26555.118153,
-    "spent": 11452.5682
+    "budget": 26555.118152,
+    "spent": 11452.568202
   },
   {
     "year": 2025,
@@ -60253,7 +59805,7 @@ const MOCK_DATA = [
     "fuente": "Tesoro Nacional",
     "initial": 107047.349296,
     "budget": 105405.799989,
-    "spent": 99288.02136
+    "spent": 99288.021359
   },
   {
     "year": 2025,
@@ -60266,8 +59818,8 @@ const MOCK_DATA = [
     "tipo": "Gasto",
     "fuente": "Crédito Externo",
     "initial": 29799.092288,
-    "budget": 29461.976792,
-    "spent": 35332.224586
+    "budget": 29461.976791,
+    "spent": 35332.224584
   },
   {
     "year": 2025,
@@ -60295,7 +59847,7 @@ const MOCK_DATA = [
     "fuente": "Ingresos Propios",
     "initial": 3096.108851,
     "budget": 4636.617198,
-    "spent": 24946.565991
+    "spent": 24946.56599
   },
   {
     "year": 2025,
@@ -60308,8 +59860,8 @@ const MOCK_DATA = [
     "tipo": "Gasto",
     "fuente": "Tesoro Nacional",
     "initial": 124643.668329,
-    "budget": 128584.902908,
-    "spent": 101370.161577
+    "budget": 128585.066737,
+    "spent": 101370.161575
   },
   {
     "year": 2025,
@@ -60477,7 +60029,7 @@ const MOCK_DATA = [
     "fuente": "Tesoro Nacional",
     "initial": 18663.25179,
     "budget": 20877.380653,
-    "spent": 18609.049314
+    "spent": 18609.049315
   },
   {
     "year": 2025,
@@ -60757,7 +60309,7 @@ const MOCK_DATA = [
     "fuente": "Tesoro Nacional",
     "initial": 17333.106897,
     "budget": 17561.001212,
-    "spent": 15022.811989
+    "spent": 15022.811988
   },
   {
     "year": 2025,
@@ -61023,7 +60575,7 @@ const MOCK_DATA = [
     "fuente": "Ingresos Propios",
     "initial": 1338.868741,
     "budget": 2736.128411,
-    "spent": 2418.77078
+    "spent": 2418.770779
   },
   {
     "year": 2025,
@@ -61065,7 +60617,7 @@ const MOCK_DATA = [
     "fuente": "Donaciones",
     "initial": 41.404153,
     "budget": 41.404153,
-    "spent": 159.804294
+    "spent": 159.804293
   },
   {
     "year": 2025,
@@ -61190,7 +60742,7 @@ const MOCK_DATA = [
     "tipo": "Gasto",
     "fuente": "Ingresos Propios",
     "initial": 1509.423059,
-    "budget": 1567.27031,
+    "budget": 1567.270309,
     "spent": 886.923684
   },
   {
@@ -61205,7 +60757,7 @@ const MOCK_DATA = [
     "fuente": "Tesoro Nacional",
     "initial": 12501.592287,
     "budget": 10727.230644,
-    "spent": 9361.912456
+    "spent": 9361.912455
   },
   {
     "year": 2025,
@@ -61219,7 +60771,7 @@ const MOCK_DATA = [
     "fuente": "Crédito Externo",
     "initial": 4430.786511,
     "budget": 5350.757051,
-    "spent": 4272.524162
+    "spent": 4272.524161
   },
   {
     "year": 2025,
@@ -61246,7 +60798,7 @@ const MOCK_DATA = [
     "tipo": "Gasto",
     "fuente": "Ingresos Propios",
     "initial": 1424.608932,
-    "budget": 2115.245983,
+    "budget": 2115.245982,
     "spent": 4232.322022
   },
   {
@@ -61260,8 +60812,8 @@ const MOCK_DATA = [
     "tipo": "Gasto",
     "fuente": "Tesoro Nacional",
     "initial": 25012.742034,
-    "budget": 29267.273596,
-    "spent": 27833.492822
+    "budget": 29267.273597,
+    "spent": 27833.492821
   },
   {
     "year": 2025,
@@ -61582,8 +61134,8 @@ const MOCK_DATA = [
     "tipo": "Gasto",
     "fuente": "Ingresos Propios",
     "initial": 45308.021515,
-    "budget": 48661.649925,
-    "spent": 29853.760595
+    "budget": 48661.649924,
+    "spent": 29853.760596
   },
   {
     "year": 2025,
@@ -61596,8 +61148,8 @@ const MOCK_DATA = [
     "tipo": "Gasto",
     "fuente": "Tesoro Nacional",
     "initial": 86308.332618,
-    "budget": 99717.24105,
-    "spent": 100260.478631
+    "budget": 99717.241049,
+    "spent": 100260.478633
   },
   {
     "year": 2025,
@@ -61639,7 +61191,7 @@ const MOCK_DATA = [
     "fuente": "Ingresos Propios",
     "initial": 24.198925,
     "budget": 243.162668,
-    "spent": 2030.695038
+    "spent": 2030.695037
   },
   {
     "year": 2025,
@@ -61653,7 +61205,7 @@ const MOCK_DATA = [
     "fuente": "Tesoro Nacional",
     "initial": 2200.323589,
     "budget": 2015.206322,
-    "spent": 4640.941945
+    "spent": 4640.941946
   },
   {
     "year": 2025,
@@ -62100,7 +61652,7 @@ const MOCK_DATA = [
     "tipo": "Gasto",
     "fuente": "Tesoro Nacional",
     "initial": 1968.246801,
-    "budget": 1919.277436,
+    "budget": 1919.277437,
     "spent": 2081.907355
   },
   {
@@ -62212,7 +61764,7 @@ const MOCK_DATA = [
     "tipo": "Gasto",
     "fuente": "Tesoro Nacional",
     "initial": 59297.47975,
-    "budget": 56356.319113,
+    "budget": 56356.319114,
     "spent": 38193.093924
   },
   {
@@ -62268,7 +61820,7 @@ const MOCK_DATA = [
     "tipo": "Gasto",
     "fuente": "Tesoro Nacional",
     "initial": 6409.677111,
-    "budget": 8847.870372,
+    "budget": 8847.870371,
     "spent": 13066.141148
   },
   {
@@ -62296,7 +61848,7 @@ const MOCK_DATA = [
     "tipo": "Gasto",
     "fuente": "Donaciones",
     "initial": 129.244708,
-    "budget": 1706.961791,
+    "budget": 1706.961792,
     "spent": 1155.985013
   },
   {
@@ -62923,20 +62475,6 @@ const MOCK_DATA = [
     "finalidad": "Servicios Generales",
     "funcion": "Administración general",
     "subfuncion": "Dirección y coordinación superior",
-    "tipo": "Aplicaciones Financieras",
-    "fuente": "Tesoro Nacional",
-    "initial": 619.999996,
-    "budget": 619.999996,
-    "spent": 0.0
-  },
-  {
-    "year": 2025,
-    "seccion": "Instituciones de la seguridad social",
-    "capitulo": "SEGURO NACIONAL DE SALUD",
-    "subcapitulo": "SEGURO NACIONAL DE SALUD",
-    "finalidad": "Servicios Generales",
-    "funcion": "Administración general",
-    "subfuncion": "Dirección y coordinación superior",
     "tipo": "Gasto",
     "fuente": "Crédito Externo",
     "initial": 2.0,
@@ -63049,20 +62587,6 @@ const MOCK_DATA = [
     "finalidad": "Servicios Generales",
     "funcion": "Administración general",
     "subfuncion": "Dirección y coordinación superior",
-    "tipo": "Aplicaciones Financieras",
-    "fuente": "Tesoro Nacional",
-    "initial": 7.0,
-    "budget": 7.0,
-    "spent": 0.0
-  },
-  {
-    "year": 2025,
-    "seccion": "Instituciones de la seguridad social",
-    "capitulo": "SUPERINTENDENCIA DE SALUD Y RIESGO LABORAL",
-    "subcapitulo": "SUPERINTENDENCIA DE SALUD Y RIESGO LABORAL",
-    "finalidad": "Servicios Generales",
-    "funcion": "Administración general",
-    "subfuncion": "Dirección y coordinación superior",
     "tipo": "Gasto",
     "fuente": "Ingresos Propios",
     "initial": 12.26,
@@ -63122,7 +62646,7 @@ const MOCK_DATA = [
     "tipo": "Gasto",
     "fuente": "Tesoro Nacional",
     "initial": 21533.040847,
-    "budget": 20139.555991,
+    "budget": 20139.555992,
     "spent": 16060.899338
   },
   {
@@ -64005,7 +63529,7 @@ const MOCK_DATA = [
     "fuente": "Crédito Externo",
     "initial": 98.458775,
     "budget": 1429.232728,
-    "spent": 1685.509968
+    "spent": 1685.509967
   },
   {
     "year": 2025,
@@ -64102,22 +63626,8 @@ const MOCK_DATA = [
     "tipo": "Gasto",
     "fuente": "Tesoro Nacional",
     "initial": 60622.163181,
-    "budget": 67035.851984,
+    "budget": 67035.851983,
     "spent": 57685.359806
-  },
-  {
-    "year": 2025,
-    "seccion": "Instituciones públicas descentralizadas y autónomas no financieras",
-    "capitulo": "DIRECCION GENERAL DE ADUANAS",
-    "subcapitulo": "DIRECCION GENERAL DE ADUANAS",
-    "finalidad": "Servicios Generales",
-    "funcion": "Administración general",
-    "subfuncion": "Dirección y coordinación superior",
-    "tipo": "Aplicaciones Financieras",
-    "fuente": "Ingresos Propios",
-    "initial": 58.0,
-    "budget": 58.0,
-    "spent": 0.0
   },
   {
     "year": 2025,
@@ -64174,20 +63684,6 @@ const MOCK_DATA = [
     "initial": 9009.039832,
     "budget": 9194.765009,
     "spent": 2329.329328
-  },
-  {
-    "year": 2025,
-    "seccion": "Instituciones públicas descentralizadas y autónomas no financieras",
-    "capitulo": "DIRECCION GENERAL DE IMPUESTOS INTERNOS",
-    "subcapitulo": "DIRECCION GENERAL DE IMPUESTOS INTERNOS",
-    "finalidad": "Servicios Generales",
-    "funcion": "Administración general",
-    "subfuncion": "Dirección y coordinación superior",
-    "tipo": "Aplicaciones Financieras",
-    "fuente": "Tesoro Nacional",
-    "initial": 1328.308604,
-    "budget": 1328.308604,
-    "spent": 0.0
   },
   {
     "year": 2025,
@@ -65013,7 +64509,7 @@ const MOCK_DATA = [
     "fuente": "Tesoro Nacional",
     "initial": 7746.017519,
     "budget": 7827.017519,
-    "spent": 3886.492919
+    "spent": 3886.492918
   },
   {
     "year": 2025,
@@ -65125,7 +64621,7 @@ const MOCK_DATA = [
     "fuente": "Tesoro Nacional",
     "initial": 4619.967594,
     "budget": 4789.669394,
-    "spent": 2839.823577
+    "spent": 2839.823576
   },
   {
     "year": 2025,
@@ -65433,7 +64929,7 @@ const MOCK_DATA = [
     "fuente": "Ingresos Propios",
     "initial": 0.0,
     "budget": -90.356791,
-    "spent": 1131.306194
+    "spent": 1131.306193
   },
   {
     "year": 2025,
@@ -65961,20 +65457,6 @@ const MOCK_DATA = [
     "finalidad": "Servicios Generales",
     "funcion": "Administración general",
     "subfuncion": "Dirección y coordinación superior",
-    "tipo": "Aplicaciones Financieras",
-    "fuente": "Tesoro Nacional",
-    "initial": 5.0,
-    "budget": 5.0,
-    "spent": 1.4992
-  },
-  {
-    "year": 2025,
-    "seccion": "Instituciones públicas descentralizadas y autónomas no financieras",
-    "capitulo": "LIGA MUNICIPAL DOMINICANA",
-    "subcapitulo": "LIGA MUNICIPAL DOMINICANA",
-    "finalidad": "Servicios Generales",
-    "funcion": "Administración general",
-    "subfuncion": "Dirección y coordinación superior",
     "tipo": "Gasto",
     "fuente": "Crédito Externo",
     "initial": 0.0,
@@ -66484,20 +65966,6 @@ const MOCK_DATA = [
     "initial": 277.31715,
     "budget": 272.16115,
     "spent": 214.64446
-  },
-  {
-    "year": 2025,
-    "seccion": "Instituciones públicas descentralizadas y autónomas no financieras",
-    "capitulo": "UNIVERSIDAD AUTÓNOMA DE SANTO DOMINGO",
-    "subcapitulo": "UNIVERSIDAD AUTONOMA DE SANTO DOMINGO",
-    "finalidad": "Servicios Generales",
-    "funcion": "Administración general",
-    "subfuncion": "Dirección y coordinación superior",
-    "tipo": "Aplicaciones Financieras",
-    "fuente": "Crédito Externo",
-    "initial": 23.185197,
-    "budget": 23.185197,
-    "spent": 0.0
   },
   {
     "year": 2025,

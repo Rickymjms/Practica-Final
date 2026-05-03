@@ -14,8 +14,8 @@ def validate_powerbi_data():
     # Read Power BI Unificado
     try:
         df_pbi = pd.read_csv(pbi_path)
-        sum_vigente_pbi = df_pbi['Presupuesto_Vigente'].sum()
-        sum_devengado_pbi = df_pbi['Devengado_Aprobado'].sum()
+        sum_vigente_pbi = df_pbi['EjecucionPresupuestaria_PresupuestoVigente'].sum()
+        sum_devengado_pbi = df_pbi['EjecucionPresupuestaria_DevengadoAprobado'].sum()
     except Exception as e:
         print(f"Error al leer datos Power BI: {e}")
         return

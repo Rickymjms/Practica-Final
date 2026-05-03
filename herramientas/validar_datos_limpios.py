@@ -3,7 +3,7 @@ import os
 
 def validate_clean_data():
     fact_path = 'datos/Limpios/Fact_Ejecucion_Presupuestaria.csv'
-    original_csv_path = 'datos/originales/CSV/ejecucion-de-los-gastos-por-institucion.csv'
+    original_excel_path = 'datos/originales/ejecucion-de-los-gastos-por-institucion.xlsx'
     
     print("=== Validando Datos Limpios vs Originales ===")
     
@@ -20,9 +20,9 @@ def validate_clean_data():
         print(f"Error al leer datos limpios: {e}")
         return
 
-    # Read Original CSV (Institutional)
+    # Read Original Excel (Institutional)
     try:
-        df_orig = pd.read_csv(original_csv_path, sep=';', encoding='latin-1')
+        df_orig = pd.read_excel(original_excel_path)
         sum_vigente_orig = df_orig['Pres. Vigente Aprobado'].sum()
         sum_devengado_orig = df_orig['Devengado Aprobado'].sum()
     except Exception as e:

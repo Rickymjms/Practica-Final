@@ -2,32 +2,34 @@
 
 Este documento describe la arquitectura del modelo de datos utilizado para el análisis del Presupuesto Nacional de la República Dominicana.
 
-## 🌟 Arquitectura: Esquema en Estrella (Star Schema)
+## 🌟 Arquitectura: Esquema en Estrella / Copo de Nieve (Hybrid Schema)
 
-El proyecto utiliza un enfoque de modelado dimensional, ideal para entornos de Inteligencia de Negocios (BI). Esta estructura minimiza la complejidad de las consultas y optimiza el rendimiento para grandes volúmenes de datos financieros.
+El proyecto utiliza un enfoque de modelado dimensional, ideal para entornos de Inteligencia de Negocios (BI). El modelo ha sido expandido para incluir niveles jerárquicos más profundos (Organismos y Geografía normalizada).
 
 ### 1. Tabla de Hechos (Fact Table)
 
-*   **`Fact_Ejecucion_Presupuestaria`**: Es el núcleo del modelo. Almacena las transacciones financieras y las llaves foráneas que conectan con todas las dimensiones.
-    *   *Métricas:* Monto_Vigente, Monto_Devengado, Monto_Pagado.
-    *   *Llaves:* ID_Institucion, ID_Geografia, ID_Programa, ID_Objeto_Gasto, ID_Tiempo.
+*   **`EjecucionPresupuestaria`**: Es el núcleo del modelo. Almacena las transacciones financieras y las llaves foráneas que conectan con todas las dimensiones.
+    *   *Métricas:* `EjecucionPresupuestaria_PresupuestoInicial`, `EjecucionPresupuestaria_PresupuestoVigente`, `EjecucionPresupuestaria_DevengadoAprobado`.
+    *   *Llaves Foráneas:* Institucion_ID, Programa_ID, ObjetoGasto_ID, Periodo_ID, FuenteFinanciamiento_ID, Provincia_ID.
 
 ### 2. Dimensiones (Dimension Tables)
 
 Las dimensiones proporcionan el contexto necesario para analizar las métricas de la tabla de hechos:
 
-*   **`Dim_Institucion`**: Clasifica el gasto por la entidad responsable (Capítulos del Gobierno, Instituciones y Unidades Ejecutoras).
-*   **`Dim_Geografia`**: Permite segmentar el presupuesto por ubicación física (Regiones, Provincias y Municipios).
-*   **`Dim_Programa`**: Define la estructura presupuestaria por programas sociales, proyectos de inversión y actividades administrativas.
-*   **`Dim_Objeto_Gasto`**: Clasifica el dinero según su naturaleza económica (Sueldos, Materiales, Maquinaria, Transferencias).
-*   **`Dim_Tiempo`**: Facilita el análisis cronológico (Año, Mes, Trimestre, Semestre).
+*   **`Organismo`**: (Nueva) Nivel superior que agrupa a las instituciones (Poder Ejecutivo, Poder Legislativo, etc.).
+*   **`Institucion`**: Clasifica el gasto por la entidad responsable (Capítulos del Gobierno, Instituciones y Unidades Ejecutoras).
+*   **`Geografía (País -> Región -> Provincia)`**: Jerarquía normalizada para segmentar el presupuesto por ubicación física según la planificación nacional.
+*   **`Programa`**: Define la estructura presupuestaria por programas sociales, proyectos de inversión y actividades administrativas.
+*   **`ObjetoGasto`**: Clasifica el dinero según su naturaleza económica (Sueldos, Materiales, Maquinaria, Transferencias).
+*   **`Periodo`**: Facilita el análisis cronológico por año y mes.
+*   **`FuenteFinanciamiento`**: (Nueva) Identifica el origen de los fondos (Recursos Propios, Crédito Externo, Tesoro Nacional, etc.).
 
 ## 📊 Beneficios del Diseño
 
-1.  **Simplicidad:** Las consultas SQL para generar reportes son más sencillas de escribir y entender.
-2.  **Rendimiento:** Reduce el número de `JOINs` necesarios en comparación con un modelo altamente normalizado (copo de nieve).
-3.  **Escalabilidad:** Es fácil añadir nuevas métricas o dimensiones sin alterar la estructura básica del modelo.
-4.  **Integración con Power BI:** Power BI está optimizado nativamente para trabajar con esquemas en estrella, lo que resulta en dashboards más rápidos y dinámicos.
+1.  **Trazabilidad:** La inclusión de Organismos y Fuentes de Financiamiento permite un análisis más detallado exigido por las normas de transparencia.
+2.  **Rendimiento:** Índices optimizados en la tabla de hechos para mejorar el tiempo de respuesta en consultas de agregación.
+3.  **Normalización Geográfica:** Permite reportes agregados por Región o País sin redundancia de datos.
+4.  **Integración con Power BI:** El modelo sigue las mejores prácticas de modelado dimensional para herramientas de BI modernos.
 
 ---
 **Diseñado por:** Lic. Manuel Mañana Santana

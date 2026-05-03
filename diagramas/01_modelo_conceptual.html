@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Modelo Conceptual - Presupuesto Nacional RD</title>
+    <script src="https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js"></script>
+    <script>mermaid.initialize({startOnLoad:true});</script>
+    <style>
+        body { font-family: sans-serif; display: flex; flex-direction: column; align-items: center; padding: 20px; background-color: #f4f4f9; }
+        .mermaid { background: white; padding: 20px; border-radius: 10px; box-shadow: 0 2px 10px rgba(0,0,0,0.1); }
+        h1 { color: #333; }
+    </style>
+</head>
+<body>
+    <h1>Modelo Conceptual - Presupuesto Nacional RD</h1>
+    <div class="mermaid">
+graph TD
+    %% Modelo Conceptual - Presupuesto Nacional RD
+    %% Autor: Lic. Manuel Mañana Santana
+
+    subgraph Entidades_Principales
+        Organismo[Organismo]
+        Institucion[Institución]
+        Geografia[Geografía <br/> País/Región/Provincia]
+        Programa[Programa Presupuestario]
+        ObjetoGasto[Objeto del Gasto]
+        Periodo[Periodo/Tiempo]
+        FuenteFinanciamiento[Fuente de Financiamiento]
+        Ejecucion{Ejecución Presupuestaria}
+    end
+
+    Organismo --- Institucion
+    Institucion --- Ejecucion
+    Geografia --- Ejecucion
+    Programa --- Ejecucion
+    ObjetoGasto --- Ejecucion
+    Periodo --- Ejecucion
+    FuenteFinanciamiento --- Ejecucion
+
+    style Ejecucion fill:#f9f,stroke:#333,stroke-width:4px
+    style Institucion fill:#bbf,stroke:#333
+    style Geografia fill:#bfb,stroke:#333
+    style Programa fill:#fbb,stroke:#333
+    style ObjetoGasto fill:#ffd,stroke:#333
+    style Periodo fill:#dff,stroke:#333
+    style Organismo fill:#eee,stroke:#333
+    style FuenteFinanciamiento fill:#efefef,stroke:#333
+    </div>
+</body>
+</html>

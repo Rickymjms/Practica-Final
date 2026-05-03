@@ -8,28 +8,28 @@ def update_main_js():
     
     # Fill NaNs
     df['Seccion_Institucional'] = df['Seccion_Institucional'].fillna('No especificada')
-    df['Capitulo'] = df['Capitulo'].fillna('No especificado')
-    df['Sub_Capitulo'] = df['Sub_Capitulo'].fillna('No especificado')
+    df['Institucion_Capitulo'] = df['Institucion_Capitulo'].fillna('No especificado')
+    df['Institucion_SubCapitulo'] = df['Institucion_SubCapitulo'].fillna('No especificado')
     df['Finalidad'] = df['Finalidad'].fillna('No especificada')
     df['Funcion'] = df['Funcion'].fillna('No especificada')
     df['Sub_Funcion'] = df['Sub_Funcion'].fillna('No especificada')
     
     group_cols = [
-        'Periodo_Anio', 
+        'Tiempo_Anio', 
         'Seccion_Institucional', 
-        'Capitulo',
-        'Sub_Capitulo',
+        'Institucion_Capitulo',
+        'Institucion_SubCapitulo',
         'Finalidad', 
         'Funcion',
         'Sub_Funcion',
-        'Tipo_Presupuesto', 
-        'Fuente_Financiamiento'
+        'Institucion_TipoInstitucion', 
+        'FuenteFinanciamiento_Descripcion'
     ]
     
     agg = df.groupby(group_cols).agg({
-        'Presupuesto_Inicial': 'sum',
-        'Presupuesto_Vigente': 'sum',
-        'Devengado_Aprobado': 'sum'
+        'EjecucionPresupuestaria_PresupuestoInicial': 'sum',
+        'EjecucionPresupuestaria_PresupuestoVigente': 'sum',
+        'EjecucionPresupuestaria_DevengadoAprobado': 'sum'
     }).reset_index()
     
     agg.columns = ['year', 'seccion', 'capitulo', 'subcapitulo', 'finalidad', 'funcion', 'subfuncion', 'tipo', 'fuente', 'initial', 'budget', 'spent']
@@ -48,8 +48,8 @@ def update_main_js():
     finalidades = sorted(df['Finalidad'].unique().tolist())
     funciones = sorted(df['Funcion'].unique().tolist())
     subfunciones = sorted(df['Sub_Funcion'].unique().tolist())
-    capitulos = sorted(df['Capitulo'].unique().tolist())
-    subcapitulos = sorted(df['Sub_Capitulo'].unique().tolist())
+    capitulos = sorted(df['Institucion_Capitulo'].unique().tolist())
+    subcapitulos = sorted(df['Institucion_SubCapitulo'].unique().tolist())
 
     js_content = f"""/**
  * Lógica del Dashboard - Presupuesto Nacional RD

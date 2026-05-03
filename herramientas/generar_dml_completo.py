@@ -27,9 +27,9 @@ def to_str_key(val):
 
 def process():
     print("Leyendo dimensiones limpias...")
-    dim_inst = pd.read_csv('datos/Limpios/Dim_Institucion.csv')
-    dim_prog = pd.read_csv('datos/Limpios/Dim_Programa.csv')
-    dim_og = pd.read_csv('datos/Limpios/Dim_Objeto_Gasto.csv')
+    dim_inst = pd.read_csv('datos/limpios/Dim_Institucion.csv')
+    dim_prog = pd.read_csv('datos/limpios/Dim_Programa.csv')
+    dim_og = pd.read_csv('datos/limpios/Dim_Objeto_Gasto.csv')
     
     # Crear dimensión Tiempo estática según requerimiento del usuario
     tiempo_data = []
@@ -52,7 +52,7 @@ def process():
     dim_tiempo = pd.DataFrame(tiempo_data)
     
     print("Leyendo tabla de hechos...")
-    fact = pd.read_csv('datos/Limpios/Fact_Ejecucion_Presupuestaria.csv')
+    fact = pd.read_csv('datos/limpios/Fact_Ejecucion_Presupuestaria.csv')
     
     # Claves de cruce
     inst_keys = ['Cod_Capitulo', 'Cod_SubCapitulo', 'Cod_Unidad_Ejecutora']

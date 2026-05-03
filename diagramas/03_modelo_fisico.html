@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Modelo Físico - Presupuesto Nacional RD</title>
+    <script src="https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js"></script>
+    <script>mermaid.initialize({startOnLoad:true});</script>
+    <style>
+        body { font-family: sans-serif; display: flex; flex-direction: column; align-items: center; padding: 20px; background-color: #f4f4f9; }
+        .mermaid { background: white; padding: 20px; border-radius: 10px; box-shadow: 0 2px 10px rgba(0,0,0,0.1); }
+        h1 { color: #333; }
+    </style>
+</head>
+<body>
+    <h1>Modelo Físico - Presupuesto Nacional RD</h1>
+    <div class="mermaid">
+erDiagram
+    %% Modelo Físico - Presupuesto Nacional RD (SQL Server)
+    %% Autor: Lic. Manuel Mañana Santana
+
+    Organismo ||--o{ Institucion : "FK_Institucion_Organismo"
+    Institucion ||--o{ EjecucionPresupuestaria : "FK_Ejecucion_Institucion"
+    Programa ||--o{ EjecucionPresupuestaria : "FK_Ejecucion_Programa"
+    ObjetoGasto ||--o{ EjecucionPresupuestaria : "FK_Ejecucion_ObjetoGasto"
+    Periodo ||--o{ EjecucionPresupuestaria : "FK_Ejecucion_Periodo"
+    FuenteFinanciamiento ||--o{ EjecucionPresupuestaria : "FK_Ejecucion_FuenteFinanciamiento"
+    Pais ||--o{ Region : "FK_Region_Pais"
+    Region ||--o{ Provincia : "FK_Provincia_Region"
+    Provincia ||--o{ EjecucionPresupuestaria : "FK_Ejecucion_Provincia"
+
+    Organismo {
+        INT Organismo_ID PK "IDENTITY"
+        VARCHAR_10 Organismo_Codigo "UQ, NOT NULL"
+        VARCHAR_255 Organismo_Nombre "NOT NULL"
+    }
+
+    Institucion {
+        INT Institucion_ID PK "IDENTITY"
+        INT Institucion_OrganismoID FK
+        VARCHAR_10 Institucion_CodigoCapitulo "NOT NULL"
+        VARCHAR_255 Institucion_Capitulo "NOT NULL"
+        VARCHAR_10 Institucion_CodigoSubCapitulo
+        VARCHAR_255 Institucion_SubCapitulo
+        VARCHAR_10 Institucion_CodigoUnidadEjecutora "NOT NULL"
+        VARCHAR_255 Institucion_UnidadEjecutora "NOT NULL"
+        VARCHAR_100 Institucion_TipoInstitucion
+    }
+
+    Programa {
+        INT Programa_ID PK "IDENTITY"
+        VARCHAR_20 Programa_CodigoPrograma "NOT NULL"
+        VARCHAR_255 Programa_Nombre "NOT NULL"
+        VARCHAR_20 Programa_CodigoProducto
+        VARCHAR_255 Programa_Producto
+        VARCHAR_20 Programa_CodigoProyecto
+        VARCHAR_255 Programa_Proyecto
+        VARCHAR_20 Programa_CodigoActividad "NOT NULL"
+        VARCHAR_255 Programa_Actividad "NOT NULL"
+    }
+
+    ObjetoGasto {
+        INT ObjetoGasto_ID PK "IDENTITY"
+        VARCHAR_20 ObjetoGasto_CodigoTipo "NOT NULL"
+        VARCHAR_100 ObjetoGasto_Tipo "NOT NULL"
+        VARCHAR_20 ObjetoGasto_CodigoConcepto "NOT NULL"
+        VARCHAR_100 ObjetoGasto_Concepto "NOT NULL"
+        VARCHAR_20 ObjetoGasto_CodigoCuenta "NOT NULL"
+        VARCHAR_100 ObjetoGasto_Cuenta "NOT NULL"
+        VARCHAR_20 ObjetoGasto_CodigoSubCuenta "NOT NULL"
+        VARCHAR_100 ObjetoGasto_SubCuenta "NOT NULL"
+        VARCHAR_20 ObjetoGasto_CodigoAuxiliar "NOT NULL"
+        VARCHAR_255 ObjetoGasto_Auxiliar "NOT NULL"
+    }
+
+    Periodo {
+        INT Periodo_ID PK "IDENTITY"
+        INT Periodo_Anio "NOT NULL"
+        INT Periodo_Mes "NOT NULL, CHECK"
+        VARCHAR_20 Periodo_NombreMes "NOT NULL"
+    }
+
+    FuenteFinanciamiento {
+        INT FuenteFinanciamiento_ID PK "IDENTITY"
+        VARCHAR_10 FuenteFinanciamiento_Codigo "UQ, NOT NULL"
+        VARCHAR_255 FuenteFinanciamiento_Descripcion "NOT NULL"
+    }
+
+    Pais {
+        INT Pais_ID PK
+        VARCHAR_255 Pais_Nombre
+    }
+
+    Region {
+        INT Region_ID PK
+        VARCHAR_255 Region_Nombre
+        INT Region_PaisID FK
+    }
+
+    Provincia {
+        INT Provincia_ID PK
+        VARCHAR_255 Provincia_Nombre
+        INT Provincia_RegionID FK
+    }
+
+    EjecucionPresupuestaria {
+        INT EjecucionPresupuestaria_ID PK "IDENTITY"
+        INT EjecucionPresupuestaria_InstitucionID FK "NOT NULL"
+        INT EjecucionPresupuestaria_ProgramaID FK "NOT NULL"
+        INT EjecucionPresupuestaria_ObjetoGastoID FK "NOT NULL"
+        INT EjecucionPresupuestaria_PeriodoID FK "NOT NULL"
+        INT EjecucionPresupuestaria_FuenteFinanciamientoID FK
+        INT EjecucionPresupuestaria_ProvinciaID FK
+        DECIMAL_18_2 EjecucionPresupuestaria_PresupuestoInicial "DEFAULT 0, CHECK"
+        DECIMAL_18_2 EjecucionPresupuestaria_PresupuestoVigente "DEFAULT 0, CHECK"
+        DECIMAL_18_2 EjecucionPresupuestaria_DevengadoAprobado "DEFAULT 0, CHECK"
+    }
+    </div>
+</body>
+</html>

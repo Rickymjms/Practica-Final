@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Modelo Lógico - Presupuesto Nacional RD</title>
+    <script src="https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js"></script>
+    <script>mermaid.initialize({startOnLoad:true});</script>
+    <style>
+        body { font-family: sans-serif; display: flex; flex-direction: column; align-items: center; padding: 20px; background-color: #f4f4f9; }
+        .mermaid { background: white; padding: 20px; border-radius: 10px; box-shadow: 0 2px 10px rgba(0,0,0,0.1); }
+        h1 { color: #333; }
+    </style>
+</head>
+<body>
+    <h1>Modelo Lógico - Presupuesto Nacional RD</h1>
+    <div class="mermaid">
+erDiagram
+    %% Modelo Lógico - Presupuesto Nacional RD
+    %% Autor: Lic. Manuel Mañana Santana
+
+    Organismo ||--o{ Institucion : "agrupa"
+    Institucion ||--o{ EjecucionPresupuestaria : "ejecuta"
+    Programa ||--o{ EjecucionPresupuestaria : "corresponde a"
+    ObjetoGasto ||--o{ EjecucionPresupuestaria : "se clasifica por"
+    Periodo ||--o{ EjecucionPresupuestaria : "ocurre en"
+    FuenteFinanciamiento ||--o{ EjecucionPresupuestaria : "financia"
+    Pais ||--o{ Region : "contiene"
+    Region ||--o{ Provincia : "contiene"
+    Provincia ||--o{ EjecucionPresupuestaria : "se ubica en"
+
+    Organismo {
+        int Organismo_ID PK
+        string Organismo_Codigo
+        string Organismo_Nombre
+    }
+
+    Institucion {
+        int Institucion_ID PK
+        int Institucion_OrganismoID FK
+        string Institucion_CodigoCapitulo
+        string Institucion_Capitulo
+        string Institucion_CodigoSubCapitulo
+        string Institucion_SubCapitulo
+        string Institucion_CodigoUnidadEjecutora
+        string Institucion_UnidadEjecutora
+        string Institucion_TipoInstitucion
+    }
+
+    Programa {
+        int Programa_ID PK
+        string Programa_CodigoPrograma
+        string Programa_Nombre
+        string Programa_CodigoProducto
+        string Programa_Producto
+        string Programa_CodigoProyecto
+        string Programa_Proyecto
+        string Programa_CodigoActividad
+        string Programa_Actividad
+    }
+
+    ObjetoGasto {
+        int ObjetoGasto_ID PK
+        string ObjetoGasto_CodigoTipo
+        string ObjetoGasto_Tipo
+        string ObjetoGasto_CodigoConcepto
+        string ObjetoGasto_Concepto
+        string ObjetoGasto_CodigoCuenta
+        string ObjetoGasto_Cuenta
+        string ObjetoGasto_CodigoSubCuenta
+        string ObjetoGasto_SubCuenta
+        string ObjetoGasto_CodigoAuxiliar
+        string ObjetoGasto_Auxiliar
+    }
+
+    Periodo {
+        int Periodo_ID PK
+        int Periodo_Anio
+        int Periodo_Mes
+        string Periodo_NombreMes
+    }
+
+    FuenteFinanciamiento {
+        int FuenteFinanciamiento_ID PK
+        string FuenteFinanciamiento_Codigo
+        string FuenteFinanciamiento_Descripcion
+    }
+
+    Pais {
+        int Pais_ID PK
+        string Pais_Nombre
+    }
+
+    Region {
+        int Region_ID PK
+        string Region_Nombre
+        int Region_PaisID FK
+    }
+
+    Provincia {
+        int Provincia_ID PK
+        string Provincia_Nombre
+        int Provincia_RegionID FK
+    }
+
+    EjecucionPresupuestaria {
+        int EjecucionPresupuestaria_ID PK
+        int EjecucionPresupuestaria_InstitucionID FK
+        int EjecucionPresupuestaria_ProgramaID FK
+        int EjecucionPresupuestaria_ObjetoGastoID FK
+        int EjecucionPresupuestaria_PeriodoID FK
+        int EjecucionPresupuestaria_FuenteFinanciamientoID FK
+        int EjecucionPresupuestaria_ProvinciaID FK
+        decimal EjecucionPresupuestaria_PresupuestoInicial
+        decimal EjecucionPresupuestaria_PresupuestoVigente
+        decimal EjecucionPresupuestaria_DevengadoAprobado
+    }
+    </div>
+</body>
+</html>
